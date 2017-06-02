@@ -1,0 +1,85 @@
+<template>
+  <div class="card-deck vorstand">
+    <div v-for="person in vorstand" class="card text-center card-outline-success">
+      <div class="imgcontainer">
+      <img v-if="person.url" class="card-img-top img-fluid rounded-circle" :src="person.url">
+      </div>
+      <div class="card-block">
+        <h4 class="card-title">{{person.position}}</h4>
+        <p class="card-text">
+          <b>{{person.name}}</b><br>
+          {{person.strasse}}<br>
+          {{person.ort}}<br>
+          <span v-text="person.tel"></span>
+        </p>
+      </div>
+        <div class="card-footer">
+          <transition appear appear-to-class="animated rubberBand">
+           <div>
+              <a :href="'mailto:' + person.mail" class="btn btn-outline-success"><i class="fa fa-envelope-o fa-fw"></i></a>
+              <a v-if="person.tel" :href="'tel:' + person.tel | phoneAsLink" class="btn btn-outline-success"><i class="fa fa-phone fa-fw"></i></a>
+            </div>
+          </transition>
+        </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    data () {
+      return {
+        vorstand: [
+          {position: 'Landesgruppenleiterin', url: 'static/vorstand/vorstand_deichholz.jpg', name: 'Elke Deichholz', strasse: 'Burgstrasse 1', ort: '27412 Bülstedt', tel: '+49 (4283) 6998994', mail: 'vorstand@pointer-setter-nord.de'},
+          {position: 'Stellvertr. Landesgruppenleiter', url: 'static/vorstand/vorstand_eickert.JPG', name: 'Wolfgang Eickert', strasse: 'Heimbucher Str. 36', ort: '21274 Undelo', mail: 'vorstand@pointer-setter-nord.de'},
+          {position: 'Kassenwart', name: 'Edgar Fink', url: 'static/vorstand/vorstand_fink.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
+          {position: 'Landesgruppenzuchtwart', name: 'Christine Ebeling', url: 'static/vorstand/vorstand_ebeling.jpg', strasse: 'Orxhausen 38', ort: '37574 Einbeck', tel: '+49 (5563) 6598', mail: 'landesgruppenzuchtwart@pointer-setter-nord.de'},
+          {position: 'Beisitzer Prüfungswesen', name: 'Edgar Fink', url: 'static/vorstand/vorstand_fink.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
+          {position: 'Beisitzer  Ausstellungswesen', name: 'Mareike Ritz', url: 'static/vorstand/vorstand_ritz.jpg', strasse: 'Holzstr. 28', ort: '44869 Bochum', tel: '+49 (177) 765 6266', mail: 'ausstellung@pointer-setter-nord.de'},
+          {position: 'Beisitzer Öffentlichkeitsarbeit - Internet', name: 'Dörthe Karrasch', url: 'static/vorstand/vorstand_karrasch.jpg', strasse: 'Zur Fichtenkämpe 23', ort: '27254 Staffhorst', mail: 'admin@pointer-setter-nord.de'}
+        ],
+        showMail: true
+      }
+    },
+    methods: {
+      toggle: (event) => {
+        this.showMail = !this.showMail
+        console.log(this.showMail)
+      }
+    },
+    created: () => {
+      console.log('Created')
+      this.showMail = true
+    }
+  }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+  .vorstand {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .vorstand .card {
+    max-width: 20rem;
+    min-width: 20rem;
+    margin-top: 1rem;
+  }
+
+  .vorstand .card .imgcontainer {
+    padding-top: 1rem;
+  }
+
+  .vorstand .card img {
+    max-width: 180px;
+  }
+
+  @media (min-width: 576px) {
+    .card-deck .card:not(:last-child) {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
+
+</style>

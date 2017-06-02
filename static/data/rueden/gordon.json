@@ -1,0 +1,25 @@
+[
+  {
+    "name" : "Coachman's Rebel of Bavaria",
+    "vater" : "Fieldtalks Guinness",
+    "mutter" : "Coachman's Lili Marleen",
+    "urlPedegree" : "static/rueden/gordon/pedigree_rebel.pdf",
+    "formwert" : "V",
+    "hd" : "A1",
+    "pra" : "clear",
+    "zahnstatus" : "PR3 o.l.u.o.r- / Schere",
+    "ztp" : "eingeschränkt / Zähne",
+    "url" : "static/rueden/gordon/rebel.jpg",
+    "zuchtbuch" : "GS 11/188",
+    "wurftag" : "16.11.2011",
+    "breeder" : "Helga Hesse",
+    "besitzer" : "Dörthe Karrasch und Oliver Marohn",
+    "besitzerStrasse" : "Zur Fichtenkämpe 23",
+    "besitzerOrt" : "27254 Staffhorst",
+    "fon" : "+49 (4272) 6579 810",
+    "mail" : "info@rebelofbavaria.de",
+    "web" : "www.rebelofbavaria.de",
+    "titel" : ["Dt.Ch. (VDH)", "Dt.Sch.Ch", "LS Hessen Pfalz Saar", "LS Rheinland-Pfalz", "Ch Intern. d'Exposition (FCI)", "CH. Intern. de Beauté (FCI)", "Öst.Ch (ÖKV)"],
+    "leistung" : ["JUS", "JUSH", "JAP (GSCD)", "HAP (GSCD)", "HJS", "ES", "AZP mlE", "BrP", "AH", "VGP"]
+  }
+]
