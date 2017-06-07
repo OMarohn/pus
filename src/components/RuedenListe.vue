@@ -2,45 +2,29 @@
   <!-- DECKRUEDEN -->
   <div href="#rueden" id="rueden" class="container-fluid ruedenListe">
     <div class="row">
-      <div class="col-md-4">
+      <div v-for="ruede in ruedenListe" class="col-md-4">
         <div class="card card-outline-secondary">
-          <div class="card-header"><h4><b>Kir Royal</b> vom Rosenhof</h4></div>
+          <div class="card-header"><h4 v-html="ruede.name"></h4></div>
           <div class="card-block">
-            <img class="img-fluid" src="static/rueden/gordon/kir_royal.jpg" alt="Card image cap">
+            <img class="img-fluid" :src="ruede.url">
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">ZB-Nr.: GKC 3048VDH/DGSZ/08/2450</li>
-            <li class="list-group-item">Wurftag: 19.05.2008</li>
-            <li class="list-group-item">Titel: Dt.Ch. (VDH), Int.Sch.Ch  (FCI), Club Ch.</li>
-            <li class="list-group-item">Prüfungen: JAP, HAP,  Int. Derby (Solo) (GSCD)  Int. Field Trial (Solo) (GSCD),  JS (Solo) (GSCD),  AZP,  BP, Btr, GT solo</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-outline-secondary">
-          <div class="card-header"><h4>Coachman's <b>Rebel of Bavaria</b></h4></div>
-          <div class="card-block">
-            <img class="img-fluid" src="static/rueden/gordon/rebel.jpg" alt="Card image cap">
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">ZB-Nr.: GS 11/188</li>
-            <li class="list-group-item">Wurftag: 16.11.2011</li>
-            <li class="list-group-item">Titel: Dt.Ch. (VDH), Dt.Sch.Ch, LS Hessen Pfalz Saar,LS Rheinland-Pfalz, Ch Intern. d'Exposition (FCI), CH. Intern. de Beauté (FCI), Öst.Ch (ÖKV)</li>
-            <li class="list-group-item">Prüfungen: JUS, JUSH, JAP GSCD, HAP GSCD, HJS, ES, AZP, BrP, AH, VGP</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-outline-secondary">
-          <div class="card-header"><h4><b>Elton John</b> von Wersabe</h4></div>
-          <div class="card-block">
-            <img class="img-fluid" src="static/rueden/gordon/elton_john.jpg" alt="Card image cap">
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">ZB-Nr.: VDH/DPSZ GS 07/069</li>
-            <li class="list-group-item">Wurftag: 04.05.2007</li>
-            <li class="list-group-item">Titel: Dt.Ch. (VDH), Int.Sch.Ch.</li>
-            <li class="list-group-item">Prüfungen: JuS, JuSH, HZP mlE, BP</li>
+            <li class="list-group-item">ZB-Nr.: {{ruede.zuchtbuch}}</li>
+            <li class="list-group-item">Wurftag: {{ruede.wurftag}}</li>
+            <li class="list-group-item">
+              <div class="card-sub-header">Titel:</div>
+              <property-tag :props="ruede.titel"></property-tag>
+            </li>
+            <li v-if="ruede" class="list-group-item">Prüfungen: <property-tag :props="ruede.leistung"></property-tag></li>
+            <li class="list-group-item">Vater: {{ruede.vater}}</li>
+            <li class="list-group-item">Mutter: {{ruede.mutter}}</li>
+            <li class="list-group-item">Formwert: {{ruede.formwert}}</li>
+            <li class="list-group-item">HD: {{ruede.hd}}</li>
+            <li class="list-group-item">PRA/rcd4: {{ruede.pra}}</li>
+            <li class="list-group-item">Zahnstatus: {{ruede.zahnstatus}}</li>
+            <li class="list-group-item">Zuchttauglichkeit: {{ruede.ztp}}</li>
+            <li class="list-group-item">Züchter: {{ruede.breeder}}</li>
+            <li class="list-group-item">Besitzer: {{ruede.besitzer}}<br>{{ruede.besitzerStrasse}}<br>{{ruede.besitzerOrt}}<br><br></li>
           </ul>
         </div>
       </div>
@@ -51,25 +35,37 @@
 
 <script>
   import axios from 'axios'
+  import PropertyTag from './PropertyTag'
 
   export default {
     name: 'ruedenListe',
     props: ['rasse'],
+    components: {PropertyTag},
     data () {
       return {
         ruedenListe: []
       }
     },
-    created: () => {
-      axios.get('static/data/rueden/gordon.json')
-        .then(response => {
-          // JSON responses are automatically parsed.
-          this.ruedenListe = response.data
-          console.log(this.ruedenListe)
-        })
-        .catch(e => {
-          this.errors.push(e)
-        })
+    created: function () {
+      this.fetchData()
+    },
+    watch: {
+      '$route': 'fetchData'
+    },
+    methods: {
+      // Laden der Daten zur Rasse
+      fetchData () {
+        console.log(this.rasse)
+        axios.get('static/data/rueden/' + this.rasse + '.json')
+          .then(response => {
+            this.ruedenListe = response.data
+            console.log(this.ruedenListe)
+          })
+          .catch(e => {
+            console.error(e)
+            this.ruedenListe = []
+          })
+      }
     }
   }
 </script>
@@ -83,4 +79,13 @@
     max-height: 300px;
     padding-bottom: 1rem;
   }
+  /**
+  div .card-sub-header {
+    position: relative;
+    top: -12px;
+    left: -20px;
+    width: 100%;
+    background-color: aquamarine !important;
+  }
+  **/
 </style>

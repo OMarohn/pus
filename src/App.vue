@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <nav-bar></nav-bar>
-    <router-view></router-view>
+    <transition appear appear-to-class="animated fadeIn">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 

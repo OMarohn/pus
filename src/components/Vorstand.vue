@@ -36,7 +36,7 @@
           {position: 'Landesgruppenzuchtwart', name: 'Christine Ebeling', url: 'static/vorstand/vorstand_ebeling.jpg', strasse: 'Orxhausen 38', ort: '37574 Einbeck', tel: '+49 (5563) 6598', mail: 'landesgruppenzuchtwart@pointer-setter-nord.de'},
           {position: 'Beisitzer Prüfungswesen', name: 'Edgar Fink', url: 'static/vorstand/vorstand_fink.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
           {position: 'Beisitzer  Ausstellungswesen', name: 'Mareike Ritz', url: 'static/vorstand/vorstand_ritz.jpg', strasse: 'Holzstr. 28', ort: '44869 Bochum', tel: '+49 (177) 765 6266', mail: 'ausstellung@pointer-setter-nord.de'},
-          {position: 'Beisitzer Öffentlichkeitsarbeit - Internet', name: 'Dörthe Karrasch', url: 'static/vorstand/vorstand_karrasch.jpg', strasse: 'Zur Fichtenkämpe 23', ort: '27254 Staffhorst', mail: 'admin@pointer-setter-nord.de'}
+          {position: 'Beisitzer Öffentlichkeitsarbeit - Internet', name: 'Dörthe Karrasch', url: 'static/vorstand/vorstand_karrasch.jpg', strasse: 'Zur Fichtenkämpe 23', ort: '27254 Staffhorst', tel: '+49 (4272) 6579810', mail: 'admin@pointer-setter-nord.de'}
         ],
         showMail: true
       }
