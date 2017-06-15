@@ -1,0 +1,68 @@
+[
+  {
+    "kennelName": "Nordic Gordon Hunters",
+    "url": "static/kennel/gordon/gordon_hunters.jpg",
+    "kontakt": "Jutta Bornschein",
+    "strasse": "Ringstr. 7",
+    "ort": "06917 Jessen (Elster)",
+    "mail": "jutta.bornschein@online.de",
+    "web": "www.nordic-gordon-hunters.de"
+  },
+  {
+    "kennelName": "...from gentle Breeze",
+    "url": "static/kennel/gordon/gentle_breeze.jpg",
+    "kontakt": "Anke Cordes- Bracker",
+    "strasse": "Uhlenhorst 111",
+    "ort": "21435 Stelle",
+    "fon": "+49 (4174) 3822",
+    "mail": "cordes-bracker@t-online.de"
+  },
+  {
+    "kennelName": "...of Magic Fields",
+    "url": "static/kennel/gordon/magic_fields.jpg",
+    "kontakt": "Christine Ebeling",
+    "strasse": "Orxhausen 38",
+    "ort": "37574 Einbeck",
+    "fon": "+49 (5563) 6598",
+    "mail": "ebeling.christine@t-online.de",
+    "web": "www.of-magic-fields.de"
+  },
+  {
+    "kennelName": "Blackstar ... of Heathmoor",
+    "url": "static/kennel/gordon/blackstar.jpg",
+    "kontakt": "Doris Helle",
+    "strasse": "Twistenberg 50",
+    "ort": "27404 Seedorf",
+    "fon": "+49 (4281) 954 241",
+    "mail": "blackstarhelle@web.de",
+    "web": "www.bl-gordonsetter.com"
+  },
+  {
+    "kennelName": "Knockraheen's ...",
+    "url": "static/kennel/gordon/knockraheens.jpg",
+    "kontakt": "Kirsten Hoffmann",
+    "strasse": "Lehmkamp 2",
+    "ort": "29556 Suderburg",
+    "fon": "+49 (157) 8160 9063",
+    "mail": "kirsten-wetter@gmx.de",
+    "web": "www.gordon-setter-knockraheens.de"
+  },
+  {
+    "kennelName": "... von Wersabe",
+    "url": "static/kennel/gordon/wersabe.jpg",
+    "kontakt": "Helga und Gerhard Konsek",
+    "ort": "27628 Sanstedt- Wersabe",
+    "fon": "+49 (4702) 350",
+    "mail": "h.konsek@gmx.de",
+    "web": "www.von-wersabe.de"
+  },
+  {
+    "kennelName": "Tamarack's ... of Oregon",
+    "url": "static/kennel/gordon/oregon.jpg",
+    "kontakt": "Thomas Possehl",
+    "strasse": "Am See 13",
+    "ort": "23816 Bebensee",
+    "fon": "+49 (4552) 994 162",
+    "mail": "tamaracks@web.de"
+  }
+]

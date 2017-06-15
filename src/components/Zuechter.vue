@@ -1,14 +1,14 @@
 <template>
   <div class="zuechter">
     <h4>Züchter!</h4>
-    <rueden-liste :rasse="$route.params.rasse"></rueden-liste>
+    <zuechter-liste :rasse="$route.params.rasse"></zuechter-liste>
   </div>
 </template>
 
 <script>
-  import RuedenListe from './RuedenListe'
+  import ZuechterListe from './ZuechterListe'
   export default {
-    components: {RuedenListe}
+    components: {ZuechterListe}
   }
 </script>
 

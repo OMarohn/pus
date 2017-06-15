@@ -119,7 +119,6 @@
     "ztp": "uneingeschränkt",
     "url": "static/rueden/gordon/digger.jpg",
     "zuchtbuch": "VDH/GSCD 06/2191",
-    "wurftag": "-",
     "breeder": "Karin Kempe, Hannover",
     "besitzer": "Uwe Schütte",
     "besitzerStrasse": "Heyener Str. 9",
@@ -162,10 +161,7 @@
     "besitzerOrt": "29313 Hambühren",
     "fon": "+49 (5084) 7256",
     "fax": "+49 (5084) 6550",
-    "mail": "b.blumenberg@czcelle.de ; u.blumenberg@czcelle.de",
-    "titel": [
-      "-"
-    ],
+    "mail": "b.blumenberg@czcelle.de,u.blumenberg@czcelle.de",
     "leistung": [
       "JAP",
       "HAP",
@@ -225,9 +221,6 @@
     "besitzerOrt": "21521 Aumühle",
     "fon": "+49 (4104) 694207",
     "mail": "tgcc.rohling@gmx.de",
-    "titel": [
-      "-"
-    ],
     "leistung": [
       "AZP",
       "VGP"

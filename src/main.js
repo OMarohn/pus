@@ -13,6 +13,17 @@ Vue.filter('phoneAsLink', (value) => {
   return value.toLowerCase().replace(/\s+/g, '').replace('(', '').replace(')', '')
 })
 
+import VueTimeago from 'vue-timeago'
+
+Vue.use(VueTimeago, {
+  name: 'timeago', // component name, `timeago` by default
+  locale: 'de-DE',
+  locales: {
+    // you will need json-loader in webpack 1
+    'de-DE': require('vue-timeago/locales/de-DE.json')
+  }
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

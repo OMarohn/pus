@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Adventure of Crayfish's Creek <b>(Cooper)</b>",
+    "vater": "Gomez of Meadow's Brook",
+    "mutter": "Noelle of Meadow's Brook",
+    "urlPedegree": "static/rueden/englisch/pedigree_adventure.pdf",
+    "formwert": "V",
+    "hd": "A1",
+    "pra": "clear",
+    "ohren": "bs hörend",
+    "zahnstatus": "vollzahnig / Schere",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/englisch/adventure.jpg",
+    "zuchtbuch": "VDH/DPSZ ES 09/067",
+    "wurftag": "10.02.2009",
+    "breeder": "Helmut und Petra Scharfe",
+    "besitzer": "Christian Busche",
+    "besitzerStrasse": "Rosenhäger Str. 19",
+    "besitzerOrt": "32469 Petershagen",
+    "fon": "+49 (151) 1561 6579",
+    "mail": "chbusche@web.de",
+    "web": "www.hunde-am-meer.de",
+    "leistung": [
+      "JuS", "BP-Nds mit ÜF"
+    ]
+  },
+  {
+    "name": "Tabasco Simarilion <b>(Hunter)</b>",
+    "vater": "Latin Lover the Boss",
+    "mutter": "Silvanus Penelope",
+    "urlPedegree": "static/rueden/englisch/pedigree_tabasco.pdf",
+    "formwert": "V",
+    "hd": "A1",
+    "pra": "clear",
+    "ncl": "clear",
+    "ohren": "bs hörend",
+    "zahnstatus": "vollzahnig / Schere",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/englisch/hunter.jpg",
+    "zuchtbuch": "DPSZ ES 13/024",
+    "wurftag": "04.03.2012",
+    "breeder": "Aleksandra Najsarek, Breslau",
+    "besitzer": "Sabine Niebuhr",
+    "besitzerStrasse": "Halstenbekstr. 28a",
+    "besitzerOrt": "22457 Hamburg",
+    "fon": "+49 (40) 552 5228",
+    "mail": "sabineniebuhr1@web.de",
+    "web": "www.beltonpearls.de",
+    "titel": [
+      "Dt.JCh. (VDH)",
+      "Dt.Ch. (VDH)"
+    ],
+    "leistung": [
+      "JUS"
+    ]
+  },
+  {
+    "name": "Charming Vagabonds Full of Life <b>(Life)</b>",
+    "vater": "Wyndswept Reflection of a Legacy",
+    "mutter": "Charming Vagabonds Cecilla-Calla",
+    "urlPedegree": "static/rueden/englisch/pedigree_life.pdf",
+    "formwert": "V",
+    "farbe": "Orange Belton",
+    "hd": "A1",
+    "pra": "clear",
+    "ncl": "clear",
+    "ohren": "bs hörend",
+    "zahnstatus": "P4 ul- / Schere",
+    "ztp": "eingeschränkt (Zähne)",
+    "url": "static/rueden/englisch/life.jpg",
+    "zuchtbuch": "DPSZ ES 12/027",
+    "wurftag": "20.10.2012",
+    "breeder": "Tanja Pankotsch, Nauen",
+    "besitzer": "Sabine Niebuhr",
+    "besitzerStrasse": "Halstenbekstr. 28a",
+    "besitzerOrt": "22457 Hamburg",
+    "fon": "+49 (40) 552 5228",
+    "mail": "sabineniebuhr1@web.de",
+    "web": "www.beltonpearls.de",
+    "titel": [
+      "Dt.JCh. (VDH)",
+      "Dt.Ch. (VDH)"
+    ],
+    "leistung": [
+      "JUS",
+      "Derby (DK)"
+    ]
+  }
+]
