@@ -6,7 +6,7 @@
           <h4 v-html="breeder.kennelName"></h4>
         </div>
         <div class="card-block">
-          <div>
+          <div class="kennel-img-container">
             <img class="img-fluid kennel-img" :src="breeder.url">
             <transition appear appear-to-class="animated rubberBand">
               <div class="breeder-contact">
@@ -105,8 +105,13 @@
     min-height: 4.5rem;
   }
 
+  .kennel-img-container {
+    height: 24rem;
+  }
+
   .kennel-img {
-    height: 300px;
+    width: auto;
+    max-height: 20rem;
   }
 
   .breeder-card {

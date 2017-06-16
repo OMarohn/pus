@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueTimeago from 'vue-timeago'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.config.productionTip = false
+
+Vue.use(VueAwesomeSwiper)
+
 Vue.filter('shorten', (value) => {
   return value.toLowerCase().replace(/\s+/g, '')
 })
@@ -12,8 +17,6 @@ Vue.filter('shorten', (value) => {
 Vue.filter('phoneAsLink', (value) => {
   return value.toLowerCase().replace(/\s+/g, '').replace('(', '').replace(')', '')
 })
-
-import VueTimeago from 'vue-timeago'
 
 Vue.use(VueTimeago, {
   name: 'timeago', // component name, `timeago` by default
