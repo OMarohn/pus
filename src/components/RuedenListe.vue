@@ -1,5 +1,6 @@
 <template>
-  <div href="#rueden" class="ruedenListe">
+  <div v-if="ruedenListe.length == 0">Keine Daten vorhanden.</div>
+  <div v-else="ruedenListe.length > 0" href="#rueden" class="ruedenListe">
     <div v-for="ruede in ruedenListe" class="row container-fluid">
       <div class="col-12">
       <div class="card">

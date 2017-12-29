@@ -1,5 +1,6 @@
 <template>
-  <div href="#zuechter" class="zuechterListe row container-fluid">
+  <div v-if="zuechterListe.length == 0">Keine Daten vorhanden.</div>
+  <div v-else="zuechterListe.length > 0" href="#zuechter" class="zuechterListe row container-fluid">
     <div v-for="breeder in zuechterListe" class="breeder-card col-md-6 col-sm-12">
       <div class="card">
         <div class="card-header">

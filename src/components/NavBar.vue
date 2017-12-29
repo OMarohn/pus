@@ -30,7 +30,7 @@
         </li>
         <!-- Dropdown Zuechter // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navZuechter" data-toggle="dropdown" href="/#/Rueden">Züchter</a>
+          <a class="nav-link dropdown-toggle" id="navZuechter" data-toggle="dropdown" href="/#/Zuechter">Züchter</a>
           <div class="dropdown-menu">
             <a v-for="rasse in zuechter" class="dropdown-item" :href="'#zuechter/' + rasse | shorten">{{rasse}}</a>
           </div>

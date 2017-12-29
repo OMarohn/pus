@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import Main from '@/components/Main'
 import Rueden from '@/components/Rueden'
 import Zuechter from '@/components/Zuechter'
 import Welpen from '@/components/Welpen'
@@ -12,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Hello
+      name: 'ZuHause',
+      component: Main
     },
     {
       path: '/verein/vorstand',

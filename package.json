@@ -8,6 +8,7 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
+    "prod": "node build/build.js production",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
