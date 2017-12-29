@@ -9,7 +9,7 @@
         </div>
         <div class="card-block">
           <div class="row">
-            <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 col-sm-12">
               <img class="img-fluid" :src="ruede.url">
               <transition appear appear-to-class="animated rubberBand">
                 <div class="ruede-contact">

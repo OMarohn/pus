@@ -1,6 +1,5 @@
 <template>
   <div class="welpen">
-    <h4>Welpen!</h4>
     <!--
     <rueden-liste :rasse="$route.params.rasse"></rueden-liste>
     -->

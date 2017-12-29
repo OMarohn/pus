@@ -1,6 +1,5 @@
 <template>
   <div class="zuechter">
-    <h4>Züchter!</h4>
     <zuechter-liste :rasse="$route.params.rasse"></zuechter-liste>
   </div>
 </template>

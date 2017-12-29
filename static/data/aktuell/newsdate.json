@@ -1,0 +1,25 @@
+[
+  {
+    "datum": "01.01.2018",
+    "event": "Bad Salzuffeln",
+    "ort": "Castrop",
+    "info": "lalalal",
+    "typ": "Sonstiges"
+  },
+  {
+    "datum": "02.01.2018",
+    "datumLang": "02.01.2018 ggf. auch 03.01.2018",
+    "event": "langer Beschreibungstetxt der eigentlich umgebrochen werden sollte, es aber wahrscheinlich nicht wird! Ohh Überraschung!",
+    "ort": "Bottrop",
+    "meldeschluss":  "12.12.2018",
+    "info": "Richerin Franziska von und zu Almsick ",
+    "typ": "Ausstellung"
+  },
+  {
+    "datum": "09.01.2018",
+    "event": "Was auch immer",
+    "ort": "Waltrop",
+    "info": "lululu",
+    "typ": "Pruefung"
+  }
+]

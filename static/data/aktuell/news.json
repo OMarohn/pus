@@ -1,0 +1,14 @@
+[
+  {
+    "datum": "01.01.2018",
+    "titel": "Neues Jahr",
+    "beschreibung": "<b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. A distinctio facilis magnam molestias, quo veritatis. Architecto asperiores aut consequatur corporis cupiditate delectus dolores eius ex facere illo labore laboriosam molestiae natus necessitatibus pariatur provident quae quas rem rerum sapiente, suscipit tempora voluptatem voluptatibus. Accusantium suscipit ut velit. Aperiam commodi delectus deserunt dicta dolore doloremque eligendi esse et excepturi facere fuga harum illo illum ipsa itaque iure laudantium libero magnam nam non, officiis praesentium, quae rem repellendus, reprehenderit sunt unde vero.",
+    "bild": "demo.jpeg"
+  },
+  {
+    "datum": "02.01.2018",
+    "titel": "schon 1 Tag geschaftt",
+    "beschreibung": "<b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. A distinctio facilis magnam molestias, quo veritatis. Architecto asperiores aut consequatur corporis cupiditate delectus dolores eius ex facere illo labore laboriosam molestiae natus necessitatibus pariatur provident quae quas rem rerum sapiente, suscipit tempora voluptatem voluptatibus. Accusantium suscipit ut velit. Aperiam commodi delectus deserunt dicta dolore doloremque eligendi esse et excepturi facere fuga harum illo illum ipsa itaque iure laudantium libero magnam nam non, officiis praesentium, quae rem repellendus, reprehenderit sunt unde vero.",
+    "bild": "demo2.jpeg"
+  }
+]

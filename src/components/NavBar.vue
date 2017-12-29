@@ -11,14 +11,19 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <router-link active-class="active" class="nav-link" to="/">Home</router-link>
-        </li>
         <!-- Dropdown Verein // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navVerein" data-toggle="dropdown" href="/#/Verein">Verein</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#verein/vorstand">Vorstand</a>
+          </div>
+        </li>
+        <!-- Dropdown Aktivitäten // mit <router-linkt> hats nicht funktioniert! -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navAktuelles" data-toggle="dropdown" href="/#/aktiv">Aktivitäten</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#aktiv/aktuell">Aktuelles</a>
+            <a class="dropdown-item" href="#aktiv/termine">Termine</a>
           </div>
         </li>
         <!-- Dropdown Welpen // mit <router-linkt> hats nicht funktioniert! -->
@@ -40,6 +45,22 @@
           <a class="nav-link dropdown-toggle" id="navRueden" data-toggle="dropdown" href="/#/Rueden">Rüden</a>
           <div class="dropdown-menu">
             <a v-for="rasse in rueden" class="dropdown-item" :href="'#rueden/' + rasse | shorten">{{rasse}}</a>
+          </div>
+        </li>
+        <!-- Dropdown Ausstellungen // mit <router-linkt> hats nicht funktioniert! -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navAusstellung" data-toggle="dropdown" href="/#/austellung">Austellungen</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#austellung/termine">Termine</a>
+            <a class="dropdown-item" href="#austellung/ergebnisse">Ergebnisse</a>
+          </div>
+        </li>
+        <!-- Dropdown Prüfungen // mit <router-linkt> hats nicht funktioniert! -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navPruefung" data-toggle="dropdown" href="/#/pruefung">Prüfungen</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#pruefung/termine">Termine</a>
+            <a class="dropdown-item" href="#pruefung/ergebnisse">Ergebnisse</a>
           </div>
         </li>
       </ul>

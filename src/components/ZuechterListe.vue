@@ -7,7 +7,7 @@
           <h4 v-html="breeder.kennelName"></h4>
         </div>
         <div class="card-block">
-          <div class="kennel-img-container">
+          <div class="kennel-img-container" id="actionpanel">
             <img class="img-fluid kennel-img" :src="breeder.url">
             <transition appear appear-to-class="animated rubberBand">
               <div class="breeder-contact">
@@ -117,5 +117,9 @@
 
   .breeder-card {
     padding-bottom: 1rem;
+  }
+
+  #actionpanel {
+    text-align: center;
   }
 </style>
