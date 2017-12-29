@@ -51,7 +51,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navAusstellung" data-toggle="dropdown" href="/#/austellung">Austellungen</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#austellung/termine">Termine</a>
+            <a class="dropdown-item" href="#aktiv/termine?filter=false,true,false">Termine</a>
             <a class="dropdown-item" href="#austellung/ergebnisse">Ergebnisse</a>
           </div>
         </li>
@@ -59,7 +59,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navPruefung" data-toggle="dropdown" href="/#/pruefung">Prüfungen</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#pruefung/termine">Termine</a>
+            <a class="dropdown-item" href="#aktiv/termine?filter=true,false,false">Termine</a>
             <a class="dropdown-item" href="#pruefung/ergebnisse">Ergebnisse</a>
           </div>
         </li>

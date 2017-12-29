@@ -5,8 +5,8 @@ import Rueden from '@/components/Rueden'
 import Zuechter from '@/components/Zuechter'
 import Welpen from '@/components/Welpen'
 import Vorstand from '@/components/Vorstand'
-import AktivAktuell from '../components/AktivAktuell'
-import AktivTermin from '../components/AktivTermin'
+import AktivAktuell from '@/components/AktivAktuell'
+import AktivTermin from '@/components/AktivTermin'
 
 Vue.use(Router)
 

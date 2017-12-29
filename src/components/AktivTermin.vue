@@ -5,42 +5,45 @@
     <div id="inhalt" class="card-deck">
       <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
-        <table class="table table-dark table-striped table-bordered">
-          <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">Datum</th>
-            <th scope="col">Veranstaltung</th>
-            <th scope="col">Ort</th>
-            <th scope="col">Meldeschluss</th>
-            <th scope="col">Info</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr v-for="(theDate, index) in termine">
-            <td scope="row">
-              <i v-if="theDate.typ === 'Pruefung'" class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
-              <i v-if="theDate.typ === 'Ausstellung'" class="fa fa-trophy fa-fw" data-toggle="tooltip" data-placement="top" title="Ausstellung"></i>
-              <i v-if="theDate.typ === 'Sonstiges'" class="fa fa-calendar fa-fw" data-toggle="tooltip" data-placement="top" title="sonstiger Termin"></i>
-            </td>
-            <td>{{displayDatum(index)}}</td>
-            <td>{{theDate.event}}</td>
-            <td>{{theDate.ort}}</td>
-            <td>{{theDate.meldeschluss}}</td>
-            <td>{{theDate.info}}</td>
-          </tr>
-          </tbody>
-        </table>
-          <!--
-        <div class="card-footer text-center">
-          <transition appear appear-to-class="animated rubberBand">
-            <div>
-              <a class="btn"><i class="fa fa-graduation-cap fa-fw"></i></a>
-              <a class="btn"><i class="fa fa-paw fa-fw"></i></a>
-            </div>
-          </transition>
-        </div>
-        -->
+          <div v-if="showHeader" class="card-header">
+
+              <button @click="toggel(0)" class="btn" v-bind:class="{ 'btn-outline-secondary': !types[0], 'btn-outline-success' : types[0]}" >
+                <i class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
+              </button>
+              <button @click="toggel(1)" class="btn" v-bind:class="{ 'btn-outline-secondary': !types[1], 'btn-outline-success' : types[1]}">
+                <i class="fa fa-trophy fa-fw" data-toggle="tooltip" data-placement="top" title="Ausstellung"></i>
+              </button>
+              <button @click="toggel(2)" class="btn" v-bind:class="{ 'btn-outline-secondary': !types[2], 'btn-outline-success' : types[2]}">
+                <i class="fa fa-calendar fa-fw" data-toggle="tooltip" data-placement="top" title="sonstiger Termin"></i>
+              </button>
+
+          </div>
+          <table class="table table-dark table-striped table-bordered">
+            <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Datum</th>
+              <th scope="col">Veranstaltung</th>
+              <th scope="col">Ort</th>
+              <th scope="col">Meldeschluss</th>
+              <th scope="col">Info</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="(theDate, index) in filteredTermine">
+              <td scope="row">
+                <i v-if="theDate.typ === 'Pruefung'" class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
+                <i v-if="theDate.typ === 'Ausstellung'" class="fa fa-trophy fa-fw" data-toggle="tooltip" data-placement="top" title="Ausstellung"></i>
+                <i v-if="theDate.typ === 'Sonstiges'" class="fa fa-calendar fa-fw" data-toggle="tooltip" data-placement="top" title="sonstiger Termin"></i>
+              </td>
+              <td>{{displayDatum(theDate)}}</td>
+              <td>{{theDate.event}}</td>
+              <td>{{theDate.ort}}</td>
+              <td>{{theDate.meldeschluss}}</td>
+              <td>{{theDate.info}}</td>
+            </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -55,7 +58,9 @@
     data () {
       return {
         loading: true,
-        termine: []
+        termine: [],
+        showHeader: true,
+        types: [true, true, true]
       }
     },
     created: function () {
@@ -65,27 +70,58 @@
       '$route': 'fetchData'
     },
     computed: {
+      filteredTermine: function () {
+        let result = []
+
+        for (let i = 0; i < this.termine.length; i++) {
+          if (this.termine[i] !== undefined) {
+            let item = this.termine[i]
+            if (item.typ === 'Pruefung' && this.types[0]) {
+              result.push(item)
+            }
+            if (item.typ === 'Ausstellung' && this.types[1]) {
+              result.push(item)
+            }
+            if (item.typ === 'Sonstiges' && this.types[2]) {
+              result.push(item)
+            }
+          }
+        }
+
+        return result
+      }
     },
     methods: {
       // Laden der News-Daten
       fetchData () {
-        axios.get('static/data/aktuell/newsdate.json')
-          .then(response => {
-            this.termine = response.data
-          })
-          .catch(e => {
-            console.error(e)
-            this.termine = []
-          })
-        this.loading = false
-      },
-      displayDatum: function (idx) {
-        const item = this.termine[idx]
-        if (item.hasOwnProperty('datumLang')) {
-          return item.datumLang
+        // filter auswerten
+        if (this.$route.query.hasOwnProperty('filter')) {
+          let params = this.$route.query.filter.split(',')
+          this.types = [JSON.parse(params[0]), JSON.parse(params[1]), JSON.parse(params[2])]
+          this.showHeader = false
+          console.log(this.types)
         } else {
-          return item.datum
+          this.showHeader = true
         }
+
+        if (this.termine.length === 0) {
+          axios.get('static/data/aktuell/newsdate.json')
+            .then(response => {
+              this.termine = response.data
+            })
+            .catch(e => {
+              console.error(e)
+              this.termine = []
+            })
+          this.loading = false
+        }
+      },
+      displayDatum: function (item) {
+        return (item.hasOwnProperty('datumLang') ? item.datumLang : item.datum)
+      },
+      toggel: function (idx) {
+        this.types[idx] = !this.types[idx]
+        this.types = [...this.types]
       }
     },
     components: {Loader}
