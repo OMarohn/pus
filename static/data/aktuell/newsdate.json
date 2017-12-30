@@ -7,11 +7,12 @@
     "typ": "Sonstiges"
   },
   {
-    "event": "Was auch immer",
+    "event": "Eine Prüfung",
     "datum": "09.01.2018",
     "ort": "Waltrop",
     "info": "lululu",
-    "pruefungen": "JuS Herbst, HJS, Int. Derby solo",
+    "pruefungen": ["JuS Herbst", "HJS", "Int. Derby solo"],
+    "ausschreibung": "demo.pdf",
     "ergebnis": "demo.pdf",
     "typ": "Pruefung"
   },

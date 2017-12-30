@@ -8,6 +8,7 @@
           <table class="table table-dark table-striped table-bordered">
             <thead>
             <tr>
+              <th scope="col"></th>
               <th scope="col">Datum</th>
               <th scope="col">Veranstaltung</th>
               <th scope="col">Ort</th>
@@ -27,7 +28,7 @@
               <td>{{theDate.ort}}</td>
               <td>
                 <div v-if="anzeigeModus === 'Pruefung'">
-                  {{theDate.pruefungen}}
+                  <property-tag :props="theDate.pruefungen"></property-tag>
                 </div>
                 <div v-if="anzeigeModus === 'Ausstellung'">
                   {{theDate.richter}}
@@ -57,6 +58,7 @@
 <script>
   import axios from 'axios'
   import Loader from './Loader.vue'
+  import PropertyTag from './PropertyTag'
 
   export default {
     data () {
@@ -126,7 +128,7 @@
         return (item.hasOwnProperty('datumLang') ? item.datumLang : item.datum)
       }
     },
-    components: {Loader}
+    components: {Loader, PropertyTag}
   }
 </script>
 

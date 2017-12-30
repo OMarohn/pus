@@ -8,6 +8,7 @@ import Vorstand from '@/components/Vorstand'
 import AktivAktuell from '@/components/AktivAktuell'
 import AktivTermin from '@/components/AktivTermin'
 import ErgebnisListe from '@/components/ErgebnisListe'
+import Impressum from '@/components/Impressum'
 
 Vue.use(Router)
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/ergebnis',
       name: 'ergebnis',
       component: ErgebnisListe
+    },
+    {
+      path: '/impressum',
+      name: 'impressum',
+      component: Impressum
     }
   ]
 })

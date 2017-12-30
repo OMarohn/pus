@@ -63,6 +63,9 @@
             <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
           </div>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#impressum">Impressum</a>
+        </li>
       </ul>
     </div>
   </nav>
