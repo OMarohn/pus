@@ -1,25 +1,32 @@
 [
   {
-    "datum": "01.01.2018",
     "event": "Bad Salzuffeln",
+    "datum": "01.01.2018",
     "ort": "Castrop",
     "info": "lalalal",
     "typ": "Sonstiges"
   },
   {
-    "datum": "02.01.2018",
-    "datumLang": "02.01.2018 ggf. auch 03.01.2018",
-    "event": "langer Beschreibungstetxt der eigentlich umgebrochen werden sollte, es aber wahrscheinlich nicht wird! Ohh Überraschung!",
-    "ort": "Bottrop",
-    "meldeschluss":  "12.12.2018",
-    "info": "Richerin Franziska von und zu Almsick ",
-    "typ": "Ausstellung"
-  },
-  {
-    "datum": "09.01.2018",
     "event": "Was auch immer",
+    "datum": "09.01.2018",
     "ort": "Waltrop",
     "info": "lululu",
+    "pruefungen": "JuS Herbst, HJS, Int. Derby solo",
+    "ergebnis": "demo.pdf",
     "typ": "Pruefung"
+  },
+  {
+    "event": "CACIB Staffhorst",
+    "datum": "02.01.2018",
+    "datumLang": "02.01.2018 ggf. auch 03.01.2018",
+    "eventLang": "Ein ganz langer Text der unter dem Kurztext angezeigt wird - nicht aber in der Ergebnisliste!",
+    "ort": "Bottrop",
+    "meldeschluss": "12.12.2018",
+    "richter": "Richerin Franziska von und zu Almsick",
+    "info": "Was es sonst zu sagen gibt",
+    "ausschreibung": "demo.pdf",
+    "ergebnis": "demo.pdf",
+    "bericht": "demo.pdf",
+    "typ": "Ausstellung"
   }
 ]

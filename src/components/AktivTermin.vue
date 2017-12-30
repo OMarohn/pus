@@ -37,10 +37,22 @@
                 <i v-if="theDate.typ === 'Sonstiges'" class="fa fa-calendar fa-fw" data-toggle="tooltip" data-placement="top" title="sonstiger Termin"></i>
               </td>
               <td>{{displayDatum(theDate)}}</td>
-              <td>{{theDate.event}}</td>
+              <td>
+                {{theDate.event}}
+                <div v-if="theDate.hasOwnProperty('eventLang')">
+                  {{theDate.eventLang}}
+                </div>
+              </td>
               <td>{{theDate.ort}}</td>
               <td>{{theDate.meldeschluss}}</td>
-              <td>{{theDate.info}}</td>
+              <td>
+                {{theDate.info}}
+                <div v-if="theDate.hasOwnProperty('ausschreibung')">
+                  <a data-toggle="tooltip" data-placement="top" title="Ausschreibungsunterlagen" :href="'static/doc/' + theDate.ausschreibung" target="ausschreibung" class="btn btn-outline-success btn-sm">
+                    <i class="fa fa-file-pdf-o fa-fw"></i><span>Ausschreibung</span>
+                  </a>
+                </div>
+              </td>
             </tr>
             </tbody>
           </table>
@@ -101,13 +113,16 @@
           this.showHeader = false
           console.log(this.types)
         } else {
+          // hier ggf noch alles auf wieder sichtbar stellen
           this.showHeader = true
         }
-
+        // Daten schon geladen?
         if (this.termine.length === 0) {
           axios.get('static/data/aktuell/newsdate.json')
             .then(response => {
-              this.termine = response.data
+              this.termine = response.data.sort((a, b) => {
+                return new Date(a.datum) - new Date(b.datum)
+              })
             })
             .catch(e => {
               console.error(e)
@@ -139,5 +154,11 @@
     font-family: Verdana;
     font-size: large;
     text-align: justify;
+  }
+
+  div a {
+    margin-top: 0.3rem;
+    text-align: left;
+    width: 8rem;
   }
 </style>

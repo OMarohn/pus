@@ -7,6 +7,7 @@ import Welpen from '@/components/Welpen'
 import Vorstand from '@/components/Vorstand'
 import AktivAktuell from '@/components/AktivAktuell'
 import AktivTermin from '@/components/AktivTermin'
+import ErgebnisListe from '@/components/ErgebnisListe'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/aktiv/termine',
       name: 'aktivTermin',
       component: AktivTermin
+    },
+    {
+      path: '/ergebnis',
+      name: 'ergebnis',
+      component: ErgebnisListe
     }
   ]
 })

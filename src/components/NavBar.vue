@@ -52,7 +52,7 @@
           <a class="nav-link dropdown-toggle" id="navAusstellung" data-toggle="dropdown" href="/#/austellung">Austellungen</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#aktiv/termine?filter=false,true,false">Termine</a>
-            <a class="dropdown-item" href="#austellung/ergebnisse">Ergebnisse</a>
+            <a class="dropdown-item" href="#ergebnis?mode=1">Ergebnisse</a>
           </div>
         </li>
         <!-- Dropdown Prüfungen // mit <router-linkt> hats nicht funktioniert! -->
@@ -60,7 +60,7 @@
           <a class="nav-link dropdown-toggle" id="navPruefung" data-toggle="dropdown" href="/#/pruefung">Prüfungen</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#aktiv/termine?filter=true,false,false">Termine</a>
-            <a class="dropdown-item" href="#pruefung/ergebnisse">Ergebnisse</a>
+            <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
           </div>
         </li>
       </ul>

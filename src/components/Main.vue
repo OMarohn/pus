@@ -139,8 +139,10 @@
   }
 
   @media (max-width: 568px) {
-    .bild1, .bild2, .bild3 {
+    .bild1, .bild2, .bild3, .bild4, .bild5 {
       background-attachment: scroll;
+      opacity: 1;
+      width: 100vh;
     }
   }
 </style>
