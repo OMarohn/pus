@@ -5,10 +5,10 @@
       <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
           <div id="header" class="card-header">
-            <h4 v-html="theNews.datum + ' ' + theNews.titel"></h4>
+            <h4 v-html="theNews.datum + ' - ' + theNews.titel"></h4>
           </div>
           <img class="card-img-top card-img-max" :src="'static/news/' + theNews.bild">
-          <div class="card-body mb-0">
+          <div class="card-body">
             <p class="card-text" v-html="theNews.beschreibung"></p>
           </div>
         </div>

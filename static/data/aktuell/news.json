@@ -1,14 +1,31 @@
 [
   {
-    "datum": "01.01.2018",
-    "titel": "Neues Jahr",
-    "beschreibung": "<b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. A distinctio facilis magnam molestias, quo veritatis. Architecto asperiores aut consequatur corporis cupiditate delectus dolores eius ex facere illo labore laboriosam molestiae natus necessitatibus pariatur provident quae quas rem rerum sapiente, suscipit tempora voluptatem voluptatibus. Accusantium suscipit ut velit. Aperiam commodi delectus deserunt dicta dolore doloremque eligendi esse et excepturi facere fuga harum illo illum ipsa itaque iure laudantium libero magnam nam non, officiis praesentium, quae rem repellendus, reprehenderit sunt unde vero.",
-    "bild": "demo.jpeg"
+    "datum": "17.12.2017",
+    "titel": "Adventstreffen der LG Nord in Wersabe",
+    "beschreibung": "Die Landesgruppe läd Sie zu einem Adventsspaziergang mit Hunden am Weserdeich ein.",
+    "bild": "advent2017.jpg"
   },
   {
-    "datum": "02.01.2018",
-    "titel": "schon 1 Tag geschaftt",
-    "beschreibung": "<b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. A distinctio facilis magnam molestias, quo veritatis. Architecto asperiores aut consequatur corporis cupiditate delectus dolores eius ex facere illo labore laboriosam molestiae natus necessitatibus pariatur provident quae quas rem rerum sapiente, suscipit tempora voluptatem voluptatibus. Accusantium suscipit ut velit. Aperiam commodi delectus deserunt dicta dolore doloremque eligendi esse et excepturi facere fuga harum illo illum ipsa itaque iure laudantium libero magnam nam non, officiis praesentium, quae rem repellendus, reprehenderit sunt unde vero.",
-    "bild": "demo2.jpeg"
-  }
-]
+    "datum": "27.08.2018",
+    "titel": "Der 3. Wasserübungstag",
+    "beschreibung": "Das war der letzte Wasserübungstag für dieses Jahr - Nochmal vielen Dank an alle Helfer die zu einem erfolgreichen Übungstag beigetragen haben !",
+    "bild": "wassertag3.jpg"
+  },
+  {
+    "datum": "30.07.2018",
+    "titel": "Der 2. Wasserübungstag",
+    "beschreibung": "Der 2. Wasserübungstag - ein voller Erfolg<br>Auch am 2. Übungstag wurde nicht nur im Wasser trainiert, es wurden auch wieder Schleppen angeboten und am Apport gearbeitet.<br><b>Der Dritte und letzte Übungstag findet am 27.08 statt!</b>",
+    "bild": "wassertag2.jpg"
+  },
+  {
+    "datum": "02.07.2018",
+    "titel": "Der 1. Wasserübungstag",
+    "beschreibung": "Nach einem super organisierten Wasserübungstag. Hier ein paar Impressionen von tollen Hunden in einem erstklassigen Wasserrevier!<br>Vielen Dank an <b>Gerhard Konsek</b> das er sein Revier zur Verfügung gestellt hat.<br>Tausend Dank auch an <b>Uwe Schütte</b>, der sich für jeden Hund in Ruhe Zeit genommen hat.<br>Alles in allem freuen wir uns auf eine Wiederholung :-)",
+    "bild": "wassertag1.jpg"
+  },
+  {
+    "datum": "19.05.2018",
+    "titel": "Europasieger Ausstellung Dortmund",
+    "beschreibung": "Auf der Europasieger Ausstellung in Dortmund am 19. Mai 2017 war unsere Landesgruppe sehr erfolgreich vertreten.<br><br>Den Titel <b>VDH-Europasieger 2017</b> erreichten:<br><br>GS Ludstar Don Corleone Eigentümer: Silvia Timmermann<br>IRWS Bineah of the Baltic Ambers Eigentümer: Kerstin Peters<br>ES Charming Vagabonds High Beauty Vision Eigentümer: Elke Deichholz<br><br>Den Titel <b>VDH-Europa-Jugendsieger 2017</b> erreichten:<br><br>EP Angel from Winepoint Natyave Grove Eigentümer: Uwe Wartjes<br>GS Wild Emerald's Ayers Rock Eigentümer: Mareike Ritz",
+    "bild": "collage_dortmund.jpg"
+  }]

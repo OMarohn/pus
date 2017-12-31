@@ -79,15 +79,15 @@
   .bild1, .bild2, .bild3, .bild4, .bild5 {
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     opacity: .7;
   }
 
   .bild1 {
     background-image: url('/static/bg/gordon.jpg');
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .bild2 {
@@ -142,6 +142,9 @@
     .bild1, .bild2, .bild3, .bild4, .bild5 {
       background-attachment: scroll;
       opacity: 1;
+      width: 100vh;
+    }
+    section {
       width: 100vh;
     }
   }

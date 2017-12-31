@@ -1,0 +1,42 @@
+[
+  {
+    "kennelName": "from old crudsand harbour",
+    "url": "static/kennel/redandwhite/old_harbour_2.jpg",
+    "kontakt": "Karin Eylmann-von Borstel",
+    "strasse": "Krautsander Hafenstr. 23",
+    "ort": "21706 Drochtersen/Krautsand",
+    "fon": "+49 (4143)  1394",
+    "mail": "eylmannvonborstel@t-online.de",
+    "web": "www.vom-alten-hafen.de"
+  },
+  {
+    "kennelName": "vom Ihlwald",
+    "url": "static/kennel/redandwhite/ihlwald.jpg",
+    "kontakt": "Sabine Cziesla",
+    "strasse": "Esmarchstr. 3",
+    "ort": "23795 Bad Segeberg",
+    "fon": "+49 (4551)  825 82",
+    "mail": "sabinecziesla@web.de",
+    "web": "www.ihlwald.de"
+  },
+  {
+    "kennelName": "of the Baltic Ambers",
+    "url": "static/kennel/redandwhite/baltic_ambers.jpg",
+    "kontakt": "Kerstin Peters",
+    "strasse": "Schwartauer Str. 39",
+    "ort": "23611 Sereetz",
+    "fon": "+49 (451) 880 3877",
+    "mail": "info@baltic-ambers.de",
+    "web": "www.baltic-ambers.de"
+  },
+  {
+    "kennelName": "vom Duvenseer Moor",
+    "url": "static/kennel/redandwhite/baltic_ambers.jpg",
+    "kontakt": "Susanne Zumsande",
+    "strasse": "Achtern Diek 55",
+    "ort": "22955 Hoisdorf",
+    "fon": "+49 (4107) 330990",
+    "mail": "zumsande@vom-duvenseer-moor.de",
+    "web": "www.vom-duvenseer-moor.de"
+  }
+]

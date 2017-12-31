@@ -1,0 +1,122 @@
+[
+  {
+    "kennelName": "... an der Klosterpforte im Oldenburger Land",
+    "url": "static/kennel/irish/klosterpforte.jpg",
+    "kontakt": "Ewald Berfons",
+    "strasse": "Habichtshorst 9",
+    "ort": "49434 Neuenkirchen-Vörden",
+    "fon": "+49 (5493)  5277",
+    "mail": "info@irish-setter-berfons.de",
+    "web": "www.irish-setter-berfons.de"
+  },
+  {
+    "kennelName": "von den Pastorenwiesen",
+    "url": "static/kennel/irish/pastorenwiesen.jpg",
+    "kontakt": "Angela Berwick",
+    "strasse": "Vossn Weg 4",
+    "ort": "21218 Seevetal",
+    "fon": "+49 (4105) 2008",
+    "mail": "info@irish-setter-von-den-pastorenwiesen.de",
+    "web": "www.irish-setter-von-den-pastorenwiesen.de"
+  },
+  {
+    "kennelName": "vom Gut Deisterland",
+    "url": "static/kennel/irish/gut_deisterland.jpg",
+    "kontakt": "Katja Decher",
+    "strasse": "Coppembrügger Landstr. 32",
+    "ort": "31867 Lauenau",
+    "fon": "+49 (5043) 1427",
+    "mob": "+49 (171) 6276 846",
+    "mail": "katja.decher@t-online.de",
+    "web": "www.setter-deisterland.de"
+  },
+  {
+    "kennelName": "of Magic Fields",
+    "url": "static/kennel/irish/magic_fields_breeze.jpg",
+    "kontakt": "Christine Ebeling",
+    "strasse": "Orxhausen 38",
+    "ort": "37574 Einbeck",
+    "fon": "+49 (5563) 6598",
+    "mail": "ebeling.christine@t-online.de",
+    "web": "www.of-magic-fields.de"
+  },
+  {
+    "kennelName": "vom Altenlingener Forst",
+    "url": "static/kennel/irish/altenlingener_forst.jpg",
+    "kontakt": "Ludger Fels",
+    "strasse": "Rehtränke 33",
+    "ort": "49808 Lingen",
+    "fon": "+49 (591) 63 784",
+    "mail": "ludger.fels@googlemail.com"
+  },
+  {
+    "kennelName": "von der Jagdstätte",
+    "url": "static/kennel/irish/jagdstatte.jpg",
+    "kontakt": "Eva Mahlfeldt",
+    "strasse": "Jackstede 15",
+    "ort": "26409 Wittmund",
+    "fon": "+49 (4973) 912 023",
+    "mail": "eva.mahlfeldt@gmx.de",
+    "web": "www.von-der-jagdstaette.de"
+  },
+  {
+    "kennelName": "Red Gleam of Light",
+    "url": "static/kennel/irish/red_gleam.jpg",
+    "kontakt": "Sabine Örmenyi",
+    "strasse": "Bahnhofstr. 15 a",
+    "ort": "29456 Hitzacker",
+    "fon": "+49 (4973) 912 023",
+    "mail": "soermenyi@gmail.com",
+    "web": "www.red-gleam-of-light.de"
+  },
+  {
+    "kennelName": "from the Old Irish Cottage",
+    "url": "static/kennel/irish/irish_cottage.jpg",
+    "kontakt": "Claudia Schallehn",
+    "strasse": "Hauptstraße 21",
+    "ort": "29649 Wietzendorf",
+    "fon": "+49 (5196) 385",
+    "mob": "+49 (176) 9074 9235",
+    "fax": "+49 (5196) 649",
+    "mail": "claudiaschallehn@web.de",
+    "web": "www.setter-from-the-old-irish-cottage.de"
+  },
+  {
+    "kennelName": "vom Forst Rosengarten",
+    "url": "static/kennel/irish/breeder_pic.jpg",
+    "kontakt": "Rita und Manfred Schmidt",
+    "strasse": "Brahmhof 24",
+    "ort": "21224 Rosengarten",
+    "fon": "+49 (4108) 7997"
+  },
+  {
+    "kennelName": "vom Nordender Geesthang",
+    "url": "static/kennel/irish/nordender_geesthang.jpg",
+    "kontakt": "Nadine u. Petra Slowik",
+    "strasse": "Sandweg 160",
+    "ort": "25336 Klein Nordende",
+    "fon": "+49 (4121) 931 13",
+    "mail": "heino.slowik@freenet.de",
+    "web": "www.nordender-geesthang.de"
+  },
+  {
+    "kennelName": "Castania's",
+    "url": "static/kennel/irish/castanias.jpg",
+    "kontakt": "Carolin u. Marie-Luise Zeitz",
+    "strasse": "Vor der Heide 1",
+    "ort": "21217 Seevetal-Emmelndorf",
+    "fon": "+49 (4105) 692 7699",
+    "mail": "zeitz@castanias.de",
+    "web": "castanias.de"
+  },
+  {
+    "kennelName": "Black & Red Beauty´s",
+    "url": "static/kennel/irish/castanias.jpg",
+    "kontakt": "Helga Züchner u. Kai Stützer",
+    "strasse": "Krummacker 1",
+    "ort": "26789 Leer/Ostfriesland",
+    "fon": "+49 (491) 71 874",
+    "mail": "helga.zuechner@freenet.de",
+    "web": "www.black-and-red-beautys.de"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "kennelName": "Silvanus",
+    "url": "static/kennel/englisch/silvanus.jpg",
+    "kontakt": "Elke Deichholz & Hannelore Sauvant",
+    "strasse": "Burgstraße 1",
+    "ort": "27412 Bülstedt",
+    "fon": "+49 (4283) 6998 994",
+    "fon2": "+49 (30) 6716 611",
+    "mail": "mail@silvanus-englische-setter.com",
+    "web": "www.silvanus-englische-setter.com"
+  },
+  {
+    "kennelName": "Belton Pearls",
+    "url": "static/kennel/englisch/beltonpearls.jpg",
+    "kontakt": "Sabine Niebuhr",
+    "strasse": "Halstenbekerstr. 28a",
+    "ort": "22457 Hamburg",
+    "fon": "+49 (40) 5525 228",
+    "mail": "sabineniebuhr1@web.de",
+    "web": "www.beltonpearls.de"
+  },
+  {
+    "kennelName": "Black & Red Beauty´s",
+    "url": "static/kennel/englisch/black_red_beauty.jpg",
+    "kontakt": "Helga Züchner u. Kai Stützer",
+    "strasse": "Krummacker 1",
+    "ort": "26789 Leer/Ostfriesland",
+    "fon": "+49 (491) 71 874",
+    "mail": "helga.zuechner@freenet.de",
+    "web": "www.black-and-red-beautys.de"
+  }
+]
