@@ -102,7 +102,6 @@
           if (parts.length === 3) {
             d = parts[1] + '.' + parts[0] + '.' + parts[2]
           }
-          console.log(parts)
         }
         return d
       },

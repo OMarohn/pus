@@ -57,8 +57,8 @@
       <div class="wurfdatum">
         <div :class="{'overdue' : isOverdue(wurf) > 14}" v-if="wurf.eta">Erwartet: {{wurf.eta}}</div>
         <div v-if="wurf.gefallen">
-          Gefallen: {{wurf.gefallen}} - ({{wurf.rueden}},{{wurf.huendinnen}})
-          <span v-if="wurf.info"> - {{wurf.info}}</span>
+          Gefallen: {{wurf.gefallen}}<span v-if="wurf.rueden"> - ({{wurf.rueden}},{{wurf.huendinnen}})</span>
+          <span v-if="wurf.info && wurf.rueden"> - {{wurf.info}}</span>
         </div>
       </div>
     </div>
@@ -78,12 +78,21 @@
       wurfPotenz (wurf) {
         return (wurf.wurf.length > 1) ? wurf.wurf.charAt(1) : ''
       },
+      convDate (datum) { // doublette
+        if (datum) {
+          var parts = datum.split('.')
+          if (parts.length === 3) {
+            datum = parts[1] + '/' + parts[0] + '/' + parts[2]
+          }
+        }
+        return datum
+      },
       isOverdue (wurf) {
         const oneDay = 24 * 60 * 60 * 1000 // hours*minutes*seconds*milliseconds
+        const secondDate = new Date(this.convDate(wurf.etaDate))
         const firstDate = new Date()
-        const secondDate = new Date(wurf.eta)
 
-        const diffDays = Math.round(Math.abs((firstDate.getTime() - secondDate.getTime()) / (oneDay)))
+        const diffDays = Math.round((firstDate.getTime() - secondDate.getTime()) / (oneDay))
         return diffDays
       }
     },

@@ -22,6 +22,16 @@ Vue.filter('phoneAsLink', (value) => {
   return value.toLowerCase().replace(/\s+/g, '').replace('(', '').replace(')', '')
 })
 
+Vue.filter('tmj2mdy', (value) => {
+  if (value) {
+    var parts = value.split('.')
+    if (parts.length === 3) {
+      value = parts[1] + '/' + parts[0] + '/' + parts[2]
+    }
+  }
+  return value
+})
+
 Vue.use(VueTimeago, {
   name: 'timeago', // component name, `timeago` by default
   locale: 'de-DE',

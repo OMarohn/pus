@@ -5,7 +5,7 @@
     "gefallen": "01.01.2018",
     "rueden": 3,
     "huendinnen": 4,
-    "info" : "(1,0) zu vergeben",
+    "info" : "(1,0) noch abzugeben",
     "kontakt": "Doris Helle",
     "strasse": "Twistenberg 50",
     "ort": "27404 Seedorf",
@@ -51,6 +51,7 @@
     "wurf": "B1",
     "kennel": "... von den Huntewiesen",
     "eta": "Mitte Juni 2017",
+    "etaDate": "15.06.2017",
     "kontakt": "Silke Zurbrüggen-Brinkert",
     "strasse": "Brettorfer Kirchweg 3",
     "ort": "27801 Brettorf",
@@ -95,6 +96,7 @@
     "wurf": "C",
     "kennel": "Black&Red Beauty's ...",
     "eta": "Ende Januar 2018",
+    "etaDate": "31.01.2018",
     "kontakt": "Helga Züchner & Kai Stützer",
     "strasse": "Krumacker 1",
     "ort": "26789 Leer",
@@ -127,6 +129,41 @@
       "hd": "A1",
       "pra": "clear",
       "abl": "3521"
+    }
+  },
+  {
+    "wurf": "B",
+    "kennel": "Wild Emerald's ...",
+    "gefallen": "16.11 2017",
+    "rueden": 5,
+    "huendinnen": 4,
+    "kontakt": "Mareike Ritz",
+    "strasse": "Holzstr. 28",
+    "ort": "44869 Bochum",
+    "fon": "+49 (177) 7656266",
+    "mail": "uskaya@web.de",
+    "web": "www.wildemeralds-gordon-setter.de",
+    "vater": {
+      "name": "Laurelhach Encrypt",
+      "titel": [
+        "LJS", "LS", "EJS", "Dt.J.Ch.(VDH)", "Dt.Ch.(VDH)."
+      ],
+      "leistung": [
+        "JuS", "HAP(GSCD)", "JAP(GSCD)"
+      ],
+      "zuchtbuch": "VDH/DGSZ 15/3120",
+      "hd": "A1",
+      "pra": "clear"
+    },
+    "mutter": {
+      "name": "Comtesse Karymoor' vom Krefelder Hof",
+      "leistung": [
+        "JuS"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 14/097",
+      "hd": "A1",
+      "pra": "carrier",
+      "abl": "3635"
     }
   }
 ]
