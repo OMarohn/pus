@@ -38,6 +38,8 @@
                 <li class="list-group-item">Formwert: {{ruede.formwert}}</li>
                 <li class="list-group-item">HD: {{ruede.hd}}</li>
                 <li class="list-group-item">PRA/rcd4: {{ruede.pra}}</li>
+                <li v-if="ruede.clad" class="list-group-item">CLAD: {{ruede.clad}}</li>
+                <li v-if="ruede.ohren" class="list-group-item">Hörtest: {{ruede.ohren}}</li>
                 <li class="list-group-item">Zahnstatus: {{ruede.zahnstatus}}</li>
                 <li class="list-group-item">Zuchttauglichkeit: {{ruede.ztp}}</li>
                 <li class="list-group-item">Züchter: {{ruede.breeder}}</li>
