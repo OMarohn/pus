@@ -14,6 +14,10 @@ Vue.filter('shorten', (value) => {
   return value.toLowerCase().replace(/\s+/g, '')
 })
 
+Vue.filter('normalize', (value) => {
+  return (value !== undefined) ? value : 'k. A.'
+})
+
 Vue.filter('phoneAsLink', (value) => {
   return value.toLowerCase().replace(/\s+/g, '').replace('(', '').replace(')', '')
 })

@@ -2,7 +2,10 @@
   {
     "wurf": "Z",
     "kennel": "... Black-Star of Heathmoor",
-    "eta": "Ende Mai 2017",
+    "gefallen": "01.01.2018",
+    "rueden": 3,
+    "huendinnen": 4,
+    "info" : "(1,0) zu vergeben",
     "kontakt": "Doris Helle",
     "strasse": "Twistenberg 50",
     "ort": "27404 Seedorf",
@@ -45,7 +48,7 @@
     }
   },
   {
-    "wurf": "B",
+    "wurf": "B1",
     "kennel": "... von den Huntewiesen",
     "eta": "Mitte Juni 2017",
     "kontakt": "Silke Zurbrüggen-Brinkert",
@@ -69,7 +72,7 @@
       "zuchtbuch": "VDH/DGSZ 13/3003",
       "hd": "A1",
       "pra": "clear",
-      "abl": "3563",
+      "abl": "3563"
     },
     "mutter": {
       "name": "Scotland King's Eve",

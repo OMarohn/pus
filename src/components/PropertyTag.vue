@@ -1,7 +1,7 @@
 <template>
-  <div class="prop-tag">
+  <span>
     <span v-for="prop in props" class="badge badge-success">{{prop}}</span>
-  </div>
+  </span>
 </template>
 
 <script>
@@ -15,6 +15,7 @@
 <style scoped>
   span {
     margin-left: 0.25rem;
+    margin-bottom: 0.25rem;
     font-size: 0.75rem;
   }
 </style>

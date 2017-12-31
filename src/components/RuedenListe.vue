@@ -2,8 +2,8 @@
   <div v-if="ruedenListe.length == 0">Keine Daten vorhanden.</div>
   <div v-else="ruedenListe.length > 0" href="#rueden" class="ruedenListe">
     <div v-for="ruede in ruedenListe" class="row container-fluid">
-      <div class="col-12">
-      <div class="card">
+      <div class="col-xl-10 offset-xl-1 col-sm-12">
+      <div class="card cart-rueden">
         <div class="card-header">
           <h4 v-html="ruede.name"></h4>
         </div>
@@ -124,6 +124,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .cart-rueden {
+    margin-bottom: 0.5rem;
+  }
   .card-header h4 {
     width:100%;
     text-align: left;

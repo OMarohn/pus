@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Main from '@/components/Main'
 import Rueden from '@/components/Rueden'
 import Zuechter from '@/components/Zuechter'
-import Welpen from '@/components/Welpen'
+import Wuerfe from '@/components/Wurf'
 import Vorstand from '@/components/Vorstand'
 import AktivAktuell from '@/components/AktivAktuell'
 import AktivTermin from '@/components/AktivTermin'
@@ -25,9 +25,9 @@ export default new Router({
       component: Vorstand
     },
     {
-      path: '/welpen/:rasse',
-      name: 'Welpen',
-      component: Welpen
+      path: '/wurf/:rasse',
+      name: 'Wurf',
+      component: Wuerfe
     },
     {
       path: '/rueden/:rasse',
