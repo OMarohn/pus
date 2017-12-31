@@ -111,7 +111,6 @@
           let params = this.$route.query.filter.split(',')
           this.types = [JSON.parse(params[0]), JSON.parse(params[1]), JSON.parse(params[2])]
           this.showHeader = false
-          console.log(this.types)
         } else {
           // hier ggf noch alles auf wieder sichtbar stellen
           this.showHeader = true

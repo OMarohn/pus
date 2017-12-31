@@ -1,33 +1,35 @@
 [
   {
-    "event": "Bad Salzuffeln",
-    "datum": "01.01.2018",
-    "ort": "Castrop",
-    "info": "lalalal",
+    "event": "Landesgruppenversammlung",
+    "datum": "06.05.2018",
+    "ort": "wird noch bekannt gegeben",
     "typ": "Sonstiges"
   },
   {
-    "event": "Eine Prüfung",
-    "datum": "09.01.2018",
-    "ort": "Waltrop",
-    "info": "lululu",
-    "pruefungen": ["JuS Herbst", "HJS", "Int. Derby solo"],
-    "ausschreibung": "demo.pdf",
-    "ergebnis": "demo.pdf",
+    "event": "Frühjahrsprüfungen",
+    "datum": "25.03.2018",
+    "ort": "wird noch bekannt gegeben",
     "typ": "Pruefung"
   },
   {
-    "event": "CACIB Staffhorst",
-    "datum": "02.01.2018",
-    "datumLang": "02.01.2018 ggf. auch 03.01.2018",
-    "eventLang": "Ein ganz langer Text der unter dem Kurztext angezeigt wird - nicht aber in der Ergebnisliste!",
-    "ort": "Bottrop",
-    "meldeschluss": "12.12.2018",
-    "richter": "Richerin Franziska von und zu Almsick",
-    "info": "Was es sonst zu sagen gibt",
-    "ausschreibung": "demo.pdf",
-    "ergebnis": "demo.pdf",
-    "bericht": "demo.pdf",
+    "event": "Frühjahrsprüfungen",
+    "datum": "15.04.2018",
+    "datumLang": "15.04.2018 u./o. 22.04.2018",
+    "ort": "wird noch bekannt gegeben",
+    "typ": "Pruefung"
+  },
+  {
+    "event": "CACIB Neumünster",
+    "datum": "03.06.2018",
+    "ort": "Neumünster",
+    "richter": "Barbara Lüdi (CH)",
     "typ": "Ausstellung"
   }
-]
+,
+  {
+    "event": "CACIB Lingen",
+    "datum": "29.04.2018",
+    "ort": "Lingen",
+    "richter": " Silke Lohkamp-Sommer (D)",
+    "typ": "Ausstellung"
+  }]
