@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '@/components/Main'
 import Rueden from '@/components/Rueden'
 import Zuechter from '@/components/Zuechter'
 import Wuerfe from '@/components/Wurf'
@@ -9,6 +8,9 @@ import AktivAktuell from '@/components/AktivAktuell'
 import AktivTermin from '@/components/AktivTermin'
 import ErgebnisListe from '@/components/ErgebnisListe'
 import Impressum from '@/components/Impressum'
+import Links from '@/components/Links'
+import Main from '@/components/Main'
+// import MainAlternativ from '@/components/Hello'
 
 Vue.use(Router)
 
@@ -58,6 +60,11 @@ export default new Router({
       path: '/impressum',
       name: 'impressum',
       component: Impressum
+    },
+    {
+      path: '/links',
+      name: 'links',
+      component: Links
     }
   ]
 })

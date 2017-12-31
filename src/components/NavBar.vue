@@ -64,6 +64,9 @@
           </div>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#links">Links</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#impressum">Impressum</a>
         </li>
       </ul>
