@@ -2,7 +2,7 @@
   <div class="aktivAktuell">
     <loader v-if="loading"></loader>
     <div id="eintrag" v-for="theNews in news" class="row container-fluid">
-      <div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1 col-sm-12">
+      <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
           <div id="header" class="card-header">
             <h4 v-html="theNews.datum + ' ' + theNews.titel"></h4>

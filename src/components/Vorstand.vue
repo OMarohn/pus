@@ -1,4 +1,5 @@
 <template>
+  <div class="col-xl-10 offset-xl-1 col-sm-12">
   <div class="card-deck vorstand">
     <div v-for="person in vorstand" class="card text-center card-outline-success">
       <div class="imgcontainer">
@@ -22,6 +23,7 @@
           </transition>
         </div>
     </div>
+  </div>
   </div>
 </template>
 

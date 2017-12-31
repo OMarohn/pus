@@ -1,20 +1,22 @@
 <template>
   <div class="welpen">
     <loader v-if="loading"></loader>
-    <div class="col-xl-10 offset-xl-1 col-sm-12">
-      <h3>Gefallen</h3>
-    </div>
+
     <div v-if="wurfListe.length > 0" href="#wurf" class="wurfListe">
+      <div class="col-xl-10 offset-xl-1 col-sm-12">
+        <h4>Gefallen</h4>
+      </div>
       <div v-for="wurf in wurfListe" class="row container-fluid wurfCart">
         <div class="col-xl-10 offset-xl-1 col-sm-12">
           <wurf-info :wurf="wurf"></wurf-info>
         </div>
       </div>
     </div>
-    <div class="col-xl-10 offset-xl-1 col-sm-12">
-      <h3>Erwartungen</h3>
-    </div>
-    <div v-if="wurfErwartungListe.length > 0" href="#wurf" class="wurfListe">
+
+    <div v-if="wurfErwartungListe.length > 0" href="#wurferwartung" class="wurfListe">
+      <div class="col-xl-10 offset-xl-1 col-sm-12">
+        <h4>Erwartungen</h4>
+      </div>
       <div v-for="wurf in wurfErwartungListe" class="row container-fluid wurfCart">
         <div class="col-xl-10 offset-xl-1 col-sm-12">
           <wurf-info :wurf="wurf"></wurf-info>

@@ -1,7 +1,7 @@
 <template>
   <div class="impressum">
     <div class="row container-fluid">
-      <div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1 col-sm-12">
+      <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
           <div id="header" class="card-header">
             <h4>Impressum</h4>
