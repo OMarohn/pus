@@ -48,10 +48,12 @@
       '$route': 'fetchData'
     },
     methods: {
-      // Laden der News-Daten
+      // Laden der Wurf-Daten - vielleicht doch besser alle einmal laden und dann filtern?
       fetchData () {
         axios.get('static/data/welpen/' + this.rasse + '.json')
           .then(response => {
+            this.wurfListe = []
+            this.wurfErwartungListe = []
             for (let i = 0; i < response.data.length; i++) {
               const wurf = response.data[i]
               if (wurf.hasOwnProperty('gefallen')) {
