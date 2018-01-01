@@ -51,6 +51,11 @@
                     <i class="fa fa-file-pdf-o fa-fw"></i><span>Ausschreibung</span>
                   </a>
                 </div>
+                <div v-if="theDate.hasOwnProperty('einladung')">
+                  <a data-toggle="tooltip" data-placement="top" title="Einladung" :href="'static/doc/' + theDate.Einladung" target="einladung" class="btn btn-outline-success btn-sm">
+                    <i class="fa fa-file-pdf-o fa-fw"></i><span>Einladung</span>
+                  </a>
+                </div>
               </td>
             </tr>
             </tbody>

@@ -64,5 +64,54 @@
     "ort": "23816 Bebensee",
     "fon": "+49 (4552) 994 162",
     "mail": "tamaracks@web.de"
+  },
+  {
+    "kennelName": "Wild Emerald's ...",
+    "url": "static/kennel/gordon/wild_emeralds.jpg",
+    "kontakt": "Mareike Ritz",
+    "strasse": "Holzstrasse 28",
+    "ort": "44869 Bochum",
+    "fon": "+49 (177) 7656 266",
+    "mail": "wild-emeralds@web.de",
+    "web": "www.wildemeralds-gordon-setter.de"
+  },
+  {
+    "kennelName": "... from Rabittmoor",
+    "kontakt": "Gesa Sperl",
+    "strasse": "Audeich 29",
+    "ort": "25489 Haselau",
+    "fon": "+49 (4129) 525",
+    "mail": "gesa.sperl@from-rabittmoor.de",
+    "web": "www.from-rabbitmoor.de"
+  },
+  {
+    "kennelName": "Black & Red Beauty's ...",
+    "url": "static/kennel/gordon/beautys.jpg",
+    "kontakt": "Helga Züchner u. Kai Stützer",
+    "strasse": "Krummacker 1",
+    "ort": "26789 Leer/ Ostfriesland",
+    "fon": "+49 (491) 71 874",
+    "mail": "helga.zuechner@freenet.de",
+    "web": "www.black-and-red-beautys.de"
+  },
+  {
+    "kennelName": "...von den Huntewiesen",
+    "url": "static/kennel/gordon/huntewiesen.jpg",
+    "kontakt": "Silke Zurbrüggen-Brinkert",
+    "strasse": "Brettorfer Kirchweg 3",
+    "ort": "27801 Dötlingen OT Brettorf",
+    "fon": "+49 (4432) 918150",
+    "mail": "zurbrueggenbrinkert@gmail.com",
+    "web": "www.huntesetter.de"
+  },
+  {
+    "kennelName": "...von Mentelande",
+    "url": "static/kennel/gordon/mentelande.jpg",
+    "kontakt": "Doina Mielke",
+    "strasse": "Grüne Str. 3",
+    "ort": "26826 Weener-Ems",
+    "fon": "+49 (4953) 708657",
+    "mail": "kontakt@mentelande.de",
+    "web": "www.mentelande.de"
   }
 ]

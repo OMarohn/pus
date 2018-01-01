@@ -5,20 +5,27 @@
       {
         "event": "Landesgruppenversammlung",
         "datum": "06.05.2018",
-        "ort": "wird noch bekannt gegeben",
+        "einladung": "einladung_lg2018.pdf",
+        "ort": "27404 Gyhum/Nartum",
         "typ": "Sonstiges"
       },
       {
         "event": "Frühjahrsprüfungen",
         "datum": "25.03.2018",
-        "ort": "wird noch bekannt gegeben",
+        "meldeschluss": "09.03.2018",
+        "ausschreibung": "ausschreibung_fruehjahr2018.pdf",
+        "ort": "31867 Hülsede und Meinsen",
+        "pruefungen": ["ES"],
         "typ": "Pruefung"
       },
       {
         "event": "Frühjahrsprüfungen",
         "datum": "15.04.2018",
+        "meldeschluss": "30.03.2018",
+        "ausschreibung": "ausschreibung_fruehjahr2018.pdf",
         "datumLang": "15.04.2018 u./o. 22.04.2018",
-        "ort": "wird noch bekannt gegeben",
+        "ort": "31867 Hülsede und Meinsen",
+        "pruefungen": ["JuS"],
         "typ": "Pruefung"
       },
       {
