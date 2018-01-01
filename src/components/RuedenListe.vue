@@ -29,12 +29,12 @@
                   <property-tag :props="ruede.titel"></property-tag>
                 </li>
                 <li v-if="ruede.leistung" class="list-group-item">Prüfungen: <property-tag :props="ruede.leistung"></property-tag></li>
+                <li class="list-group-item">Vater: {{ruede.vater}}</li>
+                <li class="list-group-item">Mutter: {{ruede.mutter}}</li>
               </ul>
             </div>
             <div class="col-md-4 col-sm-12">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Vater: {{ruede.vater}}</li>
-                <li class="list-group-item">Mutter: {{ruede.mutter}}</li>
                 <li class="list-group-item">Formwert: {{ruede.formwert}}</li>
                 <li class="list-group-item">HD: {{ruede.hd}}</li>
                 <li class="list-group-item">PRA/rcd4: {{ruede.pra}}</li>

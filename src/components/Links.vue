@@ -34,7 +34,7 @@
           <div class="card-header">
             <img class="logo" src="static/links/logo_vdh.png">
             <div class="header-center">
-              <h4><a href="http://www.pointer-und-setter.de/" target="links">Verband für das Deutsche Hundewesen e.V.</a></h4>
+              <h4><a href="http://www.vdh.de/" target="links"><p>Verband für das</p>Deutsche Hundewesen e.V.</a></h4>
             </div>
           </div>
 
@@ -99,5 +99,18 @@
 
   .card {
     margin-bottom: 0.5rem;
+  }
+
+  @media (max-width: 568px) {
+    h4 {
+      font-size: smaller;
+      font-weight: bold;
+      text-align: right;
+    }
+
+    .logo {
+      height: 2rem;
+      top: 0.4rem;
+    }
   }
 </style>

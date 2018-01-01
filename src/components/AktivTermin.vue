@@ -18,7 +18,7 @@
               </button>
 
           </div>
-          <table class="table table-dark table-striped table-bordered">
+          <table class="table table-responsive table-striped table-bordered">
             <thead>
             <tr>
               <th scope="col"></th>
@@ -120,7 +120,7 @@
           axios.get('static/data/aktuell/newsdate.json')
             .then(response => {
               this.termine = response.data.sort((a, b) => {
-                return new Date(a.datum) - new Date(b.datum)
+                return new Date(this.convDate(a.datum)) - new Date(this.convDate(b.datum))
               })
             })
             .catch(e => {
@@ -129,6 +129,15 @@
             })
           this.loading = false
         }
+      },
+      convDate (datum) { // doublette
+        if (datum) {
+          var parts = datum.split('.')
+          if (parts.length === 3) {
+            datum = parts[1] + '/' + parts[0] + '/' + parts[2]
+          }
+        }
+        return datum
       },
       displayDatum: function (item) {
         return (item.hasOwnProperty('datumLang') ? item.datumLang : item.datum)

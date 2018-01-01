@@ -5,7 +5,7 @@
     <div id="inhalt" class="card-deck">
       <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
-          <table class="table table-dark table-striped table-bordered">
+          <table class="table table-responsive table-striped table-bordered">
             <thead>
             <tr>
               <th scope="col"></th>
