@@ -225,5 +225,26 @@
       "AZP",
       "VGP"
     ]
+  },
+  {
+    "name": "<b>Onno</b> von Wersabe",
+    "vater": "Coachman's Rebel of Bavaria",
+    "mutter": "Frieda von Wersabe",
+    "urlPedegree": "static/rueden/gordon/pedigree_onno.pdf",
+    "formwert": "SG",
+    "hd": "A1",
+    "pra": "clear",
+    "zahnstatus": "vollzahnig / Schere",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/gordon/onno.jpg",
+    "zuchtbuch": "VDH/DPSZ GS 15/070",
+    "wurftag": "21.05.2015",
+    "breeder": "Helga & Gerhard Konsek",
+    "besitzer": "Rita Stücke",
+    "besitzerStrasse": "Arnold-Schönberg-Ring 43",
+    "besitzerOrt": "14532 Kleinmachnow",
+    "fon": "+49 (33203) 81174",
+    "mail": "ritastuecke@gmx.de",
+    "leistung": ["JuS", "ES", "HZP mIE", "Int. Derby (solo)"]
   }
 ]
