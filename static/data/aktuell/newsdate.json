@@ -31,6 +31,7 @@
       {
         "event": "CACIB Neumünster",
         "datum": "03.06.2018",
+        "meldeschluss": "12.04.2018",
         "ort": "Neumünster",
         "richter": "Barbara Lüdi (CH)",
         "typ": "Ausstellung"
@@ -38,6 +39,7 @@
       {
         "event": "CACIB Lingen",
         "datum": "29.04.2018",
+        "meldeschluss": "05.03.2018",
         "ort": "Lingen",
         "richter": "Silke Lohkamp-Sommer (D)",
         "typ": "Ausstellung"

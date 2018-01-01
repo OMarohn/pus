@@ -45,6 +45,12 @@
               <td>{{theDate.ort}}</td>
               <td>{{theDate.meldeschluss}}</td>
               <td>
+                <div v-if="theDate.pruefungen">
+                  <property-tag :props="theDate.pruefungen"></property-tag>
+                </div>
+                <div v-if="theDate.richter">
+                  Richter/in: {{theDate.richter}}
+                </div>
                 {{theDate.info}}
                 <div v-if="theDate.hasOwnProperty('ausschreibung')">
                   <a data-toggle="tooltip" data-placement="top" title="Ausschreibungsunterlagen" :href="'static/doc/' + theDate.ausschreibung" target="ausschreibung" class="btn btn-outline-success btn-sm">
@@ -70,6 +76,7 @@
 <script>
   import axios from 'axios'
   import Loader from './Loader.vue'
+  import PropertyTag from './PropertyTag'
 
   export default {
     data () {
@@ -153,7 +160,7 @@
         this.types = [...this.types]
       }
     },
-    components: {Loader}
+    components: {Loader, PropertyTag}
   }
 </script>
 
