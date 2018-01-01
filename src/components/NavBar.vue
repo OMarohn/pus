@@ -12,37 +12,37 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <!-- Dropdown Verein // mit <router-linkt> hats nicht funktioniert! -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navVerein" data-toggle="dropdown" href="/#/Verein">Verein</a>
+        <li class="nav-item dropdown" :class="{active: isActive('Vorstand')}">
+          <a class="nav-link dropdown-toggle" id="navVerein" data-toggle="dropdown" href="/#/verein">Verein</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#verein/vorstand">Vorstand</a>
+            <a class="dropdown-item" href="#verein/vorstand" :class="{active: isActive('Vorstand')}">Vorstand</a>
           </div>
         </li>
         <!-- Dropdown Aktivitäten // mit <router-linkt> hats nicht funktioniert! -->
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" :class="{active: isActiveStartWith('aktiv')}">
           <a class="nav-link dropdown-toggle" id="navAktuelles" data-toggle="dropdown" href="/#/aktiv">Aktivitäten</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#aktiv/aktuell">Aktuelles</a>
-            <a class="dropdown-item" href="#aktiv/termine">Termine</a>
+            <a class="dropdown-item" href="#aktiv/aktuell" :class="{active: isActive('aktivAktuell')}">Aktuelles</a>
+            <a class="dropdown-item" href="#aktiv/termine" :class="{active: isActive('aktivTermin')}">Termine</a>
           </div>
         </li>
         <!-- Dropdown Welpen // mit <router-linkt> hats nicht funktioniert! -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navWelpen" data-toggle="dropdown" href="/#/Welpen">Welpen</a>
+        <li class="nav-item dropdown" :class="{active: isActive('Wurf')}">
+          <a class="nav-link dropdown-toggle" id="navWelpen" data-toggle="dropdown" href="/#/welpen">Welpen</a>
           <div class="dropdown-menu">
             <a v-for="rasse in welpen" class="dropdown-item" :href="'#wurf/' + rasse | shorten">{{rasse}}</a>
           </div>
         </li>
         <!-- Dropdown Zuechter // mit <router-linkt> hats nicht funktioniert! -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navZuechter" data-toggle="dropdown" href="/#/Zuechter">Züchter</a>
+        <li class="nav-item dropdown" :class="{active: isActive('Zuechter')}">
+          <a class="nav-link dropdown-toggle" id="navZuechter" data-toggle="dropdown" href="/#/zuechter">Züchter</a>
           <div class="dropdown-menu">
             <a v-for="rasse in zuechter" class="dropdown-item" :href="'#zuechter/' + rasse | shorten">{{rasse}}</a>
           </div>
         </li>
         <!-- Dropdown Rueden // mit <router-linkt> hats nicht funktioniert! -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navRueden" data-toggle="dropdown" href="/#/Rueden">Rüden</a>
+        <li class="nav-item dropdown" :class="{active: isActive('Rueden')}">
+          <a class="nav-link dropdown-toggle" id="navRueden" data-toggle="dropdown" href="/#/rueden">Rüden</a>
           <div class="dropdown-menu">
             <a v-for="rasse in rueden" class="dropdown-item" :href="'#rueden/' + rasse | shorten">{{rasse}}</a>
           </div>
@@ -63,10 +63,10 @@
             <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
           </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" :class="{active: isActive('links')}">
           <a class="nav-link" href="#links">Links</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" :class="{active: isActive('impressum')}">
           <a class="nav-link" href="#impressum">Impressum</a>
         </li>
       </ul>
@@ -78,6 +78,19 @@
 <script>
   export default {
     name: 'navBar',
+    methods: {
+      isActive (pfad, params, name) {
+        if (params && this.$route.params) {
+          console.log(params, this.$route.params[name])
+          return (this.$route.name === pfad && params === this.$route.params[0])
+        } else {
+          return this.$route.name === pfad
+        }
+      },
+      isActiveStartWith (praefix) {
+        return this.$route.name.startsWith(praefix)
+      }
+    },
     data () {
       return {
         welpen: ['Englisch', 'Pointer', 'Gordon', 'Red and White', 'Irish'],
