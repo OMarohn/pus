@@ -5,8 +5,8 @@
     <div id="inhalt" class="card-deck">
       <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
-          <div v-if="showHeader" class="card-header">
-
+          <div class="card-block">
+           <div v-if="showHeader" class="card-header">
               <button @click="toggel(0)" class="btn" v-bind:class="{ 'btn-outline-secondary': !types[0], 'btn-outline-success' : types[0]}" >
                 <i class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
               </button>
@@ -16,9 +16,8 @@
               <button @click="toggel(2)" class="btn" v-bind:class="{ 'btn-outline-secondary': !types[2], 'btn-outline-success' : types[2]}">
                 <i class="fa fa-calendar fa-fw" data-toggle="tooltip" data-placement="top" title="sonstiger Termin"></i>
               </button>
-
           </div>
-          <table class="table table-responsive table-striped table-bordered">
+           <table class="table table-responsive table-striped table-bordered">
             <thead>
             <tr>
               <th scope="col"></th>
@@ -56,6 +55,7 @@
             </tr>
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </div>
@@ -119,7 +119,8 @@
         if (this.termine.length === 0) {
           axios.get('static/data/aktuell/newsdate.json')
             .then(response => {
-              this.termine = response.data.sort((a, b) => {
+              // Hack, geht davon aus das das aktuelle Jahr immer oben steht @todo auslagern nach vuex
+              this.termine = response.data[0].termine.sort((a, b) => {
                 return new Date(this.convDate(a.datum)) - new Date(this.convDate(b.datum))
               })
             })
@@ -130,7 +131,7 @@
           this.loading = false
         }
       },
-      convDate (datum) { // doublette
+      convDate (datum) { // doublette @todo Auslagern nach vuex
         if (datum) {
           var parts = datum.split('.')
           if (parts.length === 3) {
