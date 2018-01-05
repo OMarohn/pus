@@ -61,6 +61,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#aktiv/termine?filter=true,false,false">Termine</a>
             <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
+            <a class="dropdown-item" target="_" href="/static/doc/meldeformular.pdf">Meldeformular</a>
           </div>
         </li>
         <li class="nav-item" :class="{active: isActive('links')}">
@@ -76,6 +77,7 @@
 </template>
 
 <script>
+
   export default {
     name: 'navBar',
     methods: {
@@ -90,6 +92,9 @@
       isActiveStartWith (praefix) {
         return this.$route.name.startsWith(praefix)
       }
+    },
+    computed: {
+
     },
     data () {
       return {

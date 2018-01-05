@@ -45,7 +45,7 @@
               <td>{{theDate.ort}}</td>
               <td>{{theDate.meldeschluss}}</td>
               <td>
-                <div v-if="theDate.pruefungen">
+                <div class="propTag" v-if="theDate.pruefungen">
                   <property-tag :props="theDate.pruefungen"></property-tag>
                 </div>
                 <div v-if="theDate.richter">
@@ -58,7 +58,7 @@
                   </a>
                 </div>
                 <div v-if="theDate.hasOwnProperty('einladung')">
-                  <a data-toggle="tooltip" data-placement="top" title="Einladung" :href="'static/doc/' + theDate.Einladung" target="einladung" class="btn btn-outline-success btn-sm">
+                  <a data-toggle="tooltip" data-placement="top" title="Einladung" :href="'static/doc/' + theDate.einladung" target="einladung" class="btn btn-outline-success btn-sm">
                     <i class="fa fa-file-pdf-o fa-fw"></i><span>Einladung</span>
                   </a>
                 </div>
@@ -181,5 +181,9 @@
     margin-top: 0.3rem;
     text-align: left;
     width: 8rem;
+  }
+
+  .propTag > span {
+    margin-left: -0.25rem;
   }
 </style>

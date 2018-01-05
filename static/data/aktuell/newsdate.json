@@ -3,8 +3,36 @@
     "jahr": 2018,
     "termine": [
       {
+        "event": "Jagd und Hund",
+        "datum": "30.01.2018",
+        "datumLang": "30.01 - 04.02.2018",
+        "ort": "Dortmund",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Dog Days 2018",
+        "datum": "21.07.2018",
+        "datumLang": "21. u. 22.07.2018",
+        "ort": "Hannover",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Jagd und Pferd",
+        "datum": "06.12.2018",
+        "datumLang": "06.12 - 09.12.2018",
+        "ort": "Hannover",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Mein Tier",
+        "datum": "10.11.2018",
+        "datumLang": "10. u. 11.11.2018",
+        "ort": "Oldenburg",
+        "typ": "Sonstiges"
+      },
+      {
         "event": "Landesgruppenversammlung",
-        "datum": "06.05.2018",
+        "datum": "18.03.2018",
         "einladung": "einladung_lg2018.pdf",
         "ort": "27404 Gyhum/Nartum",
         "typ": "Sonstiges"
@@ -37,11 +65,48 @@
         "typ": "Ausstellung"
       },
       {
+        "event": "CACIB Bremen",
+        "datum": "01.09.2018",
+        "meldeschluss": "09.07.2018",
+        "ort": "Bremen",
+        "richter": "Borge Espeland (Norwegen)",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "CAC Bremen",
+        "datum": "02.09.2018",
+        "meldeschluss": "09.07.2018",
+        "ort": "Bremen",
+        "richter": "wird noch bekannt gegeben",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "CACIB Hannover",
+        "datum": "30.06.2018",
+        "meldeschluss": "25.04.2018",
+        "ort": "Hannover",
+        "richter": "Dr. György Tesics (Ungarn)",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "Annual Trophy Show",
+        "datum": "01.07.2018",
+        "meldeschluss": "25.04.2018",
+        "ort": "Hannover",
+        "typ": "Ausstellung"
+      },
+      {
         "event": "CACIB Lingen",
         "datum": "29.04.2018",
         "meldeschluss": "05.03.2018",
         "ort": "Lingen",
         "richter": "Silke Lohkamp-Sommer (D)",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "Adventssieger CAC",
+        "datum": "02.12.2018",
+        "richter": "Martin Johansson (Schweden)",
         "typ": "Ausstellung"
       }
     ]

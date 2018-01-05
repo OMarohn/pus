@@ -85,5 +85,32 @@
       "JUS",
       "Derby (DK)"
     ]
+  },
+  {
+    "name": "Silvanus Tiziano-Tullio",
+    "vater": "Ch.Fieldplay’s Yankee Doodle at Silvanus",
+    "mutter": "Ch.Silvanus Querida-Piara",
+    "urlPedegree": "static/rueden/englisch/pedigree_tiziano.jpg",
+    "formwert": "V",
+    "hd": "A1",
+    "pra": "clear",
+    "ohren": "BAER clear",
+    "zahnstatus": "P4- / Schere",
+    "ztp": "eingeschränkt (Zähne)",
+    "url": "static/rueden/englisch/tiziano.jpg",
+    "zuchtbuch": "VDH/DPSZ ES 13/052",
+    "wurftag": "30.12.2013",
+    "breeder": "Elke Deichholz, Bülstedt",
+    "besitzer": "Thomas Hörig",
+    "besitzerStrasse": "Dammstrasse 14",
+    "besitzerOrt": "76532 Baden Baden",
+    "fon": "+49 (7221) 61909",
+    "mail": "t.hoerig@christeyns.de",
+    "titel": [
+      "CIE","CIB", "Dt.JCh.(VDH)", "Dt.Ch.(VDH)", "Dt.Sch.Ch.", "ÖCh.", "Pl.Ch.", "LJS", "LS"
+    ],
+    "leistung": [
+      "JuS", "JuSH", "ES", "HJS", "HZP"
+    ]
   }
 ]

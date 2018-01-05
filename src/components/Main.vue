@@ -64,8 +64,13 @@
 </template>
 
 <script>
+  import store from '../store/store'
+
   export default {
     name: 'main',
+    onload: function () {
+      console.log(store)
+    },
     data () {
       return {
         msg: 'Willkommen'
