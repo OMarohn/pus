@@ -10,12 +10,35 @@
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
     </div>
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <h4>Willkommen auf der Homepage der Landesgruppe Nord des Vereins für Pointer und Setter e.V. .</h4>
+      <span>
+        Wir freuen uns für Ihr Interesse an den englischen Vorstehhunden und stehen Ihnen in allen Fragen zu den fünf Rassen zur Verfügung. Der Verein für Pointer und Setter e.V. gliedert sich in acht Landesgruppen und widmet sich der Reinzucht von Pointern und Settern, um ihr ursprüngliches Wesen und ihre rassespezifischen jagdlichen Eigenschaften zu erhalten, zu fördern und zu pflegen.
+        Die Landesgruppe Nord umfasst die Bundesländer Niedersachsen, Schleswig-Holstein, Bremen und Hamburg, veranstaltet Ausstellungen, rassespezifische Prüfungen, themenorientierte Trainingstage und gesellschaftliche Zusammenkünfte. Der Verein für Pointer und Setter e.V. ist Mitglied im JGHV der FCI und im VDH.
+      </span>
+
+      <div class="container logos">
+        <div class="row text-center">
+          <div class="col-4">
+            <img class="img-responsive rounded-circle" src="/static/bilder/logos/jghv.jpg" alt="Logo JGHV">
+          </div>
+          <div class="col-4">
+            <img class="img-responsive rounded-circle" src="/static/bilder/logos/fci.jpg" alt="Logo FCI">
+          </div>
+          <div class="col-4">
+            <img class="img-responsive rounded-circle" src="/static/bilder/logos/vdh.jpg" alt="Logo VDH">
+          </div>
+        </div>
+      </div>
+   </div>
   </div>
 </template>
 
 <script>
   import store from '../store/store'
   import {swiper, swiperSlide} from 'vue-awesome-swiper'
+  import _ from 'lodash'
 
   export default {
     name: 'main',
@@ -37,12 +60,12 @@
           paginationBulletRender (swiper, index, className) {
             return `<span class="${className} swiper-pagination-bullet-custom"></span>`
           },
-          mousewheelControl: true,
+          // mousewheelControl: true,
           observeParents: true,
           preloadImages: false,
           lazyLoading: true
         },
-        swiperSlides: [
+        swiperSlides: _.shuffle([
           {
             url: 'static/slides/main/slide-1.jpg'
           },
@@ -72,8 +95,23 @@
           },
           {
             url: 'static/slides/main/slide-11.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-12.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-13.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-14.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-15.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-16.jpg'
           }
-        ]
+        ])
       }
     }
   }
@@ -84,4 +122,17 @@
   .img-cover {
     width: 100%;
   }
+
+  .marketing {
+    margin-top: 2rem;
+  }
+
+  .marketing span {
+    text-align: justify-all;
+  }
+
+  .logos {
+    margin-top: 3rem;
+  }
+
 </style>

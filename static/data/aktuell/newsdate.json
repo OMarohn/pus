@@ -3,6 +3,13 @@
     "jahr": 2018,
     "termine": [
       {
+        "event": "Züchtertreffen 2018",
+        "datum": "18.03.2018",
+        "ort": "Gyhum/Nartum",
+        "einladung": "zuechtertreffen2018.pdf",
+        "typ": "Sonstiges"
+      },
+      {
         "event": "Jagd und Hund",
         "datum": "30.01.2018",
         "datumLang": "30.01 - 04.02.2018",

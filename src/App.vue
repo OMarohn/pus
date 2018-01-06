@@ -2,7 +2,9 @@
   <div id="app">
     <nav-bar></nav-bar>
     <transition appear appear-to-class="animated fadeIn">
-      <router-view></router-view>
+      <div id="content">
+        <router-view></router-view>
+      </div>
     </transition>
   </div>
 </template>
@@ -22,5 +24,11 @@
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
     margin-top: 60px;
+  }
+
+  @media (max-width: 1128px) {
+    #content {
+      margin-top: 5rem;
+    }
   }
 </style>
