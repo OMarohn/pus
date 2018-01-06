@@ -9,7 +9,7 @@ import AktivTermin from '@/components/AktivTermin'
 import ErgebnisListe from '@/components/ErgebnisListe'
 import Impressum from '@/components/Impressum'
 import Links from '@/components/Links'
-import Main from '@/components/Main'
+import Main from '@/components/MainSlide'
 // import MainAlternativ from '@/components/Hello'
 
 Vue.use(Router)

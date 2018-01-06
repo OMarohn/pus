@@ -39,6 +39,10 @@ const mutations = {
   aktualisiereWuerfe (state, payload) {
     console.log(payload.name, payload.daten)
     state.wuerfe[payload.name] = payload.daten
+  },
+  aktualisiereKennel (state, payload) {
+    console.log(payload.name, payload.daten)
+    state.kennel[payload.name] = payload.daten
   }
 }
 
@@ -94,6 +98,9 @@ const getters = {
   },
   getWuerfe: (state) => {
     return state.wuerfe
+  },
+  getKennel: (state) => {
+    return state.kennel
   }
 }
 
@@ -108,3 +115,4 @@ export default store
 
 store.dispatch('loadRueden')
 store.dispatch('loadWelpen')
+store.dispatch('loadKennel')
