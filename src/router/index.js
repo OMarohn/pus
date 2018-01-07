@@ -10,8 +10,9 @@ import ErgebnisListe from '@/components/ErgebnisListe'
 import Impressum from '@/components/Impressum'
 import Links from '@/components/Links'
 import Main from '@/components/MainSlide'
-// import MainAlternativ from '@/components/Hello'
+import Vuex from 'vuex'
 
+Vue.use(Vuex)
 Vue.use(Router)
 
 export default new Router({

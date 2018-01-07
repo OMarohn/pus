@@ -33,15 +33,12 @@ const state = {
 
 const mutations = {
   aktualisiereRueden (state, payload) {
-    console.log(payload.name, payload.daten)
     state.studdogs[payload.name] = payload.daten
   },
   aktualisiereWuerfe (state, payload) {
-    console.log(payload.name, payload.daten)
     state.wuerfe[payload.name] = payload.daten
   },
   aktualisiereKennel (state, payload) {
-    console.log(payload.name, payload.daten)
     state.kennel[payload.name] = payload.daten
   }
 }
@@ -113,6 +110,6 @@ const store = new Vuex.Store({
 
 export default store
 
-store.dispatch('loadRueden')
 store.dispatch('loadWelpen')
+store.dispatch('loadRueden')
 store.dispatch('loadKennel')

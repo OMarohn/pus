@@ -61,41 +61,23 @@
 </template>
 
 <script>
-  import axios from 'axios'
   import PropertyTag from './PropertyTag'
-
-  function shuffle (array) {
-    var currentIndex = array.length
-    var temporaryValue, randomIndex
-
-    // While there remain elements to shuffle...
-    while (currentIndex !== 0) {
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex)
-      currentIndex -= 1
-
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex]
-      array[currentIndex] = array[randomIndex]
-      array[randomIndex] = temporaryValue
-    }
-    return array
-  }
+  import _ from 'lodash'
 
   export default {
     name: 'ruedenListe',
     props: ['rasse'],
     components: {PropertyTag},
-    data () {
-      return {
-        ruedenListe: []
+    computed: {
+      ruedenListe () {
+        if (this.$store) {
+          console.log('lade rueden')
+          const rueden = this.$store.getters.getRueden
+          if (rueden.hasOwnProperty(this.rasse)) {
+            return _.shuffle(rueden[this.rasse])
+          }
+        }
       }
-    },
-    created: function () {
-      this.fetchData()
-    },
-    watch: {
-      '$route': 'fetchData'
     },
     methods: {
       convDate (d) {
@@ -106,18 +88,6 @@
           }
         }
         return d
-      },
-      // Laden der Daten zur Rasse
-      fetchData () {
-        console.log(this.rasse)
-        axios.get('static/data/rueden/' + this.rasse + '.json')
-          .then(response => {
-            this.ruedenListe = shuffle(response.data)
-          })
-          .catch(e => {
-            console.error(e)
-            this.ruedenListe = []
-          })
       }
     }
   }

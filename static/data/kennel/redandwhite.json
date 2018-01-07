@@ -16,8 +16,7 @@
     "strasse": "Esmarchstr. 3",
     "ort": "23795 Bad Segeberg",
     "fon": "+49 (4551)  825 82",
-    "mail": "sabinecziesla@web.de",
-    "web": "www.ihlwald.de"
+    "mail": "sabinecziesla@web.de"
   },
   {
     "kennelName": "of the Baltic Ambers",
@@ -31,12 +30,11 @@
   },
   {
     "kennelName": "vom Duvenseer Moor",
-    "url": "static/kennel/redandwhite/baltic_ambers.jpg",
+    "url": "static/kennel/redandwhite/duvenseer_moor.jpg",
     "kontakt": "Susanne Zumsande",
     "strasse": "Achtern Diek 55",
     "ort": "22955 Hoisdorf",
     "fon": "+49 (4107) 330990",
-    "mail": "zumsande@vom-duvenseer-moor.de",
-    "web": "www.vom-duvenseer-moor.de"
+    "mail": "zumsande@vom-duvenseer-moor.de"
   }
 ]
