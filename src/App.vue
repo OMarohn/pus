@@ -31,4 +31,10 @@
       margin-top: 5rem;
     }
   }
+
+  @media (max-width: 992px) {
+    #content {
+      margin-top: 0rem;
+    }
+  }
 </style>

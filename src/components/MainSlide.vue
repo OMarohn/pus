@@ -14,20 +14,23 @@
     <div class="container marketing">
       <h4>Willkommen auf der Homepage der Landesgruppe Nord des Vereins für Pointer und Setter e.V. .</h4>
       <span>
-        Wir freuen uns für Ihr Interesse an den englischen Vorstehhunden und stehen Ihnen in allen Fragen zu den fünf Rassen zur Verfügung. Der Verein für Pointer und Setter e.V. gliedert sich in acht Landesgruppen und widmet sich der Reinzucht von Pointern und Settern, um ihr ursprüngliches Wesen und ihre rassespezifischen jagdlichen Eigenschaften zu erhalten, zu fördern und zu pflegen.
+        Wir freuen uns über Ihr Interesse an den englischen Vorstehhunden und stehen Ihnen in allen Fragen zu den fünf Rassen zur Verfügung. Der Verein für Pointer und Setter e.V. gliedert sich in acht Landesgruppen und widmet sich der Reinzucht von Pointern und Settern, um ihr ursprüngliches Wesen und ihre rassespezifischen jagdlichen Eigenschaften zu erhalten, zu fördern und zu pflegen.
         Die Landesgruppe Nord umfasst die Bundesländer Niedersachsen, Schleswig-Holstein, Bremen und Hamburg, veranstaltet Ausstellungen, rassespezifische Prüfungen, themenorientierte Trainingstage und gesellschaftliche Zusammenkünfte. Der Verein für Pointer und Setter e.V. ist Mitglied im JGHV der FCI und im VDH.
       </span>
 
       <div class="container logos">
-        <div class="row text-center">
-          <div class="col-4">
-            <img class="img-responsive rounded-circle" src="/static/bilder/logos/jghv.jpg" alt="Logo JGHV">
+        <div class="row center-block">
+          <div class="col-3">
+            <a href="http://www.pointer-und-setter.de/" target="_"><img class="img-fluid rounded-circle" src="/static/bilder/logos/pus.jpg" alt="Logo PuS"></a>
           </div>
-          <div class="col-4">
-            <img class="img-responsive rounded-circle" src="/static/bilder/logos/fci.jpg" alt="Logo FCI">
+          <div class="col-3">
+            <a href="http://www.jghv.de/" target="_"><img class="img-fluid rounded-circle" src="/static/bilder/logos/jghv.jpg" alt="Logo JGHV"></a>
           </div>
-          <div class="col-4">
-            <img class="img-responsive rounded-circle" src="/static/bilder/logos/vdh.jpg" alt="Logo VDH">
+          <div class="col-3">
+            <a href="http://www.fci.be/" target="_"><img class="img-fluid rounded-circle" src="/static/bilder/logos/fci.jpg" alt="Logo FCI"></a>
+          </div>
+          <div class="col-3">
+            <a href="http://www.vdh.de/" target="_"><img class="img-fluid rounded-circle" src="/static/bilder/logos/vdh.jpg" alt="Logo VDH"></a>
           </div>
         </div>
       </div>
@@ -133,6 +136,14 @@
 
   .logos {
     margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
+  @media (max-width: 568px) {
+    h4 {
+      font-size: smaller;
+      font-weight: bold;
+      text-align: right;
+    }
+  }
 </style>
