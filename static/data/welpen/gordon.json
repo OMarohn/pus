@@ -1,44 +1,5 @@
 [
   {
-    "wurf": "C",
-    "kennel": "Black&Red Beauty's ...",
-    "eta": "Ende Januar 2018",
-    "etaDate": "31.01.2018",
-    "kontakt": "Helga Züchner & Kai Stützer",
-    "strasse": "Krumacker 1",
-    "ort": "26789 Leer",
-    "fon": "+49 (491) 71874",
-    "mail": "helga.zuechner@freenet.de",
-    "web": "www.black-and-red-beautys.de",
-    "vater": {
-      "name": "Forester's Yes I am Ice of Darkmoor",
-      "titel": [
-        "Ch.RO.",
-        "Ch.HR."
-      ],
-      "leistung": [
-        "JuS",
-        "JuSH",
-        "ES"
-      ],
-      "zuchtbuch": "VDH/DPSZ GS 14/057",
-      "hd": "A1",
-      "pra": "clear",
-      "abl": "3525",
-      "ll": "3868"
-    },
-    "mutter": {
-      "name": "Coachman's Why not Wibke",
-      "leistung": [
-        "JuS"
-      ],
-      "zuchtbuch": "VDH/DPSZ GS 14/044",
-      "hd": "A1",
-      "pra": "clear",
-      "abl": "3521"
-    }
-  },
-  {
     "wurf": "B",
     "kennel": "Wild Emerald's ...",
     "gefallen": "16.11 2017",
