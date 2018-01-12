@@ -32,8 +32,8 @@
     data () {
       return {
         vorstand: [
-          {position: 'Landesgruppenleiterin', url: 'static/vorstand/vorstand_deichholz.jpg', name: 'Elke Deichholz', strasse: 'Burgstrasse 1', ort: '27412 Bülstedt', tel: '+49 (4283) 6998994', mail: 'vorstand@pointer-setter-nord.de'},
-          {position: 'Stellvertr. Landesgruppenleiter', url: 'static/vorstand/vorstand_eickert.JPG', name: 'Wolfgang Eickert', strasse: 'Heimbucher Str. 36', ort: '21274 Undeloh', mail: 'vorstand@pointer-setter-nord.de'},
+          {position: 'Landesgruppenleiterin', url: 'static/vorstand/vorstand_deichholz.jpg', name: 'Elke Deichholz', strasse: 'Burgstrasse 1', ort: '27412 Bülstedt', tel: '+49 (4283) 6998994', mail: 'landesgruppenleiter@pointer-setter-nord.de'},
+          {position: 'Stellvertr. Landesgruppenleiter', url: 'static/vorstand/vorstand_eickert.JPG', name: 'Wolfgang Eickert', strasse: 'Heimbucher Str. 36', ort: '21274 Undeloh', mail: 'landesgruppenleiter@pointer-setter-nord.de'},
           {position: 'Kassenwart', name: 'Edgar Fink', url: 'static/vorstand/vorstand_fink.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
           {position: 'Landesgruppenzuchtwart', name: 'Christine Ebeling', url: 'static/vorstand/vorstand_ebeling.jpg', strasse: 'Orxhausen 38', ort: '37574 Einbeck', tel: '+49 (5563) 6598', mail: 'landesgruppenzuchtwart@pointer-setter-nord.de'},
           {position: 'Beisitzer Prüfungswesen', name: 'Edgar Fink', url: 'static/vorstand/vorstand_fink.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
