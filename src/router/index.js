@@ -9,6 +9,7 @@ import AktivTermin from '@/components/AktivTermin'
 import ErgebnisListe from '@/components/ErgebnisListe'
 import Impressum from '@/components/Impressum'
 import Links from '@/components/Links'
+import OnlineMeldung from '@/components/forms/Meldeformular'
 import Main from '@/components/MainSlide'
 import Vuex from 'vuex'
 
@@ -66,6 +67,11 @@ export default new Router({
       path: '/links',
       name: 'links',
       component: Links
+    },
+    {
+      path: '/meldung',
+      name: 'meldung',
+      component: OnlineMeldung
     }
   ]
 })
