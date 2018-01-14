@@ -5,6 +5,16 @@ import _ from 'lodash'
 
 Vue.use(Vuex)
 
+function convDate (datum) {
+  if (datum) {
+    var parts = datum.split('.')
+    if (parts.length === 3) {
+      datum = parts[1] + '/' + parts[0] + '/' + parts[2]
+    }
+  }
+  return datum
+}
+
 const rassen = ['englisch', 'pointer', 'gordon', 'irish', 'redandwhite']
 
 const state = {
@@ -28,7 +38,9 @@ const state = {
     gordon: [],
     redandwhite: [],
     irish: []
-  }
+  },
+  termine: [],
+  aktiverPruefung: {}
 }
 
 const mutations = {
@@ -40,6 +52,12 @@ const mutations = {
   },
   aktualisiereKennel (state, payload) {
     state.kennel[payload.name] = payload.daten
+  },
+  aktualisiereTermine (state, payload) {
+    state.termine = payload
+  },
+  setAktivePruefung (state, payload) {
+    state.aktivePruefung = payload
   }
 }
 
@@ -85,6 +103,18 @@ const actions = {
           console.error(e)
         })
     })
+  },
+  loadTermine: ({commit}) => {
+    axios.get('static/data/aktuell/newsdate.json')
+      .then(response => {
+        const payload = response.data[0].termine.sort((a, b) => {
+          return new Date(convDate(a.datum)) - new Date(convDate(b.datum))
+        })
+        commit('aktualisiereTermine', payload)
+      })
+      .catch(e => {
+        console.error(e)
+      })
   }
 }
 
@@ -98,6 +128,14 @@ const getters = {
   },
   getKennel: (state) => {
     return state.kennel
+  },
+  getAktivePTermine: (state) => {
+    return _.filter(state.termine, (termin) => {
+      return ((termin.typ === 'Pruefung') && (new Date(convDate(termin.meldeschluss)) >= new Date()))
+    })
+  },
+  getAktivePruefung: (state) => {
+    return state.aktivePruefung
   }
 }
 
@@ -113,3 +151,4 @@ export default store
 store.dispatch('loadWelpen')
 store.dispatch('loadRueden')
 store.dispatch('loadKennel')
+store.dispatch('loadTermine')

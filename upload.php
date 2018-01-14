@@ -11,8 +11,6 @@
  *
  */
 
-$url_verify = 'https://www.google.com/recaptcha/api/siteverify'; // Google recaptcha
-$captcha_secret = '6LezdUAUAAAAAEb04-QqmrWBlqUPDBYMmnq-StXr';
 $upload_folder = 'upload/meldungen/'; //Das Upload-Verzeichnis (bin mir nicht sicher ob ich das noch benötige)
 
 function mail_att($to, $subject, $message, $sender, $sender_email, $reply_email, $dateien) {
@@ -70,17 +68,23 @@ function mail_att($to, $subject, $message, $sender, $sender_email, $reply_email,
   return mail($to, $subject, $content, $header);
 }
 
-// Sollte form submit sein und Captcha Response vorhenden sein
+// Captcha pruefen
+function checkCaptcha ($response, $ip) {
+  $url = "https://www.google.com/recaptcha/api/siteverify"."?secret="."6LezdUAUAAAAAEb04-QqmrWBlqUPDBYMmnq-StXr"."&response=$response&remoteip=$ip";
+  $result = file_get_contents( $url );
+  $response = json_decode( $result );
+  return $response->success;
+}
+
+// Sollte form submit sein und Captcha Response vorhanden sein
 if (isset($_POST['g-recaptcha-response'])) {
 
   // Captcha pruefen
   $captch_response = $_POST['g-recaptcha-response'];
   $userIp = $_SERVER['REMOTE_ADDR'];
-  $url = $url_verify . "?secret=$captcha_secret&response=$captch_response&remoteip=$userIp";
-  $result = file_get_contents( $url );
-  $response = json_decode( $result );
+  $response = checkCaptcha($captch_response, $userIp);
 
-  if ($response->success) {
+  if ($response) {
     $filename = pathinfo($_FILES['datei']['name'], PATHINFO_FILENAME);
     $extension = strtolower(pathinfo($_FILES['datei']['name'], PATHINFO_EXTENSION));
 
