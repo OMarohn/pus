@@ -6,22 +6,22 @@
         <legend>Prüfungsdaten</legend>
         <div class="form-group row">
           <label class="col-sm-4" for="selectpruefung">Prüfungstermin</label>
-          <select v-model="selectedPruefung" class="col-sm-8 form-control" id="selectpruefung">
+          <select v-model="selectedPruefung" class="col-sm-8 form-control" name="selectpruefung" id="selectpruefung">
             <option v-for="termin in aktiveTermine" :value="termin">{{termin.event}} - {{termin.datum}}</option>
           </select>
         </div>
         <div class="form-group row">
           <label class="col-sm-4">Datum der Prüfung</label>
-          <input class="col-sm-8 form-control" type="text" :placeholder="getPruefungsdatum" readonly>
+          <input class="col-sm-8 form-control" type="text" :value="getPruefungsdatum" name="pruefungsdatum" readonly>
         </div>
         <div class="form-group row">
           <label class="col-sm-4">Ort der Prüfung</label>
-          <input class="col-sm-8 form-control" type="text" :placeholder="selectedPruefung.ort" readonly>
+          <input class="col-sm-8 form-control" type="text" :value="selectedPruefung.ort" name="pruefungsort" readonly>
         </div>
 
         <div class="form-group row">
           <label class="col-sm-4" for="selectdisziplin">Prüfung</label>
-          <select class="col-sm-8 form-control" id="selectdisziplin">
+          <select class="col-sm-8 form-control" name="selectdisziplin" id="selectdisziplin">
             <option v-for="pr in selectedPruefung.pruefungen" :value="pr">{{pr}}</option>
           </select>
         </div>
@@ -257,17 +257,17 @@
 
         <div class="form-group row">
           <label class="col-sm-4" for="fileente">Nachweis lebende Ente</label>
-          <input type="file" class="col-sm-8 form-control-file" id="fileente" aria-describedby="fileente_a">
+          <input type="file" class="col-sm-8 form-control-file" name="fileente" id="fileente" aria-describedby="fileente_a">
           <small id="fileente_a" class="col-sm-8 form-text text-muted">Sie können nur PDF und JPG-Dateien, kleiner 2MB angeben</small>
         </div>
         <div class="form-group row">
           <label class="col-sm-4" for="fileleistungsbuch">Leistungsbuch</label>
-          <input type="file" class="col-sm-8 form-control-file" id="fileleistungsbuch" aria-describedby="fileleistungsbuch_a">
+          <input type="file" class="col-sm-8 form-control-file" name="fileleistungsbuch" id="fileleistungsbuch" aria-describedby="fileleistungsbuch_a">
           <small id="fileleistungsbuch_a" class="col-sm-8 form-text text-muted">Sie können nur PDF und JPG-Dateien, kleiner 2MB angeben</small>
         </div>
         <div class="form-group row">
           <label class="col-sm-4" for="filepedegree">Pedegree</label>
-          <input type="file" class="col-sm-8 form-control-file" id="filepedegree" aria-describedby="filepedegree_a">
+          <input type="file" class="col-sm-8 form-control-file" name="filepedegree" id="filepedegree" aria-describedby="filepedegree_a">
           <small id="filepedegree_a" class="col-sm-8 form-text text-muted">Sie können nur PDF und JPG-Dateien, kleiner 2MB angeben</small>
         </div>
       </fieldset>
@@ -325,7 +325,7 @@
         selectedPruefung: {}
       }
     },
-    watch: {
+    watch: { // @todo Mal pruefen ob ich das auf dauer so brauche
       'aktiverTermin': 'selectPruefung'
     },
     computed: {

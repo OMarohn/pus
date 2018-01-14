@@ -76,6 +76,11 @@ function checkCaptcha ($response, $ip) {
   return $response->success;
 }
 
+
+var_dump($_POST);
+echo "\n\n";
+var_dump($_FILES);
+
 // Sollte form submit sein und Captcha Response vorhanden sein
 if (isset($_POST['g-recaptcha-response'])) {
 
@@ -85,8 +90,8 @@ if (isset($_POST['g-recaptcha-response'])) {
   $response = checkCaptcha($captch_response, $userIp);
 
   if ($response) {
-    $filename = pathinfo($_FILES['datei']['name'], PATHINFO_FILENAME);
-    $extension = strtolower(pathinfo($_FILES['datei']['name'], PATHINFO_EXTENSION));
+    $filename = pathinfo($_FILES['fileente']['name'], PATHINFO_FILENAME);
+    $extension = strtolower(pathinfo($_FILES['fileente']['name'], PATHINFO_EXTENSION));
 
     //Überprüfung der Dateiendung
     $allowed_extensions = array('pdf', 'jpg');
@@ -96,7 +101,7 @@ if (isset($_POST['g-recaptcha-response'])) {
 
     //Überprüfung der Dateigröße
     $max_size = 2000*1024;
-    if($_FILES['datei']['size'] > $max_size) {
+    if($_FILES['fileente']['size'] > $max_size) {
       die("Bitte keine Dateien größer 2MB hochladen");
     }
 
@@ -113,7 +118,7 @@ if (isset($_POST['g-recaptcha-response'])) {
     }
 
     //Alles okay, verschiebe Datei an neuen Pfad
-    move_uploaded_file($_FILES['datei']['tmp_name'], $new_path);
+    move_uploaded_file($_FILES['fileente']['tmp_name'], $new_path);
 
     // unnu die Mail
     // Aufruf der Funktion, Versand von 1 Datei
