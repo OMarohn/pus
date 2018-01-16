@@ -81,17 +81,22 @@ var_dump($_POST);
 echo "\n\n";
 var_dump($_FILES);
 
-// Sollte form submit sein und Captcha Response vorhanden sein
-if (isset($_POST['g-recaptcha-response'])) {
+$skip = true;
 
+// Sollte form submit sein und Captcha Response vorhanden sein
+if (isset($_POST['g-recaptcha-response']) or $skip) {
+
+  $response = true;
   // Captcha pruefen
-  $captch_response = $_POST['g-recaptcha-response'];
-  $userIp = $_SERVER['REMOTE_ADDR'];
-  $response = checkCaptcha($captch_response, $userIp);
+  if (!$skip) {
+    $captch_response = $_POST['g-recaptcha-response'];
+    $userIp = $_SERVER['REMOTE_ADDR'];
+    $response = checkCaptcha($captch_response, $userIp);
+  }
 
   if ($response) {
-    $filename = pathinfo($_FILES['fileente']['name'], PATHINFO_FILENAME);
-    $extension = strtolower(pathinfo($_FILES['fileente']['name'], PATHINFO_EXTENSION));
+    $filename = pathinfo($_FILES['file_ente']['name'], PATHINFO_FILENAME);
+    $extension = strtolower(pathinfo($_FILES['file_ente']['name'], PATHINFO_EXTENSION));
 
     //Überprüfung der Dateiendung
     $allowed_extensions = array('pdf', 'jpg');
@@ -101,7 +106,7 @@ if (isset($_POST['g-recaptcha-response'])) {
 
     //Überprüfung der Dateigröße
     $max_size = 2000*1024;
-    if($_FILES['fileente']['size'] > $max_size) {
+    if($_FILES['file_ente']['size'] > $max_size) {
       die("Bitte keine Dateien größer 2MB hochladen");
     }
 
@@ -118,13 +123,20 @@ if (isset($_POST['g-recaptcha-response'])) {
     }
 
     //Alles okay, verschiebe Datei an neuen Pfad
-    move_uploaded_file($_FILES['fileente']['tmp_name'], $new_path);
+    move_uploaded_file($_FILES['file_ente']['tmp_name'], $new_path);
+
+    $message = "";
+
+    foreach($_POST as $key => $value)
+    {
+      $message = $message . 'key:=' . $key . "value:=" . $value;
+    }
 
     // unnu die Mail
     // Aufruf der Funktion, Versand von 1 Datei
     $an = "admin@pointer-setter-nord.de";
     mail_att($an, "Onlinemeldung",
-      "Euer Nachrichtentext",
+      json_encode($_POST),
       "Absendername",
       "absender@domain.de",
       "antwortadresse@domain.de", $new_path);
