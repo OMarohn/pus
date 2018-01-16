@@ -11,7 +11,6 @@
  *
  */
 
-$upload_folder = 'upload/meldungen/'; //Das Upload-Verzeichnis (bin mir nicht sicher ob ich das noch benötige)
 
 function mail_att($to, $subject, $message, $sender, $sender_email, $reply_email, $dateien) {
   if(!is_array($dateien)) {
@@ -76,38 +75,29 @@ function checkCaptcha ($response, $ip) {
   return $response->success;
 }
 
+/**
+ * @param $file
+ * @return array
+ */
+function handleFile ($file) {
+  $upload_folder = 'upload/meldungen/';
+  $filename = pathinfo($file['name'], PATHINFO_FILENAME);
 
-var_dump($_POST);
-echo "\n\n";
-var_dump($_FILES);
-
-$skip = true;
-
-// Sollte form submit sein und Captcha Response vorhanden sein
-if (isset($_POST['g-recaptcha-response']) or $skip) {
-
-  $response = true;
-  // Captcha pruefen
-  if (!$skip) {
-    $captch_response = $_POST['g-recaptcha-response'];
-    $userIp = $_SERVER['REMOTE_ADDR'];
-    $response = checkCaptcha($captch_response, $userIp);
-  }
-
-  if ($response) {
-    $filename = pathinfo($_FILES['file_ente']['name'], PATHINFO_FILENAME);
-    $extension = strtolower(pathinfo($_FILES['file_ente']['name'], PATHINFO_EXTENSION));
+  if ($filename) {
+    $extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
 
     //Überprüfung der Dateiendung
     $allowed_extensions = array('pdf', 'jpg');
     if(!in_array($extension, $allowed_extensions)) {
-      die("Ungültige Dateiendung. Nur pdf und jpg-Dateien sind erlaubt");
+      $ret = array("status" => 'Format nicht unterstützt');
+      return $ret;
     }
 
     //Überprüfung der Dateigröße
     $max_size = 2000*1024;
-    if($_FILES['file_ente']['size'] > $max_size) {
-      die("Bitte keine Dateien größer 2MB hochladen");
+    if($file['size'] > $max_size) {
+      $ret = array("status" => 'Datei zu gross');
+      return $ret;
     }
 
     //Pfad zum Upload
@@ -123,28 +113,61 @@ if (isset($_POST['g-recaptcha-response']) or $skip) {
     }
 
     //Alles okay, verschiebe Datei an neuen Pfad
-    move_uploaded_file($_FILES['file_ente']['tmp_name'], $new_path);
+    move_uploaded_file($file['tmp_name'], $new_path);
+    $ret = array("status" => 'OK', "path" => $new_path);
+    return $ret;
+  } else {
+    return array("status" => "Kein file angegeben");
+  }
+}
 
-    $message = "";
+header('Content-Type: application/json');
 
-    foreach($_POST as $key => $value)
-    {
-      $message = $message . 'key:=' . $key . "value:=" . $value;
+$skip = true;
+
+// Sollte form submit sein und Captcha Response vorhanden sein
+if (isset($_POST['g-recaptcha-response']) or $skip) {
+
+  $response = true;
+  // Captcha pruefen
+  if (!$skip) {
+    $captch_response = $_POST['g-recaptcha-response'];
+    $userIp = $_SERVER['REMOTE_ADDR'];
+    $response = checkCaptcha($captch_response, $userIp);
+  }
+
+  if ($response) {
+    $attachments = [];
+    $ente = handleFile($_FILES['file_ente']);
+    if ($ente["status"] == 'OK') {
+      $attachments[]= $ente["path"];
+    }
+    $leistungsbuch = handleFile($_FILES['file_leistungsbuch']);
+    if ($leistungsbuch["status"] == 'OK') {
+      $attachments[]= $leistungsbuch["path"];
+    }
+    $pedegree = handleFile($_FILES['file_pedegree']);
+    if ($pedegree["status"] == 'OK') {
+      $attachments[]= $pedegree["path"];
     }
 
-    // unnu die Mail
+    $message = json_encode($_POST, JSON_UNESCAPED_UNICODE);
+
     // Aufruf der Funktion, Versand von 1 Datei
     $an = "admin@pointer-setter-nord.de";
-    mail_att($an, "Onlinemeldung",
-      json_encode($_POST),
-      "Absendername",
-      "absender@domain.de",
-      "antwortadresse@domain.de", $new_path);
+    mail_att($an, "Onlinemeldung - ".$_POST['fuehrer_name'],
+      $message,
+      $_POST['fuehrer_name'],
+      $_POST['fuehrer_email'],
+      $_POST['fuehrer_email'],
+      $attachments);
 
 
-    echo 'Datei erfolgreich hochgeladen: <a href="'.$new_path.'">'.$new_path.'</a>';
+    $ret = array("data" => $_POST);
+    echo json_encode($ret, JSON_UNESCAPED_UNICODE);
   } else {
-    echo ('das war nix!');
+    $ret = array("error" => 'das war nix!');
+    echo json_encode($ret);
   }
 }
 

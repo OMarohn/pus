@@ -14,16 +14,16 @@
         </div>
         <div class="form-group row">
           <label class="col-sm-4">Datum der Prüfung</label>
-          <input class="col-sm-8 form-control" type="text" :value="getPruefungsdatum" name="pruefungsdatum" readonly>
+          <input class="col-sm-8 form-control" type="text" :value="getPruefungsdatum" name="pruefung.datum" readonly>
         </div>
         <div class="form-group row">
           <label class="col-sm-4">Ort der Prüfung</label>
-          <input class="col-sm-8 form-control" type="text" :value="selectedPruefung.ort" name="pruefungsort" readonly>
+          <input class="col-sm-8 form-control" type="text" :value="selectedPruefung.ort" name="pruefung.ort" readonly>
         </div>
 
         <div class="form-group row">
           <label class="col-sm-4" for="selectdisziplin">Prüfung</label>
-          <select class="col-sm-8 form-control" name="pruefung" id="selectdisziplin">
+          <select class="col-sm-8 form-control" name="pruefung.disziplin" id="selectdisziplin">
             <option v-for="pr in selectedPruefung.pruefungen" :value="pr">{{pr}}</option>
           </select>
         </div>
@@ -52,13 +52,13 @@
           <div class="col-sm-8">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="hund.geschlecht" id="optionsRadios1" value="ruede">
+                <input type="radio" class="form-check-input" name="hund.geschlecht" id="optionsRadios1" value="Rüde">
                 Rüde
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="hund.geschlecht" id="optionsRadios2" value="huendin">
+                <input type="radio" class="form-check-input" name="hund.geschlecht" id="optionsRadios2" value="Hündin">
                 Hündin
               </label>
             </div>
@@ -99,13 +99,13 @@
           <div class="col-sm-8">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="hund.ente" id="optionsRadios3" value="jaente">
+                <input type="radio" class="form-check-input" name="hund.ente" id="optionsRadios3" value="ja">
                 Ja (Zeugnis ist vorzulegen)
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="hund.ente" id="optionsRadios4" value="neinente">
+                <input type="radio" class="form-check-input" name="hund.ente" id="optionsRadios4" value="nein">
                 Nein
               </label>
             </div>
@@ -179,13 +179,13 @@
           <div class="col-sm-8">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="besitzer.mitglied" id="optionsRadios5" value="jamitglied">
+                <input type="radio" class="form-check-input" name="besitzer.mitglied" id="optionsRadios5" value="ja">
                 Ja
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="besitzer.mitglied" id="optionsRadios6" value="neinmitglied">
+                <input type="radio" class="form-check-input" name="besitzer.mitglied" id="optionsRadios6" value="nein">
                 Nein
               </label>
             </div>
@@ -217,13 +217,13 @@
           <div class="col-sm-8">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="fuehrer.jagdschein" id="optionsRadios7" value="jajagdschein">
+                <input type="radio" class="form-check-input" name="fuehrer.jagdschein" id="optionsRadios7" value="ja">
                 Ja
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="fuehrer.jagdschein" id="optionsRadios8" value="neinjagdschein">
+                <input type="radio" class="form-check-input" name="fuehrer.jagdschein" id="optionsRadios8" value="nein">
                 Nein
               </label>
             </div>
@@ -231,7 +231,7 @@
         </div>
         <div class="form-group row">
           <label class="col-sm-4" for="jagdscheinnr">Jagdscheinnummer</label>
-          <input type="text" class="col-sm-8 form-control" name="fuehrer.jagdschein.nr" id="jagdscheinnr" placeholder="Jagdscheinnummer">
+          <input type="text" class="col-sm-8 form-control" name="fuehrer.jagdschein-nr" id="jagdscheinnr" placeholder="Jagdscheinnummer">
         </div>
 
         <div class="row">
@@ -239,13 +239,13 @@
           <div class="col-sm-8">
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="fuehrer.mitglied" id="optionsRadios9" value="jafuehrer">
+                <input type="radio" class="form-check-input" name="fuehrer.mitglied" id="optionsRadios9" value="ja">
                 Ja
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="fuehrer.mitglied" id="optionsRadios10" value="neinfuehrer">
+                <input type="radio" class="form-check-input" name="fuehrer.mitglied" id="optionsRadios10" value="nein">
                 Nein
               </label>
             </div>
@@ -352,6 +352,7 @@
         const elform = document.getElementById('meldungform')
         console.log(elform)
         let data = new FormData(elform) // das ist unser Daten-Objekt ...
+
         const axiosconf = {
           method: 'post',
           url: 'upload.php',
