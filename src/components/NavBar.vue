@@ -49,7 +49,7 @@
         </li>
         <!-- Dropdown Ausstellungen // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navAusstellung" data-toggle="dropdown" href="/#/austellung">Austellungen</a>
+          <a class="nav-link dropdown-toggle" id="navAusstellung" data-toggle="dropdown" href="/#/ausstellung">Ausstellungen</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#aktiv/termine?filter=false,true,false">Termine</a>
             <a class="dropdown-item" href="#ergebnis?mode=1">Ergebnisse</a>
