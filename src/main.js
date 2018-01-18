@@ -6,9 +6,11 @@ import router from './router'
 import VueTimeago from 'vue-timeago'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import store from './store/store'
+import Vuelidate from 'vuelidate'
 
 Vue.config.productionTip = false
 
+Vue.use(Vuelidate)
 Vue.use(VueAwesomeSwiper)
 
 Vue.filter('shorten', (value) => {

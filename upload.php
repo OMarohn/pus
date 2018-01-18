@@ -123,7 +123,7 @@ function handleFile ($file) {
 
 header('Content-Type: application/json');
 
-$skip = true;
+$skip = false;
 
 // Sollte form submit sein und Captcha Response vorhanden sein
 if (isset($_POST['g-recaptcha-response']) or $skip) {
