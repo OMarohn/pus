@@ -11,7 +11,6 @@
  *
  */
 
-
 function mail_att($to, $subject, $message, $sender, $sender_email, $reply_email, $dateien) {
   if(!is_array($dateien)) {
     $dateien = array($dateien);
@@ -86,13 +85,6 @@ function handleFile ($file) {
   if ($filename) {
     $extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
 
-    //Überprüfung der Dateiendung
-    $allowed_extensions = array('pdf', 'jpg');
-    if(!in_array($extension, $allowed_extensions)) {
-      $ret = array("status" => 'Format nicht unterstützt');
-      return $ret;
-    }
-
     //Überprüfung der Dateigröße
     $max_size = 2000*1024;
     if($file['size'] > $max_size) {
@@ -121,6 +113,7 @@ function handleFile ($file) {
   }
 }
 
+date_default_timezone_set("Europe/Berlin");
 header('Content-Type: application/json');
 
 $skip = false;
@@ -129,6 +122,7 @@ $skip = false;
 if (isset($_POST['g-recaptcha-response']) or $skip) {
 
   $response = true;
+
   // Captcha pruefen
   if (!$skip) {
     $captch_response = $_POST['g-recaptcha-response'];
@@ -151,10 +145,17 @@ if (isset($_POST['g-recaptcha-response']) or $skip) {
       $attachments[]= $pedegree["path"];
     }
 
-    $message = json_encode($_POST, JSON_UNESCAPED_UNICODE);
+    $file = fopen('daten.csv',"w");
+    $header = array_keys($_POST);
+    fputcsv($file, $header);
+    fputcsv($file,$_POST,',');
+    fclose($file);
+    $attachments[]= 'daten.csv';
 
-    // Aufruf der Funktion, Versand von 1 Datei
-    $an = "admin@pointer-setter-nord.de";
+    $message = json_encode($_POST, JSON_UNESCAPED_UNICODE)."\n"."IP: ".$userIp."\nTimestamp:".time();
+
+    // Aufruf der Funktion, Versand
+    $an = "kassenwart@pointer-setter-nord.de";
     mail_att($an, "Onlinemeldung - ".$_POST['fuehrer_name'],
       $message,
       $_POST['fuehrer_name'],
