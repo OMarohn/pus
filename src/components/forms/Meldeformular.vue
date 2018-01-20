@@ -393,7 +393,7 @@
         <h3 slot="header">Online Meldung</h3>
         <div slot="body">
           <div class="alert alert-success" role="alert">
-            Ihre Meldung wurde an den <strong>Obmann Prüfungswesen</strong> verschickt.
+            Ihre Meldung wurde an den <strong>Beisitzer Prüfungswesen</strong> verschickt.
           </div>
         </div>
       </Modal>

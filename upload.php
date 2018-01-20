@@ -86,7 +86,7 @@ function handleFile ($file) {
     $extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
 
     //Überprüfung der Dateigröße
-    $max_size = 2000*1024;
+    $max_size = 2*1024*1024;
     if($file['size'] > $max_size) {
       $ret = array("status" => 'Datei zu gross');
       return $ret;
@@ -155,21 +155,19 @@ if (isset($_POST['g-recaptcha-response']) or $skip) {
     $message = json_encode($_POST, JSON_UNESCAPED_UNICODE)."\n"."IP: ".$userIp."\nTimestamp:".time();
 
     // Aufruf der Funktion, Versand
-    $an = "kassenwart@pointer-setter-nord.de";
-    mail_att($an, "Onlinemeldung - ".$_POST['fuehrer_name'],
+    $an = "kassenwart@pointer-setter-nord.de, admin@pointer-setter-nord.de";
+    $sendOK = mail_att($an, "Onlinemeldung - ".$_POST['fuehrer_name'],
       $message,
       $_POST['fuehrer_name'],
       $_POST['fuehrer_email'],
       $_POST['fuehrer_email'],
       $attachments);
 
-
-    $ret = array("data" => $_POST);
-    echo json_encode($ret, JSON_UNESCAPED_UNICODE);
+    $ret = array("data" => $sendOK);
   } else {
     $ret = array("error" => 'das war nix!');
-    echo json_encode($ret);
   }
+  echo json_encode($ret);
 }
 
 
