@@ -23,7 +23,7 @@
             <div class="col-md-4 col-sm-12">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">ZB-Nr.: {{ruede.zuchtbuch}}</li>
-                <li v-if="ruede.wurftag" class="list-group-item">Wurftag: {{ruede.wurftag}} (<timeago :since="convDate(ruede.wurftag)"></timeago>)</li>
+                <li v-if="ruede.wurftag" class="list-group-item">Wurftag: {{ruede.wurftag}}</li>
                 <li v-if="ruede.titel" class="list-group-item">
                   <div class="card-sub-header">Titel:</div>
                   <property-tag :props="ruede.titel"></property-tag>

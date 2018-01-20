@@ -19,11 +19,12 @@
           </div>
           <div class="">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Besitzer:<br>
+              <li class="list-group-item">Züchter:<br>
                 <div class="breeder-anschrift">
                   <div v-if="breeder.kontakt">{{breeder.kontakt}}</div>
                   <div v-if="breeder.strasse">{{breeder.strasse}}</div>
                   <div v-if="breeder.ort">{{breeder.ort}}</div>
+                  <div v-if="breeder.fon">{{breeder.fon}}</div>
                 </div>
               </li>
             </ul>

@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueTimeago from 'vue-timeago'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import store from './store/store'
 import Vuelidate from 'vuelidate'
@@ -33,15 +32,6 @@ Vue.filter('tmj2mdy', (value) => {
     }
   }
   return value
-})
-
-Vue.use(VueTimeago, {
-  name: 'timeago', // component name, `timeago` by default
-  locale: 'de-DE',
-  locales: {
-    // you will need json-loader in webpack 1
-    'de-DE': require('vue-timeago/locales/de-DE.json')
-  }
 })
 
 /* eslint-disable no-new */
