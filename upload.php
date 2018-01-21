@@ -155,7 +155,8 @@ if (isset($_POST['g-recaptcha-response']) or $skip) {
     $message = json_encode($_POST, JSON_UNESCAPED_UNICODE)."\n"."IP: ".$userIp."\nTimestamp:".time();
 
     // Aufruf der Funktion, Versand
-    $an = "kassenwart@pointer-setter-nord.de, admin@pointer-setter-nord.de";
+     $an = "kassenwart@pointer-setter-nord.de, admin@pointer-setter-nord.de";
+    // $an = "admin@pointer-setter-nord.de";
     $sendOK = mail_att($an, "Onlinemeldung - ".$_POST['fuehrer_name'],
       $message,
       $_POST['fuehrer_name'],

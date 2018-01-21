@@ -116,6 +116,9 @@
           },
           {
             url: 'static/slides/main/slide-17.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-18.jpg'
           }
         ])
       }

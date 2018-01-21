@@ -12,38 +12,39 @@
     "bild": "newyear2018.jpg"
   },
   {
-  "datum": "17.12.2017",
-  "titel": "Adventsspaziergang der LG Nord in Wersabe",
-  "beschreibung": "Adventsspaziergang und gemütliches Beisammensein in der weihnachlich geschmückten Schmiede.<br>Ein schöner Jahresausklang für Mensch und Tier.",
-  "bild": "advent2017collage.jpg"
+    "datum": "17.12.2017",
+    "titel": "Adventsspaziergang der LG Nord in Wersabe",
+    "beschreibung": "Adventsspaziergang und gemütliches Beisammensein in der weihnachlich geschmückten Schmiede.<br>Ein schöner Jahresausklang für Mensch und Tier.",
+    "bild": "advent2017collage.jpg"
   },
   {
     "datum": "06. - 09.12.2017",
-    "titel": "Pferd und Jagd 2018",
-    "beschreibung": "Auch in diesem Jahr war die Landesgruppe Nord wieder auf der Messe 'Pferd und Jagd' vertreten.<br>Im Showprogramm des JGHV konnten unsere Vorstehhunde gezeigt und werden. Viele Besucher zeigten ein reges Interesse an den Hunden.<br>Herzlichen Dank an alle, die uns auf der Messe unterstüzt haben.",
+    "titel": "Pferd und Jagd 2017",
+    "beschreibung": "Auch in diesem Jahr war die Landesgruppe Nord wieder auf der Messe 'Pferd und Jagd' vertreten.<br>Im Showprogramm des JGHV konnten unsere Vorstehhunde vorgestellt werden. Viele Besucher zeigten ein reges Interesse an den Hunden.<br>Herzlichen Dank an alle, die uns auf der Messe unterstüzt haben.",
     "bild": "pferdujagd2017.jpg"
   },
   {
-    "datum": "27.08.2018",
+    "datum": "27.08.2017",
     "titel": "Der dritte Wasserübungstag",
     "beschreibung": "Das war der letzte Wasserübungstag für dieses Jahr.<br>Nochmal vielen Dank an alle Helfer, die zu einem erfolgreichen Übungstag beigetragen haben !<br><br><b>Johanna Esser</b> hat einen aussagekräftigen <a href='static/doc/pusartikel.pdf' target='_' class='btn btn-outline-success btn-sm'>Bericht</a> für die PuS verfasst.<br>",
     "bild": "wassertag3.jpg"
   },
   {
-    "datum": "30.07.2018",
+    "datum": "30.07.2017",
     "titel": "Der zweite Wasserübungstag",
     "beschreibung": "Der zweite Wasserübungstag - ein voller Erfolg!<br>Auch am zweiten Übungstag wurde nicht nur im Wasser trainiert, es wurden auch wieder Schleppen angeboten und am Apport gearbeitet.<br><b>Der Dritte und letzte Übungstag findet am 27.08 statt!</b>",
     "bild": "wassertag2.jpg"
   },
   {
-    "datum": "02.07.2018",
+    "datum": "02.07.2017",
     "titel": "Der erste Wasserübungstag",
-    "beschreibung": "Nach einem super organisierten Wasserübungstag. Hier ein paar Impressionen von tollen Hunden in einem erstklassigen Wasserrevier!<br>Vielen Dank an <b>Gerhard Konsek</b>, der sein Revier zur Verfügung gestellt hat.<br>Tausend Dank auch an <b>Uwe Schütte</b>, der sich für jeden Hund in Ruhe Zeit genommen hat.<br>Alles in allem freuen wir uns auf eine Wiederholung :-)",
+    "beschreibung": "Nach einem super organisierten Wasserübungstag. Ein super organisierter Wasserübungstag, in einem erstklassigen Wasserrevier!<br>Vielen Dank an <b>Gerhard Konsek</b>, der sein Revier zur Verfügung gestellt hat.<br>Tausend Dank auch an <b>Uwe Schütte</b>, der sich für jeden Hund in Ruhe Zeit genommen hat.<br>Alles in allem freuen wir uns auf eine Wiederholung :-)",
     "bild": "wassertag1.jpg"
   },
   {
-    "datum": "19.05.2018",
+    "datum": "19.05.2017",
     "titel": "Europasieger Ausstellung Dortmund",
     "beschreibung": "Auf der Europasieger Ausstellung in Dortmund am 19. Mai 2017 war unsere Landesgruppe sehr erfolgreich vertreten.<br><br>Den Titel <b>VDH-Europasieger 2017</b> erreichten:<br><br>GS Ludstar Don Corleone Eigentümer: Silvia Timmermann<br>IRWS Bineah of the Baltic Ambers Eigentümer: Kerstin Peters<br>ES Charming Vagabonds High Beauty Vision Eigentümer: Elke Deichholz<br><br>Den Titel <b>VDH-Europa-Jugendsieger 2017</b> erreichten:<br><br>EP Angel from Winepoint Natyave Grove Eigentümer: Uwe Wartjes<br>GS Wild Emerald's Ayers Rock Eigentümer: Mareike Ritz",
     "bild": "collage_dortmund.jpg"
-  }]
+  }
+]

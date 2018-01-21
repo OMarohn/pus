@@ -377,6 +377,16 @@
         </div>
       </form>
 
+      <Modal v-if="isSending" @close="isSending = false">
+        <h3 slot="header">Upload</h3>
+        <div slot="body">
+         <div class="progress">
+           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" :style="progressStyle" aria-valuenow="uploadPercentage" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+        </div>
+        <slot name="footer"></slot>
+      </Modal>
+
       <Modal v-if="showModalError" @close="showModalError = false">
         <h3 slot="header">Fehlermeldung</h3>
         <div slot="body">
@@ -417,13 +427,14 @@
     },
     data () {
       return {
+        isSending: false,
+        uploadPercentage: 0,
         showModalError: false,
         errNr: 0,
         showModalSuccess: false,
         rcapt_sig_key: '6LezdUAUAAAAAKMU9K9ZMQmL3fkSGI3XRg4kTVDI',
         rcapt_id: 0,
         selectedPruefung: {},
-        uploadPercentage: 0,
         pruefung_disziplin: '',
         pruefung_datum: '',
         pruefung_ort: '',
@@ -499,6 +510,9 @@
       },
       getPruefungsdatum () {
         return (this.selectPruefung.hasOwnProperty('datumLang') ? this.selectedPruefung.datumLang : this.selectedPruefung.datum)
+      },
+      progressStyle () {
+        return 'width:' + this.uploadPercentage + '%'
       }
     },
     methods: {
@@ -549,16 +563,21 @@
             }.bind(this)
           }
 
+          this.uploadPercentage = 0
+          this.isSending = true
           axios(axiosconf)
             .then(response => {
+              this.isSending = false
               this.showModalSuccess = true
             })
             .catch(response => {
+              this.isSending = false
               this.errNr = 3
               this.showModalError = true
               console.log(response)
             })
         } else {
+          this.isSending = false
           this.errNr = 0
           this.showModalError = true
         }

@@ -15,7 +15,8 @@
         <li class="nav-item dropdown" :class="{active: isActive('Vorstand')}">
           <a class="nav-link dropdown-toggle" id="navVerein" data-toggle="dropdown" href="/#/verein">Verein</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#verein/vorstand" :class="{active: isActive('Vorstand')}">Vorstand</a>
+            <a class="dropdown-item" target="_blank" href="http://www.pointer-und-setter.de/index.php/verein1/vorstand.html">Vorstand Hauptverein</a>
+            <a class="dropdown-item" href="#verein/vorstand" :class="{active: isActive('Vorstand')}">Vorstand Landesgruppe</a>
           </div>
         </li>
         <!-- Dropdown Aktivitäten // mit <router-linkt> hats nicht funktioniert! -->
@@ -62,6 +63,8 @@
             <a class="dropdown-item" href="#aktiv/termine?filter=true,false,false">Termine</a>
             <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
             <a class="dropdown-item" href="/#/meldung">Online Meldeformular</a>
+            <a class="dropdown-item" target="_blank" href="http://www.pointer-und-setter.de/images/pdf/pruefung/PO2015.pdf">Prüfungsordnung</a>
+
           </div>
         </li>
         <li class="nav-item" :class="{active: isActive('links')}">
