@@ -1,7 +1,5 @@
 <template>
   <div class="ergebnisListe">
-    <loader v-if="loading"></loader>
-
     <div id="inhalt" class="card-deck">
       <div v-for="jahr in jahre" class="col-xl-10 offset-xl-1 col-sm-12">
         <ergebnis-liste-info :termine = "jahr.termine" :modus="anzeigeModus" :titel="jahr.jahr"></ergebnis-liste-info>
@@ -12,14 +10,12 @@
 
 <script>
   import axios from 'axios'
-  import Loader from './Loader.vue'
   import PropertyTag from './PropertyTag'
   import ErgebnisListeInfo from './ErgebnisListeInfo'
 
   export default {
     data () {
       return {
-        loading: true,
         anzeigeModus: 'Pruefung',
         termine: [],
         jahre: []
@@ -64,7 +60,6 @@
               console.error(e)
               this.jahre = []
             })
-          this.loading = false
         }
       },
       convDate (datum) { // doublette @todo Auslagern nach vuex
@@ -77,7 +72,7 @@
         return datum
       }
     },
-    components: {Loader, PropertyTag, ErgebnisListeInfo}
+    components: {PropertyTag, ErgebnisListeInfo}
   }
 </script>
 

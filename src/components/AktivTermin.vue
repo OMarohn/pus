@@ -1,7 +1,5 @@
 <template>
   <div class="aktivTermin">
-    <loader v-if="loading"></loader>
-
     <div id="inhalt" class="card-deck">
       <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
@@ -75,13 +73,11 @@
 
 <script>
   import axios from 'axios'
-  import Loader from './Loader.vue'
   import PropertyTag from './PropertyTag'
 
   export default {
     data () {
       return {
-        loading: true,
         termine: [],
         showHeader: true,
         types: [true, true, true]
@@ -140,7 +136,6 @@
               console.error(e)
               this.termine = []
             })
-          this.loading = false
         }
       },
       convDate (datum) { // doublette @todo Auslagern nach vuex
@@ -160,7 +155,7 @@
         this.types = [...this.types]
       }
     },
-    components: {Loader, PropertyTag}
+    components: {PropertyTag}
   }
 </script>
 

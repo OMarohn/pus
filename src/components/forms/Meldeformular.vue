@@ -567,6 +567,7 @@
           this.isSending = true
           axios(axiosconf)
             .then(response => {
+              // hier ggf. auch noch (fachliche)Fehler abfangen
               this.isSending = false
               this.showModalSuccess = true
             })

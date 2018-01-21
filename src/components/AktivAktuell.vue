@@ -1,6 +1,5 @@
 <template>
   <div class="aktivAktuell">
-    <loader v-if="loading"></loader>
     <div id="eintrag" v-for="theNews in news" class="row container-fluid">
       <div class="col-xl-10 offset-xl-1 col-sm-12">
         <div class="card">
@@ -19,12 +18,10 @@
 
 <script>
   import axios from 'axios'
-  import Loader from './Loader.vue'
 
   export default {
     data () {
       return {
-        loading: true,
         news: []
       }
     },
@@ -45,10 +42,8 @@
             console.error(e)
             this.news = []
           })
-        this.loading = false
       }
-    },
-    components: {Loader}
+    }
   }
 </script>
 
