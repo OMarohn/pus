@@ -33,5 +33,43 @@
       "pra": "carrier",
       "abl": "3635"
     }
+  },
+  {
+    "wurf": "Z",
+    "kennel": "... Black-Star of Heathmoor",
+    "gefallen": "22.12 2017",
+    "rueden": 5,
+    "huendinnen": 4,
+    "kontakt": "Doris Helle",
+    "strasse": "Twistenberg 50",
+    "ort": "27404 Seedorf",
+    "fon": "+49 (4281) 954146",
+    "mail": "blackstarhelle@web.de",
+    "web": "www.bl-gordonsetter.de",
+    "vater": {
+      "name": "Forester's Wild Conqueror of Darkmoor",
+      "titel": [
+        "Dt.JCh.(VDH)", "Dt.Ch.(VDH)", "DSchCh.", "Ch.RO.", "HCh.", "C.I.E.", "C.I.B."
+      ],
+      "leistung": [
+        "JuS", "HJS"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 13/066",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3429",
+      "ll": "3838"
+    },
+    "mutter": {
+      "name": "Unchained Melody Black-Star of Heathmoor",
+      "titel": ["LJS"],
+      "leistung": [
+        "JuS"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 14/031",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3584"
+    }
   }
 ]
