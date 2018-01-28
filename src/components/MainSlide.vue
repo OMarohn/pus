@@ -119,6 +119,18 @@
           },
           {
             url: 'static/slides/main/slide-18.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-19.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-20.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-21.jpg'
+          },
+          {
+            url: 'static/slides/main/slide-22.jpg'
           }
         ])
       }
