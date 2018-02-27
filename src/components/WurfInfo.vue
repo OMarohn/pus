@@ -25,7 +25,7 @@
           <li class="list-group-item">
             <span class="sektion">Züchter</span>
             <div class="zuechter">
-              <span id="breeder">{{wurf.kontakt}}</span><span id="strasse"> - {{wurf.strasse}}</span><span id="ort"> - {{wurf.ort}}</span>
+              <span id="breeder">{{wurf.kontakt}}</span><span id="strasse"> - {{wurf.strasse}}</span><span id="ort"> - {{wurf.ort}}</span><span  v-if="wurf.fon" id="fon"> - {{wurf.fon}}</span>
             </div>
           </li>
         </ul>

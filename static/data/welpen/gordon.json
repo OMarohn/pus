@@ -1,40 +1,5 @@
 [
   {
-    "wurf": "B",
-    "kennel": "Wild Emerald's ...",
-    "gefallen": "16.11 2017",
-    "rueden": 5,
-    "huendinnen": 4,
-    "kontakt": "Mareike Ritz",
-    "strasse": "Holzstr. 28",
-    "ort": "44869 Bochum",
-    "fon": "+49 (177) 7656266",
-    "mail": "uskaya@web.de",
-    "web": "www.wildemeralds-gordon-setter.de",
-    "vater": {
-      "name": "Laurelhach Encrypt",
-      "titel": [
-        "LJS", "LS", "EJS", "Dt.J.Ch.(VDH)", "Dt.Ch.(VDH)."
-      ],
-      "leistung": [
-        "JuS", "HAP(GSCD)", "JAP(GSCD)"
-      ],
-      "zuchtbuch": "VDH/DGSZ 15/3120",
-      "hd": "A1",
-      "pra": "clear"
-    },
-    "mutter": {
-      "name": "Comtesse Karymoor' vom Krefelder Hof",
-      "leistung": [
-        "JuS"
-      ],
-      "zuchtbuch": "VDH/DPSZ GS 14/097",
-      "hd": "A1",
-      "pra": "carrier",
-      "abl": "3635"
-    }
-  },
-  {
     "wurf": "Z",
     "kennel": "... Black-Star of Heathmoor",
     "gefallen": "22.12 2017",
@@ -70,6 +35,42 @@
       "hd": "A1",
       "pra": "clear",
       "abl": "3584"
+    }
+  },
+  {
+    "wurf": "Q",
+    "eta": "Ende März 2018",
+    "kennel": "... von Wersabe",
+    "kontakt": "G. & H. Konsek",
+    "strasse": "Wesermünder Str.6",
+    "ort": "27628 Sandstedt-Wersabe",
+    "fon": "+49 (4702) 350",
+    "mail": "h.konsek@gmx.de",
+    "web": "www.von-wersabe.de",
+    "vater": {
+      "name": "Elton John von Wersabe",
+      "titel": [
+        "Dt.JCh.(VDH)", "ISchCh."
+      ],
+      "leistung": [
+        "JuS", "JuSH", "HZP mlE", "BP"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 07/069",
+      "hd": "A2",
+      "pra": "clear",
+      "abl": "2933",
+      "ll": "3483"
+    },
+    "mutter": {
+      "name": "Ondra von Wersabe",
+      "leistung": [
+        "JuS", "AZP(PuS)", "BP"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 15/073",
+      "hd": "A2",
+      "pra": "clear",
+      "abl": "3792",
+      "ll": "3942"
     }
   }
 ]

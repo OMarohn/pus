@@ -48,6 +48,7 @@
                     <div v-if="ruede.besitzer">{{ruede.besitzer}}</div>
                     <div v-if="ruede.besitzerStrasse">{{ruede.besitzerStrasse}}</div>
                     <div v-if="ruede.besitzerOrt">{{ruede.besitzerOrt}}</div>
+                    <div v-if="ruede.fon">{{ruede.fon}}</div>
                   </div>
                 </li>
               </ul>
