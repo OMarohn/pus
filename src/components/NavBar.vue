@@ -31,21 +31,21 @@
         <li class="nav-item dropdown" :class="{active: isActive('Wurf')}">
           <a class="nav-link dropdown-toggle" id="navWelpen" data-toggle="dropdown" href="/#/welpen">Welpen</a>
           <div class="dropdown-menu">
-            <a v-for="rasse in rassen" class="dropdown-item" :class="{disabled: isWurf(rasse)}" :href="'#wurf/' + rasse | shorten">{{rasse}}</a>
+            <a v-for="rasse in rassen" class="dropdown-item" :class="{disabled: isWurf(rasse.url)}" :href="'#wurf/' + rasse.url">{{rasse.display}}</a>
           </div>
         </li>
         <!-- Dropdown Zuechter // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown" :class="{active: isActive('Zuechter')}">
           <a class="nav-link dropdown-toggle" id="navZuechter" data-toggle="dropdown" href="/#/zuechter">Züchter</a>
           <div class="dropdown-menu">
-            <a v-for="rasse in rassen" class="dropdown-item" :href="'#zuechter/' + rasse | shorten">{{rasse}}</a>
+            <a v-for="rasse in rassen" class="dropdown-item" :href="'#zuechter/' + rasse.url">{{rasse.display}}</a>
           </div>
         </li>
         <!-- Dropdown Rueden // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown" :class="{active: isActive('Rueden')}">
           <a class="nav-link dropdown-toggle" id="navRueden" data-toggle="dropdown" href="/#/rueden">Rüden</a>
           <div class="dropdown-menu">
-            <a v-for="rasse in rassen" class="dropdown-item" :class="{disabled: isRuede(rasse)}" :href="'#rueden/' + rasse | shorten">{{rasse}}</a>
+            <a v-for="rasse in rassen" class="dropdown-item" :class="{disabled: isRuede(rasse.url)}" :href="'#rueden/' + rasse.url">{{rasse.display}}</a>
           </div>
         </li>
         <!-- Dropdown Ausstellungen // mit <router-linkt> hats nicht funktioniert! -->
@@ -86,9 +86,8 @@
       isWurf (rasse) {
         let ret = false
         const wuerfe = this.$store.getters.getWuerfe
-        const rasseShort = rasse.toLowerCase().replace(/\s+/g, '')
-        if (wuerfe.hasOwnProperty(rasseShort)) {
-          const wuerfeRasse = wuerfe[rasseShort]
+        if (wuerfe.hasOwnProperty(rasse)) {
+          const wuerfeRasse = wuerfe[rasse]
           if (wuerfeRasse && wuerfeRasse.length > 0) {
             const anz = (wuerfeRasse[0].length + wuerfeRasse[1].length)
             ret = (anz <= 0)
@@ -99,9 +98,8 @@
       isRuede (rasse) {
         let ret = false
         const rueden = this.$store.getters.getRueden
-        const rasseShort = rasse.toLowerCase().replace(/\s+/g, '')
-        if (rueden.hasOwnProperty(rasseShort)) {
-          const ruedenRasse = rueden[rasseShort]
+        if (rueden.hasOwnProperty(rasse)) {
+          const ruedenRasse = rueden[rasse]
           if (ruedenRasse) {
             const anz = (ruedenRasse.length)
             ret = (anz <= 0)
@@ -123,7 +121,26 @@
     },
     data () {
       return {
-        rassen: ['Englisch', 'Pointer', 'Gordon', 'Red and White', 'Irish']
+        rassen: [
+          {
+            display: 'English Setter',
+            url: 'englisch'},
+          {
+            display: 'Pointer',
+            url: 'pointer'},
+          {
+            display: 'Gordon Setter',
+            url: 'gordon'
+          },
+          {
+            display: 'Red and White Setter',
+            url: 'redandwhite'
+          },
+          {
+            display: 'Irish Setter',
+            url: 'irish'
+          }
+        ]
       }
     }
   }
