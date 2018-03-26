@@ -36,9 +36,10 @@
           {position: 'Stellvertr. Landesgruppenleiter', url: 'static/vorstand/vorstand_eickert.JPG', name: 'Wolfgang Eickert', strasse: 'Heimbucher Str. 36', ort: '21274 Undeloh', mail: 'landesgruppenleiter@pointer-setter-nord.de'},
           {position: 'Kassenwart', name: 'Katja Decher', url: 'static/vorstand/vorstand_dummy.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
           {position: 'Landesgruppenzuchtwart', name: 'Christine Ebeling', url: 'static/vorstand/vorstand_dummy.jpg', strasse: 'Orxhausen 38', ort: '37574 Einbeck', tel: '+49 (5563) 6598', mail: 'landesgruppenzuchtwart@pointer-setter-nord.de'},
+          {position: 'Zuchtwart', name: 'Frank Kohnert', url: 'static/vorstand/vorstand_kohnert.jpg', strasse: 'Plöner Straße 9', ort: '26215 Wiefelstede', tel: '+49 (4402) 60 897', mail: 'zuchtwart@pointer-setter-nord.de'},
           {position: 'Beisitzer Prüfungswesen', name: 'Edgar Fink', url: 'static/vorstand/vorstand_fink.jpg', strasse: 'Coppenbrügger Landstr. 32', ort: '31867 Lauenau', tel: '+49 (171) 5367 133', mail: 'kassenwart@pointer-setter-nord.de'},
           {position: 'Beisitzer Ausstellungswesen', name: 'Silvia Timmermann', url: 'static/vorstand/vorstand_timmermann.jpg', strasse: 'Postfach 1208', ort: '21625 Neu Wulmstorf', tel: '+49 (171) 8106292', mail: 'ausstellung@pointer-setter-nord.de'},
-          {position: 'Beisitzer Öffentlichkeitsarbeit - Internet', name: 'Oliver Marohn', url: 'static/vorstand/vorstand_dummy.jpg', strasse: 'Zur Fichtenkämpe 23', ort: '27254 Staffhorst', tel: '+49 (4272) 6579810', mail: 'admin@pointer-setter-nord.de'}
+          {position: 'Beisitzer Öffentlichkeitsarbeit - Internet', name: 'Oliver Marohn', url: 'static/vorstand/vorstand_marohn.jpg', strasse: 'Zur Fichtenkämpe 23', ort: '27254 Staffhorst', tel: '+49 (4272) 6579810', mail: 'admin@pointer-setter-nord.de'}
         ]
       }
     }
