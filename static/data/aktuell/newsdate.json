@@ -3,6 +3,19 @@
     "jahr": 2018,
     "termine": [
       {
+        "event": "Sommerfest mit Pfostenschau",
+        "datum": "29.07.2018",
+        "ort": "Neumünster",
+        "richter": "Silke Lohkamp-Sommer (D)",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Messe Outdoor 2018",
+        "datum": "27.04.2018",
+        "datumLang": "27.-29.04.2018",
+        "ort": "Holstenhallen-Neumünster",
+        "typ": "Sonstiges"
+      },      {
         "event": "Züchtertreffen 2018",
         "datum": "18.03.2018",
         "ort": "Gyhum/Nartum",
