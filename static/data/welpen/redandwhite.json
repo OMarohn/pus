@@ -1,2 +1,38 @@
 [
+  {
+    "wurf": "C",
+    "kennel": " ... from old crudsand harbour",
+    "erwartet": "Anfang Mai",
+    "kontakt": "Karin Eylmann-von Borstel",
+    "strasse": "Krautsander Hafenstr. 23",
+    "ort": "21706 Drochtersen",
+    "fon": "+49 (4143) 1394",
+    "mail": "eylmannvonborstel@t-online.de",
+    "web": "www.vom-alten-Hafen.de",
+    "vater": {
+      "name": "Barsoom of the Baltic Ambers",
+      "titel": ["JS", "Dt.J.Ch.(VDH)"],
+      "leistung": [
+        "JuS", "ES"
+      ],
+      "zuchtbuch": "VDH/DPSZ IRWS 15/047",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3650",
+      "ll": "3909"
+    },
+    "mutter": {
+      "name": "Alice from old crudsand harbour",
+      "titel": [],
+      "leistung": [
+        "JuS", "VJP", "VGP"
+      ],
+      "zuchtbuch": "VDH/DPSZ IRWS 15/040",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3636",
+      "ll": "3948",
+      "dgstb" : "70884"
+    }
+  }
 ]

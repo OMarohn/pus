@@ -5,7 +5,7 @@
     </div>
     <span id="name">{{hund.name}}</span><span id="buch"> - {{hund.zuchtbuch}}</span><span v-if="hund.hd" id="hd"> - HD: {{hund.hd}}</span><span v-if="hund.pra" id="pra"> - PRArcd4: {{hund.pra}}</span><span v-if="hund.ohren" id="ohren"> - Ohren: {{hund.ohren}}</span>
     <div class="pruefung">
-      <property-tag :props="hund.leistung"></property-tag><span id="abl"> - ABL: {{hund.abl | normalize}}</span><span id="ll"> - LL: {{hund.ll | normalize}}</span>
+      <property-tag :props="hund.leistung"></property-tag><span id="abl"> - ABL: {{hund.abl | normalize}}</span><span id="ll"> - LL: {{hund.ll | normalize}}</span><span id="dgstb"> - DGStB: {{hund.dgstb | normalize}}</span>
     </div>
   </div>
 </template>
