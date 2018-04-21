@@ -7,6 +7,7 @@
         "datum": "29.07.2018",
         "ort": "Neumünster",
         "richter": "Silke Lohkamp-Sommer (D)",
+        "einladung": "pfostenschau2018.pdf",
         "typ": "Sonstiges"
       },
       {
@@ -136,16 +137,16 @@
     "jahr": 2017,
     "termine": [
       {
-        "event": "Frühjarsprüfungen",
+        "event": "Frühjahrsprüfungen",
         "datum": "08.04.2017",
         "datumLang": "08.04.2017 und 09.04.2017",
         "ort": "Wersabe / Uthlede",
         "pruefungen": ["JuS"],
-        "ergebnis": "2017_08u09_JuS_Wersabe_Richterbericht.pdf",
+        "ergebnis": "201704_08u09_JuS_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
       {
-        "event": "Frühjarsprüfungen",
+        "event": "Frühjahrsprüfungen",
         "datum": "02.04.2017",
         "ort": "Wersabe / Uthlede",
         "pruefungen": ["JuS"],
@@ -153,7 +154,7 @@
         "typ": "Pruefung"
       },
       {
-        "event": "Frühjarsprüfungen",
+        "event": "Frühjahrsprüfungen",
         "datum": "19.03.2017",
         "ort": "Wersabe / Uthlede",
         "pruefungen": ["ES"],
