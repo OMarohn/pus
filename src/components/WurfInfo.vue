@@ -43,6 +43,9 @@
                   <a v-if="wurf.fon" :href="'tel:' + wurf.fon | phoneAsLink" class="btn btn-sm btn-outline-success">
                     <i class="fa fa-phone fa-fw"></i>
                   </a>
+                  <a v-if="wurf.mob" :href="'tel:' + wurf.mob | phoneAsLink" class="btn btn-sm btn-outline-success">
+                    <i class="fa fa-mobile-phone fa-fw"></i>
+                  </a>
                   <a v-if="wurf.web" :href="'http://' + wurf.web" target="breeder" class="btn btn-sm btn-outline-success">
                     <i class="fa fa-external-link fa-fw"></i>
                   </a>
@@ -73,7 +76,7 @@
     props: ['wurf'],
     methods: {
       wurfBuchstabe (wurf) {
-        return wurf.wurf.charAt(0)
+        return (wurf.wurf) ? wurf.wurf.charAt(0) : ''
       },
       wurfPotenz (wurf) {
         return (wurf.wurf.length > 1) ? wurf.wurf.charAt(1) : ''
