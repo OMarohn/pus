@@ -62,7 +62,7 @@
                 </div>
                 <div v-if="theDate.hasOwnProperty('protokoll')">
                   <a data-toggle="tooltip" data-placement="top" title="Protokoll" :href="'static/doc/' + theDate.protokoll" target="prot" class="btn btn-outline-success btn-sm">
-                    <i class="fa fa-file-pdf-o fa-fw"></i><span>Einladung</span>
+                    <i class="fa fa-file-pdf-o fa-fw"></i><span>Protokoll</span>
                   </a>
                 </div>
               </td>
