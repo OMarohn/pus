@@ -1,2 +1,40 @@
 [
-]
+  {
+    "wurf": "Q",
+    "eta": "Mitte Juli 2018",
+    "kennel": "... von Wersabe",
+    "kontakt": "G. & H. Konsek",
+    "strasse": "Wesermünder Str.6",
+    "ort": "27628 Sandstedt-Wersabe",
+    "fon": "+49 (4702) 350",
+    "mail": "h.konsek@gmx.de",
+    "web": "www.von-wersabe.de",
+    "vater": {
+      "name": "Onno von Wersabe",
+      "titel": [],
+      "leistung": [
+        "JuS",
+        "ES",
+        "HZPmlE",
+        "Int.Derby solo"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 15/070",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3682",
+      "ll": "3884"
+    },
+    "mutter": {
+      "name": "Jamainas Esta",
+      "leistung": [
+        "JuS",
+        "AZP(PuS) mlE",
+        "BP"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 15/017",
+      "hd": "A2",
+      "pra": "clear",
+      "abl": "3702",
+      "ll": "3941"
+    }
+    ]

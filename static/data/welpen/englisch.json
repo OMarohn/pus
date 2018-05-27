@@ -1,5 +1,48 @@
 [
   {
+    "wurf": "U",
+    "kennel": "Silvanus ... ",
+    "eta": "Ende Juni 2018",
+    "kontakt": "Elke Deichholz / Hannelore Sauvant",
+    "strasse": "Burgstr. 1",
+    "ort": "27412 Bülstedt",
+    "fon": "+49 (4283) 9827843",
+    "mail": "ESSilvanus@aol.com",
+    "web": "www.silvanus-englische-setter.com",
+    "vater": {
+      "name": "Latin Lover Fieldsogold",
+      "titel": [
+        "RSM.Ch.",
+        "RO.Ch."
+      ],
+      "leistung": [
+        "JAP(GSCD)",
+        "ES"
+      ],
+      "zuchtbuch": "LOI 10/80463",
+      "hd": "A",
+      "ohren": "b.s. hörend",
+      "pra": "clear"
+    },
+    "mutter": {
+      "name": "Charming Vagabonds High Beauty Vision",
+      "titel": [
+        "Dt.Ch.(VDH)",
+        "ES"
+      ],
+      "leistung": [
+        "JuS",
+        "HZP mlE",
+        "BP"
+      ],
+      "zuchtbuch": "VDH/DPSZ ES 15/016",
+      "hd": "A1",
+      "ohren": "b.s. hörend",
+      "abl": "3693",
+      "ll": "3900"
+    }
+  },
+  {
     "wurf": "B",
     "kennel": "Belton Pearls ...",
     "gefallen": "23.11.2017",
@@ -13,7 +56,8 @@
       "name": "Jupee z Mesinské hájovny",
       "titel": [],
       "leistung": [
-        "JAP(GSCD)", "ES"
+        "JAP(GSCD)",
+        "ES"
       ],
       "zuchtbuch": "VDH/DPSZ ES 11/030",
       "hd": "A1",
@@ -24,7 +68,9 @@
     "mutter": {
       "name": "Charming Vagabonds Glamour Girl",
       "titel": [
-        "LJS", "Dt.Ch.(VDH)", "C.I.E."
+        "LJS",
+        "Dt.Ch.(VDH)",
+        "C.I.E."
       ],
       "leistung": [
         "JuS"

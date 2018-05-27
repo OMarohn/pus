@@ -1,4 +1,6 @@
-Redirect /termine.html http://www.pointer-setter-nord.de/#/aktiv/termine
+AddType application/x-javascript js
+
+Redirect /termine.html https://www.pointer-setter-nord.de/#/aktiv/termine
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTPS} off
@@ -10,3 +12,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
 </IfModule>
+
