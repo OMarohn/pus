@@ -41,44 +41,5 @@
       "abl": "3693",
       "ll": "3900"
     }
-  },
-  {
-    "wurf": "B",
-    "kennel": "Belton Pearls ...",
-    "gefallen": "23.11.2017",
-    "kontakt": "Sabine Niebuhr",
-    "strasse": "Halstenbekerstr. 28a",
-    "ort": "22457 Hamburg",
-    "fon": "+49 (40) 5525228",
-    "mail": "sabineniebuhr1@web.de",
-    "web": "www.beltonpearls.de",
-    "vater": {
-      "name": "Jupee z Mesinské hájovny",
-      "titel": [],
-      "leistung": [
-        "JAP(GSCD)",
-        "ES"
-      ],
-      "zuchtbuch": "VDH/DPSZ ES 11/030",
-      "hd": "A1",
-      "ohren": "b.s. hörend",
-      "abl": "3256",
-      "ll": "3741"
-    },
-    "mutter": {
-      "name": "Charming Vagabonds Glamour Girl",
-      "titel": [
-        "LJS",
-        "Dt.Ch.(VDH)",
-        "C.I.E."
-      ],
-      "leistung": [
-        "JuS"
-      ],
-      "zuchtbuch": "VDH/DPSZ ES 14/005",
-      "hd": "A1",
-      "ohren": "b.s. hörend",
-      "abl": "3529"
-    }
   }
 ]
