@@ -3,6 +3,11 @@
   "short_name": "PuS Nord",
   "icons": [
     {
+      "src": "bilder/pwa/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
       "src": "bilder/pwa/192x192.png",
       "type": "image/png",
       "sizes": "192x192"
@@ -16,21 +21,16 @@
       "src": "bilder/pwa/96x96.png",
       "type": "image/png",
       "sizes": "96x96"
-    },    {
+    },
+    {
       "src": "bilder/pwa/72x72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "static/pwa/48x48.png",
+      "src": "bilder/pwa/48x48.png",
       "type": "image/png",
       "sizes": "48x48"
-    },
-    {
-      "src": "/images/icons-512.png",
-      "src": "/static/pwa/512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "lang": "de",
