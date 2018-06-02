@@ -117,4 +117,10 @@ if (config.build.bundleAnalyzerReport) {
   webpackConfig.plugins.push(new BundleAnalyzerPlugin())
 }
 
+const WorkboxPlugin = require('workbox-webpack-plugin');
+webpackConfig.plugins.push(new WorkboxPlugin.InjectManifest({
+  swSrc: './src/sw.js',
+  exclude: [/\.pdf$/, /\.xxx$/]
+}))
+
 module.exports = webpackConfig
