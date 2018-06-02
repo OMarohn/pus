@@ -120,7 +120,7 @@ if (config.build.bundleAnalyzerReport) {
 const WorkboxPlugin = require('workbox-webpack-plugin');
 webpackConfig.plugins.push(new WorkboxPlugin.InjectManifest({
   swSrc: './src/sw.js',
-  exclude: [/\.pdf$/, /\.xxx$/]
+  exclude: [/\.pdf$/, /\.json$/,/\.jpg$/,/\.map$/]
 }))
 
 module.exports = webpackConfig

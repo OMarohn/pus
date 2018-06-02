@@ -1,5 +1,35 @@
 [
   {
+    "wurf": "C",
+    "eta": "Ende Juli 2018",
+    "kennel": "Black&Red Beauty's ...",
+    "kontakt": "Helga Züchner & Kai Stützer",
+    "strasse": "Krummacker 1",
+    "ort": "26789 Leer",
+    "fon": "+49 (0491) 71874",
+    "mail": "helga.zuechner@freenet.de",
+    "web": "www.black-and-red-beautys.de",
+    "vater": {
+      "name": "Coachman's Rebel of Bavaria",
+      "titel": ["LS", "DSchCh.", "Dt.Ch(VDH)", "C.I.E.", "C.I.B.", "Ö.Ch."],
+      "leistung": ["JuS", "JuSH", "ES", "HJS", "JAP(GSCD)", "HAP(GSCD)", "AZP(PuS)", "VGP", "BP", "AH"],
+      "zuchtbuch": "VDH/DPSZ GS 11/188",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3400",
+      "ll": "3750",
+      "dgstb": "69162"
+    },
+    "mutter": {
+      "name": "Coachman’s Why not Wibke",
+      "leistung": ["JuS"],
+      "zuchtbuch": "VDH/DPSZ GS 14/044",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3521"
+    }
+  },
+  {
     "wurf": "Q",
     "eta": "Mitte Juli 2018",
     "kennel": "... von Wersabe",
