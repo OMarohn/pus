@@ -5,9 +5,9 @@ if (workbox) {
   console.log('WB geladen')
 
   workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
+
   const staticRoutes = [
     'https://cdn.polyfill.io/v2/polyfill.min.js',
-    'https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js',
     'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0',
     'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0',
     'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0',
@@ -24,7 +24,6 @@ if (workbox) {
       staticRoutes[i],
       workbox.strategies.staleWhileRevalidate(),
     );
-
   }
 
   workbox.routing.registerRoute(
@@ -42,8 +41,20 @@ if (workbox) {
 
   workbox.routing.registerRoute(
     /\.(?:json)$/,
-    workbox.strategies.networkFirst({
+    workbox.strategies.staleWhileRevalidate({
       cacheName: 'data'
+    })
+  );
+
+  workbox.routing.registerRoute(
+    new RegExp('https://fonts.(?:googleapis|gstatic).com/(.*)'),
+    workbox.strategies.cacheFirst({
+      cacheName: 'googleapis',
+      plugins: [
+        new workbox.expiration.Plugin({
+          maxEntries: 30,
+        })
+      ]
     })
   );
 
