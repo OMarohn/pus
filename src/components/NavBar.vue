@@ -54,6 +54,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#aktiv/termine?filter=false,true,false">Termine</a>
             <a class="dropdown-item" href="#ergebnis?mode=1">Ergebnisse</a>
+            <a class="dropdown-item" href="https://macshot.de/vfpus-n/" target="_blank">Online Meldeformular</a>
           </div>
         </li>
         <!-- Dropdown Prüfungen // mit <router-linkt> hats nicht funktioniert! -->
