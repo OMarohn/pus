@@ -65,7 +65,6 @@
             <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
             <a class="dropdown-item" href="/#/meldung">Online Meldeformular</a>
             <a class="dropdown-item" target="_blank" href="http://www.pointer-und-setter.de/images/pdf/pruefung/PO2015.pdf">Prüfungsordnung</a>
-
           </div>
         </li>
         <li class="nav-item" :class="{active: isActive('links')}">
@@ -75,12 +74,29 @@
           <a class="nav-link" href="#impressum">Impressum</a>
         </li>
       </ul>
+
+      <!-- Toggle Benachrichtigung -->
+      <div v-if="canWebPush === true"  class="form-inline" :class="{webpush: true}">
+        <input v-model="webpush" type="checkbox" name="fancy-checkbox-default" id="fancy-checkbox-default" autocomplete="off" />
+        <div @click="toogleWebPush()" class="btn-group">
+          <label for="fancy-checkbox-default" class="btn btn-default">
+            <span class="fa fa-check-circle"></span>
+            <span class="fa fa-circle"></span>
+          </label>
+          <label for="fancy-checkbox-default" class="btn btn-default active">
+            Benachrichtigen
+          </label>
+        </div>
+      </div>
     </div>
   </nav>
   <!-- NAVBAR ENDE -->
 </template>
 
 <script>
+  const publicVapidKey =
+    'BLOtz2-0EWy-Z6oPB6P4Nc7kRiOvnNsMp972taSE_dOMlvhiDiz5c4vHVjcrY8-5Fh1nI9azI6BEq9sDL5FcHdo'
+
   export default {
     name: 'navBar',
     methods: {
@@ -118,6 +134,56 @@
       },
       isActiveStartWith (praefix) {
         return this.$route.name.startsWith(praefix)
+      },
+      urlBase64ToUint8Array (base64String) {
+        const padding = '='.repeat((4 - base64String.length % 4) % 4)
+        const base64 = (base64String + padding)
+          .replace(/-/g, '+')
+          .replace(/_/g, '/')
+
+        const rawData = window.atob(base64)
+        const outputArray = new Uint8Array(rawData.length)
+
+        for (let i = 0; i < rawData.length; ++i) {
+          outputArray[i] = rawData.charCodeAt(i)
+        }
+        return outputArray
+      },
+      toogleWebPush () {
+        let theReg
+        navigator.serviceWorker.ready
+          .then(reg => {
+            theReg = reg
+            return reg.pushManager.getSubscription()
+          })
+          .then(sub => {
+            if (sub === null || sub === undefined) {
+              // hier bein Anwender nachfragen
+              theReg.pushManager.subscribe({
+                userVisibleOnly: true,
+                applicationServerKey: this.urlBase64ToUint8Array(publicVapidKey)
+              }).then(sub => {
+                console.log(sub)
+                if (sub) {
+                  fetch('https://us-central1-fbtest-4354b.cloudfunctions.net/subscription', {
+                    method: 'POST',
+                    body: JSON.stringify(sub),
+                    headers: {
+                      'content-type': 'application/json'
+                    }
+                  }).catch(data => console.error(data))
+                }
+              })
+            } else {
+              // sub --> ist bereits vorhanden
+              console.log('Hmmmmm', sub)
+            }
+          })
+      }
+    },
+    computed: {
+      canWebPush () {
+        return 'Pushmanager' in window
       }
     },
     data () {
@@ -141,7 +207,8 @@
             display: 'Irish Setter',
             url: 'irish'
           }
-        ]
+        ],
+        webpush: false
       }
     }
   }
@@ -151,5 +218,32 @@
 <style scoped>
   .navbar {
     opacity: 0.8;
+  }
+
+  .form-inline input[type="checkbox"] {
+    display: none;
+  }
+
+  .form-inline input[type="checkbox"] + .btn-group > label {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  .form-inline input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+  }
+
+  .form-inline input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+  }
+  .form-inline input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;
+  }
+
+  .form-inline input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+  }
+  .form-inline input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;
   }
 </style>

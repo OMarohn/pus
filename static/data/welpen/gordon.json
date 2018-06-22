@@ -67,5 +67,36 @@
       "abl": "3702",
       "ll": "3941"
     }
+  },
+  {
+    "wurf": "A2",
+    "kennel": "... Black-Star of Heathmoor",
+    "eta": "Ende Juli 2018",
+    "kontakt": "Doris Helle",
+    "strasse": "Twistenberg 50",
+    "ort": "27404 Seedorf",
+    "fon": "+49 (4281) 954146",
+    "mail": "blackstarhelle@web.de",
+    "web": "www.bl-gordonsetter.de",
+    "vater": {
+      "name": "Forester's Century Boy of Darkmoor",
+      "titel": [],
+      "leistung": [
+        "JuS"
+      ],
+      "zuchtbuch": "VDH/DPSZ GS 16/046",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3764"
+    },
+    "mutter": {
+      "name": "Vampire's Kiss Black-Star of Heathmoor",
+      "titel": [],
+      "leistung": ["JuS"],
+      "zuchtbuch": "VDH/DPSZ GS 14/129",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3617"
+    }
   }
 ]
