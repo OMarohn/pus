@@ -342,10 +342,11 @@
               </div>
             </div>
             <p>
-              Mit seiner Unterschrift erklärt der Anmeldende, auch im Namen des Führers, Züchters oder Eigentümers,
-              sofern diese nicht mit dem Anmeldenden identisch sind, dass er mit der Aufnahme seiner Daten (Name und Anschrift)
-              sowie der des Hundes in das EDV - System des Vereins und deren Veröffentlichung in öffentlich zugänglichen Publikationen einverstanden ist.
-              Der Anmeldende versichert ebenfalls, dass für den oben gemeldeten Hund eine Haftpflichtversicherung besteht
+              <b>Zustimmung -  Wichtige Hinweise zum BDSG</b>
+              Mit seiner Zustimmung und Unterschrift erklärt der Anmeldende, auch im Namen des Führers, Züchters oder Eigentümers, sofern diese
+              nicht mit dem Anmeldenden identisch sind, dass er mit der Aufnahme seiner Daten (Name und Anschrift) sowie der des Hundes in das
+              EDV - System des Vereins und deren Veröffentlichung in öffentlich zugänglichen Publikationen auch mit Bild einverstanden ist. Der
+              Anmeldende versichert ebenfalls, dass für den oben gemeldeten Hund eine Haftpflichtversicherung besteht.
             </p>
           </div>
           <legend>Gültigwerden der Anmeldung</legend>

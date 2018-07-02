@@ -176,7 +176,8 @@
               })
             } else {
               // sub --> ist bereits vorhanden
-              console.log('Hmmmmm', sub)
+              console.log('Sub ist schon da!', sub)
+              this.webpush = true
             }
           })
       }
@@ -210,6 +211,9 @@
         ],
         webpush: false
       }
+    },
+    created: function () {
+      console.log('a is: ' + this.webpush)
     }
   }
 </script>
