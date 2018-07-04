@@ -19,7 +19,7 @@
       {
         "event": "Herbstprüfungen",
         "datum": "30.09.2018",
-        "meldeschluss": "16.09.2018",
+        "meldeschluss": "19.09.2018",
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
         "pruefungen": [
@@ -29,8 +29,8 @@
       },
       {
         "event": "Herbsprüfungen",
-        "datum": "01.10.2018",
-        "meldeschluss": "30.03.2018",
+        "datum": "14.10.2018",
+        "meldeschluss": "01.10.2018",
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
         "pruefungen": [
@@ -45,7 +45,7 @@
         "richter": "Leen van Genchten (BE)",
         "meldeschluss": "13.08.2018",
         "einladung": "einladung_elsdorf_2018.pdf",
-        "meldung": "ancacnord.jpg",
+        "meldung": "ancacnord.pdf",
         "typ": "Ausstellung"
       },
       {
@@ -54,7 +54,7 @@
         "ort": "Neumünster",
         "richter": "Silke Lohkamp-Sommer (D)",
         "einladung": "pfostenschau2018.pdf",
-        "meldung": "anpfostennord.jpg",
+        "meldung": "anpfostennord.pdf",
         "typ": "Ausstellung"
       },
       {

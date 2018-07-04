@@ -68,7 +68,6 @@
                       <i class="fa fa-file-pdf-o fa-fw"></i><span>Protokoll</span>
                     </a>
                   </div>
-                </td>
                 <div v-if="theDate.hasOwnProperty('meldung')">
                   <a data-toggle="tooltip" data-placement="top" title="Meldung" :href="'static/doc/' + theDate.meldung" target="prot"
                      class="btn btn-outline-success btn-sm">
