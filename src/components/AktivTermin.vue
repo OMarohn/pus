@@ -96,7 +96,7 @@
   import PropertyTag from './PropertyTag'
 
   export default {
-    data() {
+    data () {
       return {
         termine: [],
         showHeader: true,
@@ -133,7 +133,7 @@
     },
     methods: {
       // Laden der News-Daten
-      fetchData() {
+      fetchData () {
         // filter auswerten
         if (this.$route.query.hasOwnProperty('filter')) {
           let params = this.$route.query.filter.split(',')
@@ -158,7 +158,7 @@
             })
         }
       },
-      convDate(datum) { // doublette @todo Auslagern nach vuex
+      convDate (datum) { // doublette @todo Auslagern nach vuex
         if (datum) {
           var parts = datum.split('.')
           if (parts.length === 3) {
