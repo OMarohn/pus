@@ -71,7 +71,7 @@
                   <div v-if="theDate.hasOwnProperty('online')">
                     <a data-toggle="tooltip" data-placement="top" title="Protokoll" :href="theDate.online" target="online"
                        class="btn btn-outline-success btn-sm">
-                      <i class="fa fa-file-pdf-o fa-fw"></i><span>Online Meldung</span>
+                      <i class="fa fa-external-link fa-fw"></i><span>Online Meldung</span>
                     </a>
                   </div>
                   <div v-if="theDate.hasOwnProperty('meldung')">
