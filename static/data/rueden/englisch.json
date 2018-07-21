@@ -1,5 +1,32 @@
 [
   {
+    "name": "Belton Pearls Amazing hunting Boy",
+    "vater": "Tabasco Simarilion",
+    "mutter": "Charming Vagabonds Glamour Girl",
+    "urlPedegree": "static/rueden/englisch/pedigree_huntingboy.pdf",
+    "formwert": "SG",
+    "hd": "B1",
+    "pra": "clear",
+    "ohren": "bs hörend",
+    "zahnstatus": "vollzahnig / Schere",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/englisch/huntingboy.jpg",
+    "zuchtbuch": "DPSZ/ ES  16/047",
+    "wurftag": "27.11.2016",
+    "breeder": "Sabine Niebuhr",
+    "besitzer": "Sabine Niebuhr",
+    "besitzerStrasse": "Halstenbekerstraße 28a",
+    "besitzerOrt": "22457 Hamburg",
+    "fon": "+49 (40) 5 52 52 28",
+    "web": "http://www.beltonpearls.de/",
+    "leistung": [
+      "JuS"
+    ],
+    "titel": [
+      "LJS"
+    ]
+  },
+  {
     "name": "Adventure of Crayfish's Creek <b>(Cooper)</b>",
     "vater": "Gomez of Meadow's Brook",
     "mutter": "Noelle of Meadow's Brook",
@@ -21,7 +48,8 @@
     "mail": "chbusche@web.de",
     "web": "www.hunde-am-meer.de",
     "leistung": [
-      "JuS", "BP-Nds mit ÜF"
+      "JuS",
+      "BP-Nds mit ÜF"
     ]
   },
   {
@@ -77,10 +105,22 @@
     "fon": "+49 (7221) 61909",
     "mail": "t.hoerig@christeyns.de",
     "titel": [
-      "CIE","CIB", "Dt.JCh.(VDH)", "Dt.Ch.(VDH)", "Dt.Sch.Ch.", "ÖCh.", "Pl.Ch.", "LJS", "LS"
+      "CIE",
+      "CIB",
+      "Dt.JCh.(VDH)",
+      "Dt.Ch.(VDH)",
+      "Dt.Sch.Ch.",
+      "ÖCh.",
+      "Pl.Ch.",
+      "LJS",
+      "LS"
     ],
     "leistung": [
-      "JuS", "JuSH", "ES", "HJS", "HZP"
+      "JuS",
+      "JuSH",
+      "ES",
+      "HJS",
+      "HZP"
     ]
   }
 ]
