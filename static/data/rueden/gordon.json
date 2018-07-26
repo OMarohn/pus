@@ -172,6 +172,33 @@
     ]
   },
   {
+    "name": "Heggi's Magic of Elegance",
+    "vater": "Manto vom schwarzen Moor",
+    "mutter": "Danja's Magic of Elegance",
+    "urlPedegree": "static/rueden/gordon/pedigree_higgi.pdf",
+    "formwert": "SG",
+    "hd": "A2",
+    "pra": "clear",
+    "zahnstatus": "vollzahnig / Schere",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/gordon/higgi.jpg",
+    "zuchtbuch": "DGSZ 16/3203",
+    "wurftag": "08.02.2016",
+    "breeder": "",
+    "besitzer": "Birgit Blumenberg",
+    "besitzerStrasse": "Meisenweg 6",
+    "besitzerOrt": "29313 Hambühren",
+    "fon": "+49 (5084) 7256",
+    "fax": "+49 (5084) 6550",
+    "mail": "b.blumenberg@czcelle.de,u.blumenberg@czcelle.de",
+    "leistung": [
+      "JAP",
+      "HAP",
+      "JuS",
+      "HZP"
+    ]
+  },
+  {
     "name": "Karrymoor' <b>First Born in Summertime</b>",
     "vater": "Warchant Twilight Bolero",
     "mutter": "Wild Fire vom Pulserdamm",
