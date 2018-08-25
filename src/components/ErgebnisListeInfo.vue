@@ -79,7 +79,8 @@
         return (item.hasOwnProperty('datumLang') ? item.datumLang : item.datum)
       },
       prepErgebnis: function (item) {
-        if (item.ergebnis.startsWith('http')) {
+        let regex = regex = /^(http|https):\/\//
+        if (regex.test(item.ergebnis.trim())) {
           return item.ergebnis
         } else {
           return 'static/doc/' + item.ergebnis
