@@ -33,7 +33,7 @@
           </td>
           <td>
             <div v-if="theDate.hasOwnProperty('ergebnis')">
-              <a data-toggle="tooltip" data-placement="top" title="Ergebnisse" :href="'static/doc/' + theDate.ergebnis" target="ergebnis" class="btn btn-outline-success btn-sm">
+              <a data-toggle="tooltip" data-placement="top" title="Ergebnisse" :href="prepErgebnis(theDate)" target="ergebnis" class="btn btn-outline-success btn-sm">
                 <i class="fa fa-file-pdf-o fa-fw"></i><span>Ergebnisse</span>
               </a>
             </div>
@@ -77,6 +77,13 @@
     methods: {
       displayDatum: function (item) {
         return (item.hasOwnProperty('datumLang') ? item.datumLang : item.datum)
+      },
+      prepErgebnis: function (item) {
+        if (item.ergebnis.startsWith('http')) {
+          return item.ergebnis
+        } else {
+          return 'static/doc/' + item.ergebnis
+        }
       }
     },
     components: {PropertyTag}
