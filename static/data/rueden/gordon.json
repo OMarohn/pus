@@ -143,35 +143,6 @@
     ]
   },
   {
-    "name": "<b>Manto</b> vom schwarzen Moor",
-    "vater": "Quinn de Herslage",
-    "mutter": "Henna vom schwarzen Moor",
-    "urlPedegree": "static/rueden/gordon/pedigree_manto.pdf",
-    "formwert": "V",
-    "hd": "A1",
-    "pra": "clear",
-    "zahnstatus": "vollzahnig / Schere",
-    "ztp": "uneingeschränkt",
-    "url": "static/rueden/gordon/manto.jpg",
-    "zuchtbuch": "DGST 07/3299",
-    "wurftag": "04.09.2007",
-    "breeder": "Marianne Michler, 26169 Frisoythe/ Neuscharrel",
-    "besitzer": "Birgit und Ulrich Blumenberg",
-    "besitzerStrasse": "Meisenweg 6",
-    "besitzerOrt": "29313 Hambühren",
-    "fon": "+49 (5084) 7256",
-    "fax": "+49 (5084) 6550",
-    "mail": "b.blumenberg@czcelle.de,u.blumenberg@czcelle.de",
-    "leistung": [
-      "JAP",
-      "HAP",
-      "JS (solo)",
-      "FT",
-      "AZP",
-      "BP"
-    ]
-  },
-  {
     "name": "Heggi's Magic of Elegance",
     "vater": "Manto vom schwarzen Moor",
     "mutter": "Danja's Magic of Elegance",
