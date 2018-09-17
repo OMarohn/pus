@@ -34,41 +34,5 @@
         "abl": "3537",
         "ll": "3870"
       }
-    },
-    {
-      "wurf": "D",
-      "kennel": "... vom Gut Deisterland",
-      "gefallen": "31.05.2018",
-      "rueden": 6,
-      "huendinnen": 7,,
-      "info": "noch abzugeben 2,0",
-      "kontakt": "Katja Decher",
-      "strasse": "Coppenbrügger Landstr. 32",
-      "ort": "31867 Lauenau",
-      "fon": "+49 (171)6276846",
-      "mail": "katja.decher@t-online.de",
-      "web": "www.setter-deisterland.de",
-      "vater": {
-        "name": "Bazyl Rysi Wykrot",
-        "titel": ["LS", "Ch.PL.", "Dt.Ch.(VDH)", "DSchCh.", "C.I.B."],
-        "leistung": [
-          "ES"
-        ],
-        "zuchtbuch": "VDH/DPSZ IS 13/042",
-        "hd": "B1",
-        "pra": "clear",
-        "ll": "3767"
-      },
-      "mutter": {
-        "name": "Anna-Julie vom Gut Deisterland",
-        "titel": [],
-        "leistung": [
-          "JuS"
-        ],
-        "zuchtbuch": "VDH/DPSZ IS 11/175",
-        "hd": "A1",
-        "pra": "carrier",
-        "abl": "3420"
-      }
     }
   ]
