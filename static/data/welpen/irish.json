@@ -1,38 +1,56 @@
-  [
-    {
-      "wurf": "M",
-      "kennel": "... from the old Irish Cottage",
-      "gefallen": "17.05.2018",
-      "rueden": 6,
-      "huendinnen": 1,
-      "info": "noch abzugeben 3,0",
-      "kontakt": "Claudia Schallehn",
-      "strasse": "Hauptstr. 2",
-      "ort": "29649 Wietzendorf",
-      "fon": "+49 (152) 07337435",
-      "mail": "ClaudiaSchallehn@web.de",
-      "web": "www.setter-from-the-old-Irish-Cottage.de",
-      "vater": {
-        "name": "Vilslev Nilsson",
-        "titel": [],
-        "leistung": [
-          "JuS", "JuSH", "ES", "PS", "FT solo", "GT paar", "HZP mIE", "HAP (GSCD)", "JAP (GSCD)", "Int. Derby solo", "BP", "UK", "UKK", "JAP(ESCD)"
-        ],
-        "zuchtbuch": "VDH/DPSZ IS 17/001",
-        "hd": "A2",
-        "pra": "clear",
-        "ll": "3928",
-        "abl": "3730"
-      },
-      "mutter": {
-        "name": "Konstanze from the old Irish Cottage",
-        "titel": [],
-        "leistung": ["JuS", "JuSH", "ES", "Int.Derby solo"],
-        "zuchtbuch": "VDH/DPSZ IS 14/025",
-        "hd": "A1",
-        "pra": "clear",
-        "abl": "3537",
-        "ll": "3870"
-      }
+[
+  {
+    "wurf": "M",
+    "kennel": "... from the old Irish Cottage",
+    "gefallen": "17.05.2018",
+    "rueden": 6,
+    "huendinnen": 1,
+    "info": "noch abzugeben 2,0",
+    "kontakt": "Claudia Schallehn",
+    "strasse": "Hauptstr. 2",
+    "ort": "29649 Wietzendorf",
+    "fon": "+49 (152) 07337435",
+    "mail": "ClaudiaSchallehn@web.de",
+    "web": "www.setter-from-the-old-Irish-Cottage.de",
+    "vater": {
+      "name": "Vilslev Nilsson",
+      "titel": [],
+      "leistung": [
+        "JuS",
+        "JuSH",
+        "ES",
+        "PS",
+        "FT solo",
+        "GT paar",
+        "HZP mIE",
+        "HAP (GSCD)",
+        "JAP (GSCD)",
+        "Int. Derby solo",
+        "BP",
+        "UK",
+        "UKK",
+        "JAP(ESCD)"
+      ],
+      "zuchtbuch": "VDH/DPSZ IS 17/001",
+      "hd": "A2",
+      "pra": "clear",
+      "ll": "3928",
+      "abl": "3730"
+    },
+    "mutter": {
+      "name": "Konstanze from the old Irish Cottage",
+      "titel": [],
+      "leistung": [
+        "JuS",
+        "JuSH",
+        "ES",
+        "Int.Derby solo"
+      ],
+      "zuchtbuch": "VDH/DPSZ IS 14/025",
+      "hd": "A1",
+      "pra": "clear",
+      "abl": "3537",
+      "ll": "3870"
     }
-  ]
+  }
+]

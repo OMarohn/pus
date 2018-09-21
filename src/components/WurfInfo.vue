@@ -70,6 +70,7 @@
 
 <script>
   import HundKurz from './HundKurz.vue'
+  import _ from 'lodash'
 
   export default {
     name: 'wurf-info',
@@ -79,11 +80,15 @@
         return (wurf.wurf) ? wurf.wurf.charAt(0) : ''
       },
       wurfPotenz (wurf) {
-        return (wurf.wurf.length > 1) ? wurf.wurf.charAt(1) : ''
+        let ret = ''
+        if (_.isObject(wurf) && _.isString(wurf.wurf)) {
+          ret = (wurf.wurf.length > 1) ? wurf.wurf.charAt(1) : ''
+        }
+        return ret
       },
       convDate (datum) { // doublette
         if (datum) {
-          var parts = datum.split('.')
+          const parts = datum.split('.')
           if (parts.length === 3) {
             datum = parts[1] + '/' + parts[0] + '/' + parts[2]
           }
