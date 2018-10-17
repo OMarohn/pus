@@ -27,7 +27,7 @@
               </tr>
               </thead>
               <tbody>
-              <tr v-for="(theDate, index) in filteredTermine">
+              <tr v-for="theDate in filteredTermine" :key="theDate.datum">
                 <td scope="row">
                   <i v-if="theDate.typ === 'Pruefung'" class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
                   <i v-if="theDate.typ === 'Ausstellung'" class="fa fa-trophy fa-fw" data-toggle="tooltip" data-placement="top" title="Ausstellung"></i>
