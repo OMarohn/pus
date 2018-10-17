@@ -1,7 +1,7 @@
 {
-    "host": "",
-    "username": "",
-    "password": "",
+    "host": "test",
+    "username": "test",
+    "password": "test",
     "remotePath": "",
     "protocol": "ftp",
     "port": 0,
