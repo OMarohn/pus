@@ -1,5 +1,56 @@
 [
   {
+    "jahr": 2019,
+    "termine": [
+      {
+      "event": "Frühjahrsprüfungen",
+      "datum": "24.03.2019",
+      "ort": "Hülsede / Meiensen",
+      "pruefungen": [
+        "ES"
+      ],
+      "typ": "Pruefung"
+    },
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "14.04.2019",
+        "ort": "Hülsede / Meiensen",
+        "pruefungen": [
+          "JuS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "CACIB Hannover",
+        "datum": "06.07.2019",
+        "ort": "Hannover",
+        "richter": "David Bielefeld (D)",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "CAC Bremen",
+        "datum": "04.08.2019",
+        "ort": "Bremen",
+        "richter": "Jean Pierre Achtergael (B)",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "CAC Elstorf",
+        "datum": "07.09.2019",
+        "ort": "Elstorf",
+        "richter": "Suzy Roffey (UK) & Malgorzata Supronowicz (P)",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "Adventssieger CAC",
+        "datum": "30.11.2019",
+        "ort": "27243 Dünsen",
+        "richter": "Diane Stuwart-Ritchie (UK)",
+        "typ": "Ausstellung"
+      }
+    ]
+  },
+  {
     "jahr": 2018,
     "termine": [
       {
@@ -38,7 +89,6 @@
         "richter": "Leen van Genchten (BE)",
         "meldeschluss": "13.08.2018",
         "einladung": "einladung_elsdorf_2018.pdf",
-        "online": "https://macshot.de/vfpus-n/",
         "ergebnis": "erg_elstorf_2018.pdf",
         "typ": "Ausstellung"
       },
@@ -183,6 +233,7 @@
         "ort": "27243 Dünsen",
         "ausschreibung": "duensen2018.pdf",
         "meldeschluss": "22.11.2018",
+        "online": "https://macshot.de/vfpus-n/",
         "richter": "Martin Johansson (Schweden)",
         "typ": "Ausstellung"
       }
