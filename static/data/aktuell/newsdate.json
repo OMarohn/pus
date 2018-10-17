@@ -1,23 +1,19 @@
 [
   {
-    "jahr": 2019,
+    "jahr": 2018,
     "termine": [
       {
-      "event": "Frühjahrsprüfungen",
-      "datum": "24.03.2019",
-      "ort": "Hülsede / Meiensen",
-      "pruefungen": [
-        "ES"
-      ],
-      "typ": "Pruefung"
-    },
+        "event": "Frühjahrsprüfungen",
+        "datum": "24.03.2019",
+        "ort": "Hülsede / Meiensen",
+        "pruefungen": ["ES"],
+        "typ": "Pruefung"
+      },
       {
         "event": "Frühjahrsprüfungen",
         "datum": "14.04.2019",
         "ort": "Hülsede / Meiensen",
-        "pruefungen": [
-          "JuS"
-        ],
+        "pruefungen": ["JuS"],
         "typ": "Pruefung"
       },
       {
@@ -47,12 +43,7 @@
         "ort": "27243 Dünsen",
         "richter": "Diane Stuwart-Ritchie (UK)",
         "typ": "Ausstellung"
-      }
-    ]
-  },
-  {
-    "jahr": 2018,
-    "termine": [
+      },
       {
         "event": "1. Wasserübungstag 2018",
         "datum": "19.08.2018",
@@ -66,9 +57,7 @@
         "meldeschluss": "19.09.2018",
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
-        "pruefungen": [
-          "JuSH"
-        ],
+        "pruefungen": ["JuSH"],
         "typ": "Pruefung"
       },
       {
@@ -77,9 +66,7 @@
         "meldeschluss": "01.10.2018",
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
-        "pruefungen": [
-          "HZP","AZP"
-        ],
+        "pruefungen": ["HZP", "AZP"],
         "typ": "Pruefung"
       },
       {
@@ -158,9 +145,7 @@
         "meldeschluss": "09.03.2018",
         "ausschreibung": "ausschreibung_fruehjahr2018.pdf",
         "ort": "31867 Hülsede und Meinsen",
-        "pruefungen": [
-          "ES"
-        ],
+        "pruefungen": ["ES"],
         "ergebnis": "EES2018.pdf",
         "typ": "Pruefung"
       },
@@ -171,9 +156,7 @@
         "ausschreibung": "ausschreibung_fruehjahr2018.pdf",
         "datumLang": "15.04.2018 u./o. 22.04.2018",
         "ort": "31867 Hülsede und Meinsen",
-        "pruefungen": [
-          "JuS"
-        ],
+        "pruefungen": ["JuS"],
         "ergebnis": "EJUS2018.pdf",
         "typ": "Pruefung"
       },
@@ -247,9 +230,7 @@
         "datum": "08.04.2017",
         "datumLang": "08.04.2017 und 09.04.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": [
-          "JuS"
-        ],
+        "pruefungen": ["JuS"],
         "ergebnis": "201704_08u09_JuS_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
@@ -257,9 +238,7 @@
         "event": "Frühjahrsprüfungen",
         "datum": "02.04.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": [
-          "JuS"
-        ],
+        "pruefungen": ["JuS"],
         "ergebnis": "20170402_JuS_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
@@ -267,9 +246,7 @@
         "event": "Frühjahrsprüfungen",
         "datum": "19.03.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": [
-          "ES"
-        ],
+        "pruefungen": ["ES"],
         "ergebnis": "20170319_ES_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
@@ -277,9 +254,7 @@
         "event": "Herbstprüfungen",
         "datum": "24.09.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": [
-          "JuSH"
-        ],
+        "pruefungen": ["JuSH"],
         "ergebnis": "JuSH_2017.pdf",
         "typ": "Pruefung"
       },
@@ -287,10 +262,7 @@
         "event": "Herbstprüfungen",
         "datum": "14.10.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": [
-          "AZP",
-          "HZP"
-        ],
+        "pruefungen": ["AZP", "HZP"],
         "ergebnis": "azp_hzp_2017.pdf",
         "typ": "Pruefung"
       },
