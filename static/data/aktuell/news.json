@@ -1,5 +1,17 @@
 [
   {
+    "datum": "28.10.2018",
+    "titel": "Theo sucht ein neues Zuhause!",
+    "beschreibung": "Uns erreichte eine Vermittlungsanfrage aus dem Hambuger Raum.<br>Theo ein siebenjähriger Gordon Setter Rüde - mit Papieren vom PuS - aus dem Hamburger Raum sucht ein neues Zuhause.<br>Aus persönlichen Gründen ist es den Besitzern nicht mehr möglich Theo zu halten.<br>Wir würden uns freuen, wenn Theo auf diesem Wege ein neues Zuhause finden könnte.<br><br><a href=\"mailto:andreas.stawe@hamburg.de\">Kontakt</a>",
+    "bild": "theo.jpg"
+  },
+  {
+    "datum": "30.09.2018",
+    "titel": "Jugendsuche Herbst 2018",
+    "beschreibung": "Bei sommerlichen Temperaturen, hat die Landesgruppe Nord im Revier Wersabe ihre Herbst ihre Jugendsuchen durchgefüht.<br>Vielen Dank an alle Teilnehmer, den Revierführer und die Richter für diesen gelungenen Prüfungstag.",
+    "bild": "jsh2018.jpg"
+  },
+  {
     "datum": "29.07.2018",
     "titel": "Sommer, Sonne, Spaß und viele Hunde!",
     "beschreibung": "Trotz glühender Hitze kamen einige gut gelaunte Mitglieder, Freunde und Gäste der Landesgruppe Nord zum Sommerfest nach Neumümster.<br>Die Gastgeber des Polizeihundevereins haben sich ordentlich ins Zeug gelegt und scheuten keine Mühe alle Teilnehmer mit Speisen und Getränken sowie diversen Extras zu verwöhnen.<br>Ringtraining, Pfostenshow und Hunderennen bildeten die Grundlage für jede Menge Spiel, Spaß und Spannung, am Ende auch für zahlreiche Ehrungen und Preise, die von den Teilnehmern gerne entgegengenommen wurden.",
@@ -12,23 +24,23 @@
     "bild": "colsum2108_2.jpg"
   },
   {
-  "datum": "15.07.2018",
-  "titel": "Sommerfest am 29.07.2018!",
-  "beschreibung": "Wie gewünscht, läd die Landesgruppe Nord alle Mitglieder und Freunde zum Sommerfest in Neumünster ein.<br>Für das leibliche Wohl aller Gäste sorgen die Aktiven des Polizeihundevereins.<br>Hunderennen, Ringtraining und Pfostenshow sind nur einzelne Punkte eines tollen Tagesprogramms.<br><br>Wir freuen uns auf einen geselligen Tag im hohen Norden!",
-  "bild": "sommerfestadv.jpg"
-},
-  {
-  "datum": "25.03.2018",
-  "titel": "Frühling = Prüfungszeit",
-  "beschreibung": "Am 25.03.2018 eröffnete die Einzelsuche die Prüfungszeit der LG Nord in den Revieren Hülsede / Meinsen.<br>Unter den geschulten Augen des Richtertrios Lotze, Stellter, Pelka schnallten fünf engagierte Hundeführer/innen ihre Hunde bei zum Teil herausfordernden Windverhältnissen. Ein gemeinsames Frühstück  sowie Hornklänge bei der Übergabe der Prüfungsurkunden rundeten einen gelungenen Prüfungstag ab.<br><i>Fotos: Fynn Fasshauer</i>",
-  "bild": "ES_2018.jpg"
+    "datum": "15.07.2018",
+    "titel": "Sommerfest am 29.07.2018!",
+    "beschreibung": "Wie gewünscht, läd die Landesgruppe Nord alle Mitglieder und Freunde zum Sommerfest in Neumünster ein.<br>Für das leibliche Wohl aller Gäste sorgen die Aktiven des Polizeihundevereins.<br>Hunderennen, Ringtraining und Pfostenshow sind nur einzelne Punkte eines tollen Tagesprogramms.<br><br>Wir freuen uns auf einen geselligen Tag im hohen Norden!",
+    "bild": "sommerfestadv.jpg"
   },
   {
-  "datum": "02.03.2018",
-  "titel": "CACIB Lingen - Meldeschluss",
-  "beschreibung": "Internationale Rassehunde-Ausstellung in Lingen am <b>29.April 2018</b><br>mit Sonderschau Verein für Pointer und Setter e.V. (zugelassener Formwert für die Zuchttauglichkeit im VfPuS)<br>Richterin: <i>Silke Lohkamp-Sommer</i><br>1. Meldeschluss ist der <b>05.03.2018</b><br>2. Meldeschluss ist der <b>19.03.2018</b>  <a href='https://macshot.de/vdh-os/meldung.php' target='_'>Onlinemeldung</a>",
-  "bild": "pokale.jpg"
-},
+    "datum": "25.03.2018",
+    "titel": "Frühling = Prüfungszeit",
+    "beschreibung": "Am 25.03.2018 eröffnete die Einzelsuche die Prüfungszeit der LG Nord in den Revieren Hülsede / Meinsen.<br>Unter den geschulten Augen des Richtertrios Lotze, Stellter, Pelka schnallten fünf engagierte Hundeführer/innen ihre Hunde bei zum Teil herausfordernden Windverhältnissen. Ein gemeinsames Frühstück  sowie Hornklänge bei der Übergabe der Prüfungsurkunden rundeten einen gelungenen Prüfungstag ab.<br><i>Fotos: Fynn Fasshauer</i>",
+    "bild": "ES_2018.jpg"
+  },
+  {
+    "datum": "02.03.2018",
+    "titel": "CACIB Lingen - Meldeschluss",
+    "beschreibung": "Internationale Rassehunde-Ausstellung in Lingen am <b>29.April 2018</b><br>mit Sonderschau Verein für Pointer und Setter e.V. (zugelassener Formwert für die Zuchttauglichkeit im VfPuS)<br>Richterin: <i>Silke Lohkamp-Sommer</i><br>1. Meldeschluss ist der <b>05.03.2018</b><br>2. Meldeschluss ist der <b>19.03.2018</b>  <a href='https://macshot.de/vdh-os/meldung.php' target='_'>Onlinemeldung</a>",
+    "bild": "pokale.jpg"
+  },
   {
     "datum": "07.01.2018",
     "titel": "Neues Projekt",
