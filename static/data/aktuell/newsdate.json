@@ -175,6 +175,7 @@
         "meldeschluss": "09.07.2018",
         "ort": "Bremen",
         "richter": "Borge Espeland (Norwegen)",
+        "ergebnis": "bremen2018_01.pdf",
         "typ": "Ausstellung"
       },
       {
@@ -183,6 +184,7 @@
         "meldeschluss": "09.07.2018",
         "ort": "Bremen",
         "richter": "Claudia Pelka",
+        "ergebnis": "bremen2018_02.pdf",
         "typ": "Ausstellung"
       },
       {
@@ -218,6 +220,7 @@
         "meldeschluss": "27.11.2018",
         "online": "https://macshot.de/vfpus-n/",
         "richter": "Martin Johansson (Schweden)",
+        "ergebnis": "rogged2018.pdf",
         "typ": "Ausstellung"
       }
     ]
