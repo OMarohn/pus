@@ -1,10 +1,13 @@
 [
   {
-    "jahr": 2018,
+    "jahr": 2019,
     "termine": [
       {
         "event": "Frühjahrsprüfungen",
         "datum": "24.03.2019",
+        "meldeschluss": "08.03.2019",
+        "ausschreibung": "ausschreibung2019_01.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
         "ort": "Hülsede / Meiensen",
         "pruefungen": ["ES"],
         "typ": "Pruefung"
@@ -12,8 +15,11 @@
       {
         "event": "Frühjahrsprüfungen",
         "datum": "14.04.2019",
+        "meldeschluss": "29.03.2019",
+        "ausschreibung": "ausschreibung2019_01.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
         "ort": "Hülsede / Meiensen",
-        "pruefungen": ["JuS"],
+        "pruefungen": ["JuS", "Int. Derby"],
         "typ": "Pruefung"
       },
       {
@@ -43,7 +49,12 @@
         "ort": "27243 Dünsen",
         "richter": "Diane Stuwart-Ritchie (UK)",
         "typ": "Ausstellung"
-      },
+      }
+    ]
+  },
+  {
+    "jahr": 2018,
+    "termine": [
       {
         "event": "1. Wasserübungstag 2018",
         "datum": "19.08.2018",
@@ -66,6 +77,7 @@
         "meldeschluss": "01.10.2018",
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
+        "ergebnis": "hzp_azp_2018.pdf",
         "pruefungen": ["HZP", "AZP"],
         "typ": "Pruefung"
       },
