@@ -1,109 +1,33 @@
 [
   {
-    "wurf": "C",
-    "gefallen": "24.07.2018",
-    "rueden": 1,
-    "huendinnen": 7,
-    "info": "(2,8)",
-    "kennel": "Black&Red Beauty's ...",
-    "kontakt": "Helga Züchner & Kai Stützer",
-    "strasse": "Krummacker 1",
-    "ort": "26789 Leer",
-    "fon": "+49 (0491) 71874",
-    "mail": "helga.zuechner@freenet.de",
-    "web": "www.black-and-red-beautys.de",
-    "vater": {
-      "name": "Coachman's Rebel of Bavaria",
-      "titel": ["LS", "DSchCh.", "Dt.Ch(VDH)", "C.I.E.", "C.I.B.", "Ö.Ch."],
-      "leistung": ["JuS", "JuSH", "ES", "HJS", "JAP(GSCD)", "HAP(GSCD)", "AZP(PuS)", "VGP", "BP", "AH"],
-      "zuchtbuch": "VDH/DPSZ GS 11/188",
-      "hd": "A1",
-      "pra": "clear",
-      "abl": "3400",
-      "ll": "3750",
-      "dgstb": "69162"
-    },
-    "mutter": {
-      "name": "Coachman’s Why not Wibke",
-      "leistung": ["JuS"],
-      "zuchtbuch": "VDH/DPSZ GS 14/044",
-      "hd": "A1",
-      "pra": "clear",
-      "abl": "3521"
-    }
-  },
-  {
-    "wurf": "Q",
-    "gefallen": "11.07.2018",
-    "rueden": 4,
-    "huendinnen": 3,
+    "wurf": "R",
+    "gefallen": "13.01.2019",
+    "rueden": 7,
+    "huendinnen": 2,
     "kennel": "... von Wersabe",
     "kontakt": "G. & H. Konsek",
     "strasse": "Wesermünder Str.6",
-    "ort": "27628 Sandstedt-Wersabe",
+    "ort": "27628 Hagen im Brem. - Wersabe",
     "fon": "+49 (4702) 350",
     "mail": "h.konsek@gmx.de",
     "web": "www.von-wersabe.de",
     "vater": {
-      "name": "Onno von Wersabe",
-      "titel": [],
-      "leistung": [
-        "JuS",
-        "ES",
-        "HZPmlE",
-        "Int.Derby solo"
-      ],
-      "zuchtbuch": "VDH/DPSZ GS 15/070",
-      "hd": "A1",
-      "pra": "clear",
-      "abl": "3682",
-      "ll": "3884"
-    },
-    "mutter": {
-      "name": "Jamainas Esta",
-      "leistung": [
-        "JuS",
-        "AZP(PuS) mlE",
-        "BP"
-      ],
-      "zuchtbuch": "VDH/DPSZ GS 15/017",
+      "name": "Heggis Magic of Elegance",
+      "leistung": ["JuS", "JuSH", "HZP", "HAP (GSCD)", "JAP (GSCD)", "VPS"],
+      "zuchtbuch": "VDH/DPSZ GS 16/3203",
       "hd": "A2",
       "pra": "clear",
-      "abl": "3702",
-      "ll": "3941"
-    }
-  },
-  {
-    "wurf": "A2",
-    "kennel": "... Black-Star of Heathmoor",
-    "gefallen": "19.07.2018",
-    "rueden": 4,
-    "huendinnen": 7,
-    "kontakt": "Doris Helle",
-    "strasse": "Twistenberg 50",
-    "ort": "27404 Seedorf",
-    "fon": "+49 (4281) 954146",
-    "mail": "blackstarhelle@web.de",
-    "web": "www.bl-gordonsetter.de",
-    "vater": {
-      "name": "Forester's Century Boy of Darkmoor",
-      "titel": [],
-      "leistung": [
-        "JuS"
-      ],
-      "zuchtbuch": "VDH/DPSZ GS 16/046",
-      "hd": "A1",
-      "pra": "clear",
-      "abl": "3764"
+      "abl": "3789",
+      "ll": "3978"
     },
     "mutter": {
-      "name": "Vampire's Kiss Black-Star of Heathmoor",
-      "titel": [],
-      "leistung": ["JuS"],
-      "zuchtbuch": "VDH/DPSZ GS 14/129",
-      "hd": "A1",
+      "name": "Ondra von Wersabe",
+      "leistung": ["JuS", "AZP(PuS)", "BP"],
+      "zuchtbuch": "VDH/DPSZ GS 15/073",
+      "hd": "A2",
       "pra": "clear",
-      "abl": "3617"
+      "abl": "3792",
+      "ll": "3942"
     }
   }
 ]
