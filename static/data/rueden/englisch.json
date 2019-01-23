@@ -19,12 +19,8 @@
     "besitzerOrt": "22457 Hamburg",
     "fon": "+49 (40) 5 52 52 28",
     "web": "http://www.beltonpearls.de/",
-    "leistung": [
-      "JuS"
-    ],
-    "titel": [
-      "LJS"
-    ]
+    "leistung": ["JuS"],
+    "titel": ["LJS"]
   },
   {
     "name": "Adventure of Crayfish's Creek <b>(Cooper)</b>",
@@ -47,10 +43,7 @@
     "fon": "+49 (151) 1561 6579",
     "mail": "chbusche@web.de",
     "web": "www.hunde-am-meer.de",
-    "leistung": [
-      "JuS",
-      "BP-Nds mit ÜF"
-    ]
+    "leistung": ["JuS", "BP-Nds mit ÜF"]
   },
   {
     "name": "Charming Vagabonds Full of Life <b>(Life)</b>",
@@ -75,14 +68,8 @@
     "fon": "+49 (40) 552 5228",
     "mail": "sabineniebuhr1@web.de",
     "web": "www.beltonpearls.de",
-    "titel": [
-      "Dt.JCh. (VDH)",
-      "Dt.Ch. (VDH)"
-    ],
-    "leistung": [
-      "JUS",
-      "Derby (DK)"
-    ]
+    "titel": ["Dt.JCh. (VDH)", "Dt.Ch. (VDH)"],
+    "leistung": ["JUS", "Derby (DK)"]
   },
   {
     "name": "Silvanus Tiziano-Tullio",
@@ -113,14 +100,11 @@
       "ÖCh.",
       "Pl.Ch.",
       "LJS",
-      "LS"
+      "LS",
+      "ÖCH",
+      "Schweizer Austellungs-Champion",
+      "Alpenchampion"
     ],
-    "leistung": [
-      "JuS",
-      "JuSH",
-      "ES",
-      "HJS",
-      "HZP"
-    ]
+    "leistung": ["JuS", "JuSH", "ES", "HJS", "HZP"]
   }
 ]
