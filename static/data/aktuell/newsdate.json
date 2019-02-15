@@ -9,7 +9,7 @@
         "ausschreibung": "ausschreibung2019_01.pdf",
         "online": "https://pointer-setter-nord.de/#/meldung",
         "ort": "Hülsede / Meiensen",
-        "pruefungen": ["ES"],
+        "pruefungen": ["ES", "JuS"],
         "typ": "Pruefung"
       },
       {
@@ -68,6 +68,7 @@
         "meldeschluss": "19.09.2018",
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
+        "ergebnis": "jus_2018_erg.pdf",
         "pruefungen": ["JuSH"],
         "typ": "Pruefung"
       },
