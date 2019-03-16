@@ -3,6 +3,12 @@
     "jahr": 2019,
     "termine": [
       {
+        "event": "LG Versammlung (13:00) / Züchtertreffen (11:00)",
+        "datum": "17.3.2019",
+        "ort": "29690 Kirchdorf, Tepe's Gasthoft",
+        "typ": "Sonstiges"
+      },
+      {
         "event": "Showhandling mit JAMES NEWTON / Patamoke Handling & Training - priv. Organisation",
         "datum": "15.6.2019",
         "einladung": "showhandling2018.pdf",
