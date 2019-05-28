@@ -15,7 +15,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr v-for="theDate in filteredTermine">
+        <tr v-for="theDate in filteredTermine" :key="theDate.datum">
           <td scope="row">
             <i v-if="modus === 'Pruefung'" class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
             <i v-if="modus === 'Ausstellung'" class="fa fa-trophy fa-fw" data-toggle="tooltip" data-placement="top" title="Ausstellung"></i>
@@ -32,10 +32,17 @@
             </div>
           </td>
           <td>
-            <div v-if="theDate.hasOwnProperty('ergebnis')">
-              <a data-toggle="tooltip" data-placement="top" title="Ergebnisse" :href="prepErgebnis(theDate)" target="ergebnis" class="btn btn-outline-success btn-sm">
+            <div v-if="isSingle(theDate.ergebnis)">
+              <a data-toggle="tooltip" data-placement="top" title="Ergebnisse" :href="prepErgebnis(theDate.ergebnis)" target="ergebnis" class="btn btn-outline-success btn-sm">
                 <i class="fa fa-file-pdf-o fa-fw"></i><span>Ergebnisse</span>
               </a>
+            </div>
+            <div v-else>
+              <div v-for="(pdf, key) in theDate.ergebnis" :key="key" >
+              <a data-toggle="tooltip" data-placement="top" title="Ergebnisse" :href="prepErgebnis(pdf)" target="ergebnis" class="btn btn-outline-success btn-sm">
+                <i class="fa fa-file-pdf-o fa-fw"></i><span>{{key}}</span>
+              </a>
+              </div>
             </div>
             <div v-if="theDate.hasOwnProperty('bericht')">
               <a data-toggle="tooltip" data-placement="top" title="Bericht" :href="'static/doc/' + theDate.bericht" target="bericht" class="btn btn-outline-success btn-sm">
@@ -51,57 +58,60 @@
 </template>
 
 <script>
-  import PropertyTag from './PropertyTag'
+import PropertyTag from "./PropertyTag";
 
-  export default {
-    name: 'ergebnis-listeinfo',
-    props: ['termine', 'modus', 'titel'],
-    computed: {
-      filteredTermine: function () {
-        let result = []
+export default {
+  name: "ergebnis-listeinfo",
+  props: ["termine", "modus", "titel"],
+  computed: {
+    filteredTermine: function() {
+      let result = [];
 
-        for (let i = 0; i < this.termine.length; i++) {
-          if (this.termine[i] !== undefined) {
-            let item = this.termine[i]
-            if (item.typ === 'Pruefung' && this.modus === 'Pruefung') {
-              result.push(item)
-            }
-            if (item.typ === 'Ausstellung' && this.modus === 'Ausstellung') {
-              result.push(item)
-            }
+      for (let i = 0; i < this.termine.length; i++) {
+        if (this.termine[i] !== undefined) {
+          let item = this.termine[i];
+          if (item.typ === "Pruefung" && this.modus === "Pruefung") {
+            result.push(item);
+          }
+          if (item.typ === "Ausstellung" && this.modus === "Ausstellung") {
+            result.push(item);
           }
         }
-        return result
+      }
+      return result;
+    }
+  },
+  methods: {
+    displayDatum: function(item) {
+      return item.hasOwnProperty("datumLang") ? item.datumLang : item.datum;
+    },
+    prepErgebnis: function(link) {
+      let regex = (regex = /^(http|https):\/\//);
+      if (regex.test(link.trim())) {
+        return link;
+      } else {
+        return "static/doc/" + link;
       }
     },
-    methods: {
-      displayDatum: function (item) {
-        return (item.hasOwnProperty('datumLang') ? item.datumLang : item.datum)
-      },
-      prepErgebnis: function (item) {
-        let regex = regex = /^(http|https):\/\//
-        if (regex.test(item.ergebnis.trim())) {
-          return item.ergebnis
-        } else {
-          return 'static/doc/' + item.ergebnis
-        }
-      }
-    },
-    components: {PropertyTag}
-  }
+    isSingle: function(ergebnis) {
+      return typeof ergebnis == "string";
+    }
+  },
+  components: { PropertyTag }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  p {
-    font-family: Verdana;
-    font-size: large;
-    text-align: justify;
-  }
+p {
+  font-family: Verdana;
+  font-size: large;
+  text-align: justify;
+}
 
-  div a {
-    margin-top: 0.3rem;
-    text-align: left;
-    width: 7rem;
-  }
+div a {
+  margin-top: 0.3rem;
+  text-align: left;
+  width: 7rem;
+}
 </style>
