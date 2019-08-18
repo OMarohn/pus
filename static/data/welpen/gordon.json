@@ -1,33 +1,39 @@
 [
   {
-    "wurf": "R",
-    "gefallen": "13.01.2019",
-    "rueden": 7,
-    "huendinnen": 2,
-    "kennel": "... von Wersabe",
-    "kontakt": "G. & H. Konsek",
-    "strasse": "Wesermünder Str.6",
-    "ort": "27628 Hagen im Brem. - Wersabe",
-    "fon": "+49 (4702) 350",
-    "mail": "h.konsek@gmx.de",
-    "web": "www.von-wersabe.de",
+    "wurf": "D",
+    "eta": "Mitte Oktober 2019",
+    "kennel": "BlaDk&Red Beauty's ...",
+    "kontakt": "Helga Züchner & Kai Stützer",
+    "strasse": "Krummacker 1",
+    "ort": "26789 Leer",
+    "fon": "+49 (0491) 71874",
+    "mail": "helga.zuechner@freenet.de",
+    "web": "www.black-and-red-beautys.de",
     "vater": {
-      "name": "Heggis Magic of Elegance",
-      "leistung": ["JuS", "JuSH", "HZP", "HAP (GSCD)", "JAP (GSCD)", "VPS"],
-      "zuchtbuch": "VDH/DPSZ GS 16/3203",
-      "hd": "A2",
+      "name": "Forester's Wild Conqueror of Darkmoor",
+      "titel": [
+        "Dt.JCh.(VDH)",
+        "Dt.Ch.(VDH)",
+        "DSchCh.",
+        "Ch.RO.",
+        "HCh.",
+        "C.I.E.",
+        "C.I.B."
+      ],
+      "leistung": ["JuS", "JuSH"],
+      "zuchtbuch": "VDH/DPSZ GS 13/066",
+      "hd": "A1",
       "pra": "clear",
-      "abl": "3789",
-      "ll": "3978"
+      "abl": "3429",
+      "ll": "3838"
     },
     "mutter": {
-      "name": "Ondra von Wersabe",
-      "leistung": ["JuS", "AZP(PuS)", "BP"],
-      "zuchtbuch": "VDH/DPSZ GS 15/073",
-      "hd": "A2",
+      "name": "Coachman’s Why not Wibke",
+      "leistung": ["JuS"],
+      "zuchtbuch": "VDH/DPSZ GS 14/044",
+      "hd": "A1",
       "pra": "clear",
-      "abl": "3792",
-      "ll": "3942"
+      "abl": "3521"
     }
   }
 ]
