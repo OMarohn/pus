@@ -1,8 +1,8 @@
 [
   {
-    "wurf": "D",
+    "wurf": "c",
     "eta": "Mitte Oktober 2019",
-    "kennel": "BlaDk&Red Beauty's ...",
+    "kennel": "Black&Red Beauty's ...",
     "kontakt": "Helga Züchner & Kai Stützer",
     "strasse": "Krummacker 1",
     "ort": "26789 Leer",
@@ -20,7 +20,10 @@
         "C.I.E.",
         "C.I.B."
       ],
-      "leistung": ["JuS", "JuSH"],
+      "leistung": [
+        "JuS",
+        "JuSH"
+      ],
       "zuchtbuch": "VDH/DPSZ GS 13/066",
       "hd": "A1",
       "pra": "clear",
@@ -29,7 +32,9 @@
     },
     "mutter": {
       "name": "Coachman’s Why not Wibke",
-      "leistung": ["JuS"],
+      "leistung": [
+        "JuS"
+      ],
       "zuchtbuch": "VDH/DPSZ GS 14/044",
       "hd": "A1",
       "pra": "clear",

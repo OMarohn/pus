@@ -22,8 +22,14 @@
         "ausschreibung": "ausschreibung2019_01.pdf",
         "online": "https://pointer-setter-nord.de/#/meldung",
         "ort": "Hülsede / Meiensen",
-        "pruefungen": ["ES", "JuS"],
-        "ergebnis": { "ES": "rb_es_2019.pdf", "JuS": "rb_jus_2019.pdf" },
+        "pruefungen": [
+          "ES",
+          "JuS"
+        ],
+        "ergebnis": {
+          "ES": "rb_es_2019.pdf",
+          "JuS": "rb_jus_2019.pdf"
+        },
         "typ": "Pruefung"
       },
       {
@@ -33,8 +39,36 @@
         "ausschreibung": "ausschreibung2019_01.pdf",
         "online": "https://pointer-setter-nord.de/#/meldung",
         "ort": "Hülsede / Meiensen",
-        "pruefungen": ["JuS", "Int. Derby"],
+        "pruefungen": [
+          "JuS",
+          "Int. Derby"
+        ],
         "ergebnis": "ro_jus_2019.pdf",
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Herbstprüfungen",
+        "datum": "22.09.2019",
+        "meldeschluss": "15.09.2019",
+        "ausschreibung": "herbstpr2019.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "Hülsede / Meiensen -- Wasserarbeit: 31840 Großenwieden",
+        "pruefungen": [
+          "JuS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Herbstprüfungen",
+        "datum": "13.10.2019",
+        "meldeschluss": "01.10.2019",
+        "ausschreibung": "herbstpr2019.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "Hülsede / Meiensen -- Wasserarbeit: 31840 Großenwieden",
+        "pruefungen": [
+          "HJS",
+          "AZP"
+        ],
         "typ": "Pruefung"
       },
       {
@@ -95,7 +129,9 @@
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
         "ergebnis": "jus_2018_erg.pdf",
-        "pruefungen": ["JuSH"],
+        "pruefungen": [
+          "JuSH"
+        ],
         "typ": "Pruefung"
       },
       {
@@ -105,7 +141,10 @@
         "ausschreibung": "herbstpr2018.pdf",
         "ort": "Wersabe/Uthlede",
         "ergebnis": "hzp_azp_2018.pdf",
-        "pruefungen": ["HZP", "AZP"],
+        "pruefungen": [
+          "HZP",
+          "AZP"
+        ],
         "typ": "Pruefung"
       },
       {
@@ -184,7 +223,9 @@
         "meldeschluss": "09.03.2018",
         "ausschreibung": "ausschreibung_fruehjahr2018.pdf",
         "ort": "31867 Hülsede und Meinsen",
-        "pruefungen": ["ES"],
+        "pruefungen": [
+          "ES"
+        ],
         "ergebnis": "EES2018.pdf",
         "typ": "Pruefung"
       },
@@ -195,7 +236,9 @@
         "ausschreibung": "ausschreibung_fruehjahr2018.pdf",
         "datumLang": "15.04.2018 u./o. 22.04.2018",
         "ort": "31867 Hülsede und Meinsen",
-        "pruefungen": ["JuS"],
+        "pruefungen": [
+          "JuS"
+        ],
         "ergebnis": "EJUS2018.pdf",
         "typ": "Pruefung"
       },
@@ -272,7 +315,9 @@
         "datum": "08.04.2017",
         "datumLang": "08.04.2017 und 09.04.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": ["JuS"],
+        "pruefungen": [
+          "JuS"
+        ],
         "ergebnis": "201704_08u09_JuS_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
@@ -280,7 +325,9 @@
         "event": "Frühjahrsprüfungen",
         "datum": "02.04.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": ["JuS"],
+        "pruefungen": [
+          "JuS"
+        ],
         "ergebnis": "20170402_JuS_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
@@ -288,7 +335,9 @@
         "event": "Frühjahrsprüfungen",
         "datum": "19.03.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": ["ES"],
+        "pruefungen": [
+          "ES"
+        ],
         "ergebnis": "20170319_ES_Wersabe_Richterbericht.pdf",
         "typ": "Pruefung"
       },
@@ -296,7 +345,9 @@
         "event": "Herbstprüfungen",
         "datum": "24.09.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": ["JuSH"],
+        "pruefungen": [
+          "JuSH"
+        ],
         "ergebnis": "JuSH_2017.pdf",
         "typ": "Pruefung"
       },
@@ -304,7 +355,10 @@
         "event": "Herbstprüfungen",
         "datum": "14.10.2017",
         "ort": "Wersabe / Uthlede",
-        "pruefungen": ["AZP", "HZP"],
+        "pruefungen": [
+          "AZP",
+          "HZP"
+        ],
         "ergebnis": "azp_hzp_2017.pdf",
         "typ": "Pruefung"
       },
