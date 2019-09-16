@@ -101,7 +101,6 @@
         "ort": "Elstorf",
         "einladung": "e_elstorf2019.pdf",
         "meldeschluss": "23.08.2019",
-        "online": "https://macshot.de/vfpus-n/",
         "richter": "Suzy Roffey (UK) & Malgorzata Supronowicz (P)",
         "ergebnis": "https://macshot.de/vfpus-n/ergebnisse.php?d=01.09.19",
         "typ": "Ausstellung"
@@ -110,6 +109,8 @@
         "event": "Adventssieger CAC",
         "datum": "30.11.2019",
         "ort": "27243 Dünsen",
+        "einladung": "rogged2019.pdf",
+        "online": "https://macshot.de/vfpus-n/",
         "richter": "Diane Stuwart-Ritchie (UK)",
         "typ": "Ausstellung"
       }
