@@ -1,5 +1,34 @@
 [
   {
+    "jahr": 2020,
+    "termine": [
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "22.03.2020",
+        "meldeschluss": "06.03.2019",
+        "ausschreibung": "pr_fr_2020.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "Hülsede / Meiensen",
+        "pruefungen": [
+          "ES"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "19.04.2019",
+        "meldeschluss": "03.04.2019",
+        "ausschreibung": "pr_fr_2020.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "Hülsede / Meiensen",
+        "pruefungen": [
+          "JuS"
+        ],
+        "typ": "Pruefung"
+      }
+    ]
+  },
+  {
     "jahr": 2019,
     "termine": [
       {

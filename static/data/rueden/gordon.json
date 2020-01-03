@@ -243,6 +243,34 @@
     "besitzerOrt": "14532 Kleinmachnow",
     "fon": "+49 (33203) 81174",
     "mail": "ritastuecke@gmx.de",
-    "leistung": ["JuS", "ES", "HZP mIE", "Int. Derby (solo)"]
+    "leistung": [
+      "JuS",
+      "ES",
+      "HZP mIE",
+      "Int. Derby (solo)"
+    ]
+  },
+  {
+    "name": "Castrum Vechtense Aramis",
+    "vater": "Coachman's Trendsetter",
+    "mutter": "Bailynn vom Gut Schönberg",
+    "formwert": "SG",
+    "hd": "A2",
+    "pra": "clear",
+    "zahnstatus": "P1 u.r. -",
+    "ztp": "eingeschränkt / Zähne",
+    "zuchtbuch": "VDH/DPSZ GS 17/149",
+    "wurftag": "18.12.2017",
+    "breeder": "Frau Brigitte Walter",
+    "besitzer": "Paul Anneken",
+    "besitzerStrasse": "Alter Brink 1",
+    "besitzerOrt": "49624 Bunnen",
+    "fon": "+49 (5432) 4237",
+    "leistung": [
+      "JuS",
+      "VJP",
+      "HZP",
+      "BP"
+    ]
   }
 ]
