@@ -83,8 +83,9 @@
         "online": "https://pointer-setter-nord.de/#/meldung",
         "ort": "Hülsede / Meiensen -- Wasserarbeit: 31840 Großenwieden",
         "pruefungen": [
-          "JuS"
+          "JuSH"
         ],
+        "ergebnis": "JUSH2019.pdf",
         "typ": "Pruefung"
       },
       {
@@ -97,6 +98,7 @@
         "pruefungen": [
           "HZP"
         ],
+        "ergebnis": "HZP2019.pdf",
         "typ": "Pruefung"
       },
       {
