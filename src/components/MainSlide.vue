@@ -1,5 +1,9 @@
 <template>
   <div class="swiper">
+    <div class="container emergency">Mit Stand heute 16.03.2020 13:00 Uhr gibt es keine Hinweise darauf, daß der
+LK Schaumburg der Landesgruppe Nord die  Frühjahrsprüfung untersagt.
+Sollten jedoch noch andere Umstände eintreten, die eine Absage nötig machen,
+Erfahren sie es hier.</div>
     <!-- Slider main container -->
     <div class="swiper-container">
       <swiper :options="swiperOption">
@@ -39,131 +43,138 @@
 </template>
 
 <script>
-  import store from '../store/store'
-  import {swiper, swiperSlide} from 'vue-awesome-swiper'
-  import _ from 'lodash'
+import store from "../store/store";
+import { swiper, swiperSlide } from "vue-awesome-swiper";
+import _ from "lodash";
 
-  export default {
-    name: 'main',
-    onload: function () {
-      console.log(store)
-    },
-    components: {
-      swiper,
-      swiperSlide
-    },
-    data () {
-      return {
-        swiperOption: {
-          autoplay: 3500,
-          effect: 'slide',
-          centeredSlides: true,
-          pagination: '.swiper-pagination',
-          paginationClickable: true,
-          paginationBulletRender (swiper, index, className) {
-            return `<span class="${className} swiper-pagination-bullet-custom"></span>`
-          },
-          // mousewheelControl: true,
-          observeParents: true,
-          preloadImages: false,
-          lazyLoading: true
+export default {
+  name: "main",
+  onload: function() {
+    console.log(store);
+  },
+  components: {
+    swiper,
+    swiperSlide
+  },
+  data() {
+    return {
+      swiperOption: {
+        autoplay: 3500,
+        effect: "slide",
+        centeredSlides: true,
+        pagination: ".swiper-pagination",
+        paginationClickable: true,
+        paginationBulletRender(swiper, index, className) {
+          return `<span class="${className} swiper-pagination-bullet-custom"></span>`;
         },
-        swiperSlides: _.shuffle([
-          {
-            url: 'static/slides/main/slide-1.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-2.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-3.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-4.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-5.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-6.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-7.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-8.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-10.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-11.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-12.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-13.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-14.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-15.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-16.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-17.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-18.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-19.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-20.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-21.jpg'
-          },
-          {
-            url: 'static/slides/main/slide-22.jpg'
-          }
-        ])
-      }
-    }
+        // mousewheelControl: true,
+        observeParents: true,
+        preloadImages: false,
+        lazyLoading: true
+      },
+      swiperSlides: _.shuffle([
+        {
+          url: "static/slides/main/slide-1.jpg"
+        },
+        {
+          url: "static/slides/main/slide-2.jpg"
+        },
+        {
+          url: "static/slides/main/slide-3.jpg"
+        },
+        {
+          url: "static/slides/main/slide-4.jpg"
+        },
+        {
+          url: "static/slides/main/slide-5.jpg"
+        },
+        {
+          url: "static/slides/main/slide-6.jpg"
+        },
+        {
+          url: "static/slides/main/slide-7.jpg"
+        },
+        {
+          url: "static/slides/main/slide-8.jpg"
+        },
+        {
+          url: "static/slides/main/slide-10.jpg"
+        },
+        {
+          url: "static/slides/main/slide-11.jpg"
+        },
+        {
+          url: "static/slides/main/slide-12.jpg"
+        },
+        {
+          url: "static/slides/main/slide-13.jpg"
+        },
+        {
+          url: "static/slides/main/slide-14.jpg"
+        },
+        {
+          url: "static/slides/main/slide-15.jpg"
+        },
+        {
+          url: "static/slides/main/slide-16.jpg"
+        },
+        {
+          url: "static/slides/main/slide-17.jpg"
+        },
+        {
+          url: "static/slides/main/slide-18.jpg"
+        },
+        {
+          url: "static/slides/main/slide-19.jpg"
+        },
+        {
+          url: "static/slides/main/slide-20.jpg"
+        },
+        {
+          url: "static/slides/main/slide-21.jpg"
+        },
+        {
+          url: "static/slides/main/slide-22.jpg"
+        }
+      ])
+    };
   }
+};
 </script>
 	@FindBy(css="")
 	private WebElement webElement;
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .img-cover {
-    width: 100%;
-  }
+.img-cover {
+  width: 100%;
+}
 
-  .marketing {
-    margin-top: 2rem;
-  }
+.marketing {
+  margin-top: 2rem;
+}
 
-  .marketing span {
-    text-align: justify-all;
-  }
+.marketing span {
+  text-align: justify-all;
+}
 
-  .logos {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
+.logos {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
-  @media (max-width: 568px) {
-    h4 {
-      font-size: smaller;
-      font-weight: bold;
-      text-align: right;
-    }
+.emergency {
+  width: 100%;
+  background-color: firebrick;
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media (max-width: 568px) {
+  h4 {
+    font-size: smaller;
+    font-weight: bold;
+    text-align: right;
   }
+}
 </style>
