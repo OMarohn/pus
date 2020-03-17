@@ -1,9 +1,6 @@
 <template>
   <div class="swiper">
-    <div class="container emergency">Mit Stand heute 16.03.2020 13:00 Uhr gibt es keine Hinweise darauf, daß der
-LK Schaumburg der Landesgruppe Nord die  Frühjahrsprüfung untersagt.
-Sollten jedoch noch andere Umstände eintreten, die eine Absage nötig machen,
-Erfahren sie es hier.</div>
+    <div class="container emergency">Absage der Frühjahrsprüfungen am 22.03. und am 05.04. 2020 in der LG Nord, Details unter Aktuelles auf dieser Seite.</div>
     <!-- Slider main container -->
     <div class="swiper-container">
       <swiper :options="swiperOption">
