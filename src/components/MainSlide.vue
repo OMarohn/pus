@@ -1,6 +1,8 @@
 <template>
   <div class="swiper">
+    <!--
     <div class="container emergency">Absage der Frühjahrsprüfungen am 22.03. und am 05.04. 2020 in der LG Nord, Details unter Aktuelles auf dieser Seite.</div>
+    -->
     <!-- Slider main container -->
     <div class="swiper-container">
       <swiper :options="swiperOption">
