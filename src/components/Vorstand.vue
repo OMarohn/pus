@@ -78,12 +78,8 @@ export default {
         },
         {
           position: "Beisitzer Prüfungswesen",
-          name: "Edgar Fink",
-          url: "static/vorstand/vorstand_fink.jpg",
-          strasse: "Coppenbrügger Landstr. 32",
-          ort: "31867 Lauenau",
-          tel: "+49 (171) 5367 133",
-          mail: "pruefung@pointer-setter-nord.de"
+          name: "z. Zt. nicht besetzt",
+          url: "static/vorstand/vorstand_dummy.jpg"
         },
         {
           position: "Beisitzer Ausstellungswesen",
