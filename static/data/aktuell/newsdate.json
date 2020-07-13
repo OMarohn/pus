@@ -41,38 +41,12 @@
         "typ": "Pruefung"
       },
       {
-        "event": "CACIB Lingen",
-        "datum": "18.04.2020",
-        "ort": "Lingen",
-        "richter": "Roxanna Opris-Birk (DK)",
-        "typ": "Ausstellung"
-      },
-      {
-        "event": "CACIB Neumünster",
-        "datum": "07.06.2020",
-        "ort": "Neumünster",
-        "richter": "Bettina Smith-Horn (D)",
-        "typ": "Ausstellung"
-      },
-      {
-        "event": "CACIB Hude",
-        "datum": "01.08.2020",
-        "ort": "Hude",
-        "richter": "Leen van Genechten (B)",
-        "typ": "Ausstellung"
-      },
-      {
-        "event": "CAC Hude",
-        "datum": "02.08.2020",
-        "ort": "Hude",
-        "richter": "Stefan Sinko (SLO)",
-        "typ": "Ausstellung"
-      },
-      {
         "event": "CAC Elstorf",
         "datum": "30.08.2020",
         "ort": "Elstorf",
         "richter": "Richard Bott (UK)",
+        "online": "https://macshot.de/vfpus-n/",
+        "einladung": "elsdorf2020.pdf",
         "typ": "Ausstellung"
       },
       {
