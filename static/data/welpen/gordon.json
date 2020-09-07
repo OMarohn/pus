@@ -1,1 +1,39 @@
-[]
+[
+    {
+        "wurf": "T",
+        "gefallen": "04.08.2020",
+        "rueden": 7,
+        "huendinnen": 5,
+        "kennel": "... von Wersabe",
+        "kontakt": "G. & H. Konsek",
+        "strasse": "Wesermünder Str.6",
+        "ort": "27628 Hagen im Brem. - Wersabe",
+        "fon": "+49 (4702) 350",
+        "mail": "h.konsek@gmx.de",
+        "web": "www.von-wersabe.de",
+        "vater": {
+            "name": "Kemtin's Black Merlin",
+            "leistung": [
+                "ES"
+            ],
+            "zuchtbuch": "VDH/DPSZ 16/3236",
+            "hd": "A1",
+            "pra": "clear",
+            "abl": "3792",
+            "ll": "4020"
+        },
+        "mutter": {
+            "name": "Ondra von Wersabe",
+            "leistung": [
+                "JuS",
+                "AZP(PuS)",
+                "BP"
+            ],
+            "zuchtbuch": "VDH/DPSZ GS 15/073",
+            "hd": "A2",
+            "pra": "clear",
+            "abl": "3792",
+            "ll": "3942"
+        }
+    }
+]

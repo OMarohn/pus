@@ -90,6 +90,21 @@
         "typ": "Pruefung"
       },
       {
+        "event": "Herbstprüfungen II",
+        "datum": "08.11.2020",
+        "meldeschluss": "25.10.2020",
+        "ausschreibung": "pr_her_2020_2.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuSH",
+          "JuS",
+          "AZP",
+          "HJS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
         "event": "CACIB Rostock",
         "datum": "04.10.2020",
         "ort": "Rostock",
