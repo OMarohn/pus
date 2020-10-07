@@ -35,5 +35,41 @@
             "abl": "3792",
             "ll": "3942"
         }
+    },
+    {
+        "wurf": "E",
+        "kennel": "Black&Red Beauty's ...",
+        "kontakt": "Helga Züchner & Kai Stützer",
+        "strasse": "Krummacker 1",
+        "ort": "26789 Leer",
+        "fon": "+49 (491) 71874",
+        "mail": "helga.zuechner@freenet.de",
+        "web": "www.black-and-red-beautys.de",
+        "vater": {
+            "name": "Forester's Century Boy of Darkmoor",
+            "titel": [
+                "HR.Sh.Ch."
+            ],
+            "leistung": [
+                "JuS",
+                "AZP",
+                "BP"
+            ],
+            "zuchtbuch": "VDH/DPSZ GS 16/046",
+            "hd": "A2",
+            "pra": "clear",
+            "abl": "3764",
+            "ll": "4021"
+        },
+        "mutter": {
+            "name": "Coachman’s Why not Wibke",
+            "leistung": [
+                "JuS"
+            ],
+            "zuchtbuch": "VDH/DPSZ GS 14/044",
+            "hd": "A1",
+            "pra": "clear",
+            "abl": "3521"
+        }
     }
 ]
