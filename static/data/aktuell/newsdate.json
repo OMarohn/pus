@@ -1,5 +1,63 @@
 [
   {
+    "jahr": 2021,
+    "termine": [
+      {
+        "event": "LG Versammlung (13:00)",
+        "datum": "02.05.2021",
+        "ort": "Landgasthof Nartumer Hof, Zum Mühlenweg 5, 27404 Gyhum/Nartum",
+        "einladung": "einladung_lg_2021.pdf",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Züchtertreffen (11:00)",
+        "datum": "02.05.2021",
+        "ort": "Landgasthof Nartumer Hof, Zum Mühlenweg 5, 27404 Gyhum/Nartum",
+        "einladung": "breeder2021.pdf",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "28.03.2021",
+        "meldeschluss": "31.03.2021",
+        "ausschreibung": "pr_fr_2021.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "ES",
+          "JuS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "11.04.2021",
+        "meldeschluss": "04.04.2021",
+        "ausschreibung": "pr_fr_2021.pdf",
+        "online": "https://pointer-setter-nord.de/#/meldung",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "CAC Elstorf",
+        "datum": "29.08.2021",
+        "ort": "Elstorf",
+        "richter": "Richard Bott (UK)",
+        "online": "https://macshot.de/vfpus-n/",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "Adventssieger CAC",
+        "datum": "27.11.2021",
+        "ort": "27243 Dünsen",
+        "typ": "Ausstellung"
+      }
+    ]
+  },
+  {
     "jahr": 2020,
     "termine": [
       {
