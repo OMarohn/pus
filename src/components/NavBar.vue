@@ -63,7 +63,7 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#aktiv/termine?filter=true,false,false">Termine</a>
             <a class="dropdown-item" href="#ergebnis?mode=0">Ergebnisse</a>
-            <a class="dropdown-item" href="/#/meldung">Online Meldeformular</a>
+            <a class="dropdown-item" target="_blank" href="static/doc/FB_Nennung_PuS.pdf">Meldeformular</a>
             <a class="dropdown-item" target="_blank" href="http://www.pointer-und-setter.de/images/pdf/pruefung/PO2015.pdf">Prüfungsordnung</a>
           </div>
         </li>
