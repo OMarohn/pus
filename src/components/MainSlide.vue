@@ -1,6 +1,5 @@
 <template>
   <div class="swiper">
-    <div class="container emergency">Absage der diesjährigen Generalversammlung. Details finden Sie auf der <a href="https://www.pointer-und-setter.de/index.php/verein1/aktuelles.html">Seite des Hauptvereins.</a></div>
     <!-- Slider main container -->
     <div class="swiper-container">
       <swiper :options="swiperOption">
