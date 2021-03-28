@@ -27,7 +27,7 @@
               </tr>
               </thead>
               <tbody>
-              <tr v-for="theDate in filteredTermine" :key="theDate.datum">
+              <tr v-bind:class="{'canceled' : theDate.hasOwnProperty('abgesagt')}" v-for="theDate in filteredTermine" :key="theDate.datum">
                 <td scope="row">
                   <i v-if="theDate.typ === 'Pruefung'" class="fa fa-graduation-cap fa-fw" data-toggle="tooltip" data-placement="top" title="Prüfung"></i>
                   <i v-if="theDate.typ === 'Ausstellung'" class="fa fa-trophy fa-fw" data-toggle="tooltip" data-placement="top" title="Ausstellung"></i>
@@ -200,5 +200,10 @@
 
   .propTag > span {
     margin-left: -0.25rem;
+  }
+
+  .canceled {
+    color: red;
+     text-decoration: line-through;
   }
 </style>

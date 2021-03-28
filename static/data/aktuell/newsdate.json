@@ -7,14 +7,16 @@
         "datum": "02.05.2021",
         "ort": "Landgasthof Nartumer Hof, Zum Mühlenweg 5, 27404 Gyhum/Nartum",
         "einladung": "einladung_lg_2021.pdf",
-        "typ": "Sonstiges"
+        "typ": "Sonstiges",
+        "abgesagt": true
       },
       {
         "event": "Züchtertreffen (11:00)",
         "datum": "02.05.2021",
         "ort": "Landgasthof Nartumer Hof, Zum Mühlenweg 5, 27404 Gyhum/Nartum",
         "einladung": "breeder2021.pdf",
-        "typ": "Sonstiges"
+        "typ": "Sonstiges",
+        "abgesagt": true
       },
       {
         "event": "Frühjahrsprüfungen",
