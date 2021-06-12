@@ -3,6 +3,32 @@
     "jahr": 2021,
     "termine": [
       {
+        "event": "Herbstprüfungen",
+        "datum": "03.10.2021",
+        "meldeschluss": "12.09.2021",
+        "ausschreibung": "pr_hb_2021.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuSH",
+          "HJS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Herbstprüfungen",
+        "datum": "17.10.2021",
+        "meldeschluss": "26.09.2021",
+        "ausschreibung": "pr_hb_2021.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "AZP",
+          "HJS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
         "event": "LG Versammlung (13:00)",
         "datum": "02.05.2021",
         "ort": "Landgasthof Nartumer Hof, Zum Mühlenweg 5, 27404 Gyhum/Nartum",
