@@ -29,7 +29,27 @@
         "typ": "Pruefung"
       },
       {
-        "event": "LG Versammlung (13:00)",
+        "event": "Übungstag 1",
+        "datum": "18.07.2021",
+        "ort": "27628 Wersabe",
+        "einladung": "2021uebungstage.jpg",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Übungstag 2",
+        "datum": "15.08.2021",
+        "ort": "27628 Wersabe",
+        "einladung": "2021uebungstage.jpg",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "LG Versammlung",
+        "datum": "29.08.2021",
+        "ort": "Schützenplatz in Elsdorf im Anschluss an die Ausstellung",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "LG Versammlung",
         "datum": "02.05.2021",
         "ort": "Landgasthof Nartumer Hof, Zum Mühlenweg 5, 27404 Gyhum/Nartum",
         "einladung": "einladung_lg_2021.pdf",
