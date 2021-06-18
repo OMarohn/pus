@@ -11,4 +11,4 @@ RUN ls -R /workspace
 COPY /workspace/source/dist .
 
 EXPOSE 8080
-CMD [ "http-server", "dist" ]
+CMD [ "http-server", "." ]
