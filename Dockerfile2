@@ -8,7 +8,7 @@ WORKDIR /app
 
 # copy project files and folders to the current working directory (i.e. 'app' folder)
 RUN ls -R /workspace 
-COPY /workspace/dist .
+COPY /workspace/source/dist .
 
 EXPOSE 8080
 CMD [ "http-server", "dist" ]
