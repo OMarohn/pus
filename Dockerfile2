@@ -7,7 +7,7 @@ RUN npm install -g http-server
 WORKDIR /app
 
 # copy project files and folders to the current working directory (i.e. 'app' folder)
-RUN ls /workspace -l
+RUN ls -R /workspace 
 COPY . .
 
 EXPOSE 8080
