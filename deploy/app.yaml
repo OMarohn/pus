@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kom-sample
+  namespace: kom-sample
+  labels:
+    app: kom-sample
+    version: "v1.0"
+spec:
+  selector:
+    matchLabels:
+      app: kom-sample
+  
+  template:
+    metadata:
+      annotations:
+        linkerd.io/inject: enabled
+      labels:
+        app: kom-sample
+    
+    spec:
+      containers:
+      - name: kom-sample
+        image: komreg.azurecr.io/kaniko-demo:latest ##omarohn/kanikodemo
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kom-sample
+  namespace: kom-sample
+
+spec:
+  selector:
+    app: kom-sample
+  type: LoadBalancer
+  ports:
+  - port: 8080
+  
