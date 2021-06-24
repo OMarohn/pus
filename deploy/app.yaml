@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: kom-sample
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       annotations:
@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: kom-sample
-        image: komreg.azurecr.io/kaniko-demo:latest ##omarohn/kanikodemo
+        image: komreg.azurecr.io/kaniko-demo:latest #omarohn/kanikodemo:latest 
         resources:
           limits:
             memory: "128Mi"
