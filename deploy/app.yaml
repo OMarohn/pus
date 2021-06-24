@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: kom-sample
-        image: komreg.azurecr.io/kaniko-demo:v1.0.1 #omarohn/kanikodemo:latest 
+        image: omarohn/kaniko-demo:v1.0.1 #omarohn/kanikodemo:latest 
         resources:
           limits:
             memory: "128Mi"
