@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: kom-sample
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       annotations:
