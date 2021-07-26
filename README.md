@@ -1,6 +1,6 @@
 # pusn
 
-> Pointer und Setter Nord
+> Pointer und Setter Nord Webseite
 
 ## Build Setup
 
