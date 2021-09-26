@@ -115,10 +115,13 @@
         "typ": "Ausstellung"
       },
       {
-        "event": "Adventssieger CAC",
+        "event": "Advents CAC",
         "datum": "27.11.2021",
-        "ort": "27243 Dünsen",
-        "typ": "Ausstellung"
+        "ort": "21629 Neu Wulmstorf",
+        "richter" :"Mrs Roxana Opris (DK)",
+        "typ": "Ausstellung",
+        "meldeschluss" : "20.11.2021",
+        "ausschreibung":"adv2021.pdf"
       }
     ]
   },
