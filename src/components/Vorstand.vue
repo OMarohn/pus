@@ -51,12 +51,8 @@ export default {
         },
         {
           position: "Kassenwart",
-          name: "Katja Decher",
-          url: "static/vorstand/vorstand_dummy.jpg",
-          strasse: "Coppenbrügger Landstr. 32",
-          ort: "31867 Lauenau",
-          tel: "+49 (171) 6276846",
-          mail: "kassenwart@pointer-setter-nord.de"
+          name: "z. Zt. nicht besetzt",
+          url: "static/vorstand/vorstand_dummy.jpg"
         },
         {
           position: "Landesgruppenzuchtwart",
