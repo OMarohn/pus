@@ -1,5 +1,49 @@
 [
   {
+    "jahr": 2022,
+    "termine": [
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "27.03.2022",
+        "meldeschluss": "27.02.2022",
+        "ausschreibung": "2022_fpr.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "ES",
+          "PS (CAC)",
+          "Int. Derby"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Frühjahrsprüfungen",
+        "datum": "10.04.2022",
+        "meldeschluss": "13.03.2022",
+        "ausschreibung": "2022_fpr.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuS"
+        ],
+        "typ": "Pruefung"
+      },
+      {
+        "event": "Landesgruppenversammlung",
+        "datum": "19.02.2022",
+        "ort": "27404 Gyhum/Nartum",
+        "einladung": "2022_lgv.pdf",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Züchtertreffen",
+        "datum": "19.02.2022",
+        "ort": "27404 Gyhum/Nartum",
+        "einladung": "2022_ztr.pdf",
+        "typ": "Sonstiges"
+      }    
+    ]},
+  {
     "jahr": 2021,
     "termine": [
       {
@@ -122,7 +166,8 @@
         "richter" :"Mrs Roxana Opris (DK)",
         "typ": "Ausstellung",
         "meldeschluss" : "20.11.2021",
-        "ausschreibung":"adv2021.pdf"
+        "ausschreibung":"adv2021.pdf",
+        "ergebnis": "ergadvcac2021.pdf"
       }
     ]
   },
