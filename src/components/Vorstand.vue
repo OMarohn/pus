@@ -38,7 +38,7 @@ export default {
           name: "Elke Deichholz",
           strasse: "Burgstrasse 1",
           ort: "27412 Bülstedt",
-          tel: "+49 (4283) 6998994",
+          tel: "+49 (4283) 6084542",
           mail: "landesgruppenleiter@pointer-setter-nord.de"
         },
         {
