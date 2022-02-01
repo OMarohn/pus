@@ -119,5 +119,26 @@
     "web": "www.irishsetter-sallygap.npage.de",
     "titel": ["Dt.Ch. (VDH)", "Dt.Ch. (Club)", "ES 2011",  "C.I.E."],
     "leistung": ["JuS"]
+  },
+  {
+    "name": "Noel Fitzpatrick Fearless Hunter",
+    "vater": "Bazyl Rysi Wykrot",
+    "mutter": "History Fearless Hunter",
+    "formwert": "V",
+    "hd": "A2",
+    "pra": "clear",
+    "zahnstatus": "vollzahnig / Schere",
+    "clad": "NN",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/irish/noel.jpg",
+    "zuchtbuch": "VDH/DPSZ IS 19/097",
+    "wurftag": "11.06.2019",
+    "breeder": "Kerstin Westhoff",
+    "besitzer": "Barbara Schneeberg & Michael Schulz",
+    "besitzerStrasse": "Am Weinberg 3a",
+    "besitzerOrt": "29456 Hitzacker (Elbe)",
+    "fon": "(+49) 170 8674756",
+    "mail": "barbaraschneeberg5@gmail.com",
+    "web": "www.irishsetter-sallygap.npage.de"
   }
 ]

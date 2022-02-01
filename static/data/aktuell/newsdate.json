@@ -3,12 +3,21 @@
     "jahr": 2022,
     "termine": [
       {
+        "event": "Neumünster CACIB",
+        "datum": "06.06.2022",
+        "ausschreibung": "cacibneumuenster2022.pdf",
+        "richter": "Frau Ingrid Hectors (BE)",
+        "ort": "24537 Neumünster",
+        "typ": "Ausstellung",
+        "online": "http://vdh-nord.de/meldungen/"
+      },
+      {
         "event": "Frühjahrsprüfungen",
         "datum": "27.03.2022",
         "meldeschluss": "27.02.2022",
         "ausschreibung": "2022_fpr.pdf",
         "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-        "ort": "27628 Wersabe",
+        "ort": "27402 Sassholz",
         "pruefungen": [
           "ES",
           "PS (CAC)",
@@ -72,7 +81,8 @@
           "HJS",
           "JuSH"
         ],
-        "typ": "Pruefung"
+        "typ": "Pruefung",
+        "ergebnis": "jush2021.pdf"
       },
       {
         "event": "Übungstag 1",
