@@ -36,20 +36,19 @@
     ]
   },
   {
-    "name": "<b>Elton John</b> von Wersabe",
-    "vater": "Highlander´Gino",
-    "mutter": "Anna vom Nienmarkt",
-    "urlPedegree": "static/rueden/gordon/pedigree_elton_john.pdf",
-    "formwert": "V",
-    "hd": "A2",
+    "name": "<b>Que</b> von Wersabe",
+    "vater": "Onno von Wersabe",
+    "mutter": "Jamainas Esta",
+    "formwert": "SG",
+    "hd": "B1",
     "pra": "clear",
     "zahnstatus": "P3 o. re- / Schere",
     "ztp": "eingeschränkt / Zähne",
-    "url": "static/rueden/gordon/elton_john.jpg",
-    "zuchtbuch": "VDH/DPSZ GS 07/069",
-    "wurftag": "04.05.2007",
+    "url": "static/rueden/gordon/que.jpg",
+    "zuchtbuch": "VDH/DPSZ GS 18/067",
+    "wurftag": "11.07.2018",
     "breeder": "Helga und Gerhard Konsek",
-    "besitzer": "Frank Kohnert",
+    "besitzer": "Frank und Regina Kohnert",
     "besitzerStrasse": "Plöner Str. 9",
     "besitzerOrt": "26215 Wiefelstede",
     "fon": "+49 (4402) 60 897",
@@ -61,7 +60,7 @@
     "leistung": [
       "JuS",
       "JuSH",
-      "HZP mlE",
+      "AZP mlE",
       "BP"
     ]
   },

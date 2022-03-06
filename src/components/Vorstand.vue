@@ -43,21 +43,26 @@ export default {
         },
         {
           position: "Stellvertr. Landesgruppenleiter",
-          url: "static/vorstand/vorstand_eickert.JPG",
-          name: "Wolfgang Eickert",
-          strasse: "Heimbucher Str. 36",
-          ort: "21274 Undeloh",
-          mail: "landesgruppenleiter@pointer-setter-nord.de"
-        },
+          name: "Oliver Marohn",
+          url: "static/vorstand/vorstand_marohn.jpg",
+          strasse: "Zur Fichtenkämpe 23",
+          ort: "27254 Staffhorst",
+          tel: "+49 (4272) 6579810",
+          mail: "admin@pointer-setter-nord.de"      
+        },  
         {
           position: "Kassenwart",
-          name: "z. Zt. nicht besetzt",
-          url: "static/vorstand/vorstand_dummy.jpg"
+          name: "Brigitter Lüdemann",
+          url: "static/vorstand/vorstand_luedemann.jpg",
+          strasse: "Hauptstr. 50",
+          ort: "27386	Brockel",
+          tel: "+49 (151) 14137979",
+          mali: "jub.luedemann@t-online.de"
         },
         {
           position: "Landesgruppenzuchtwart",
           name: "Christine Ebeling",
-          url: "static/vorstand/vorstand_dummy.jpg",
+          url: "static/vorstand/vorstand_ebeling.jpg",
           strasse: "Orxhausen 38",
           ort: "37574 Einbeck",
           tel: "+49 (5563) 6598",
@@ -74,8 +79,12 @@ export default {
         },
         {
           position: "Beisitzer Prüfungswesen",
-          name: "z. Zt. nicht besetzt",
-          url: "static/vorstand/vorstand_dummy.jpg"
+          name: "Conny Trowitzsch",
+          ort: "27628 Uthlede",
+          strasse: "Bergstr. 3",
+          url: "static/vorstand/vorstand_trowitzsch.jpg",
+          tel: "+49 (4296) 748122",
+          mail: "cctrowitzsch@t-online.de"
         },
         {
           position: "Beisitzer Ausstellungswesen",
@@ -88,12 +97,12 @@ export default {
         },
         {
           position: "Beisitzer Öffentlichkeitsarbeit - Internet",
-          name: "Oliver Marohn",
-          url: "static/vorstand/vorstand_marohn.jpg",
-          strasse: "Zur Fichtenkämpe 23",
-          ort: "27254 Staffhorst",
-          tel: "+49 (4272) 6579810",
-          mail: "admin@pointer-setter-nord.de"
+          name: "Bettina Heitmann",
+          url: "static/vorstand/vorstand_heitmann.jpg",
+          strasse: "Mover Strasse 15d",
+          ort: "21423 Drage",
+          tel: "+49 (163) 6858305",
+          mail: "bettina_heitmann@gmx.de"
         }
       ]
     };
