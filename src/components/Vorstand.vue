@@ -52,7 +52,7 @@ export default {
         },  
         {
           position: "Kassenwart",
-          name: "Brigitter Lüdemann",
+          name: "Brigitte Lüdemann",
           url: "static/vorstand/vorstand_luedemann.jpg",
           strasse: "Hauptstr. 50",
           ort: "27386	Brockel",
