@@ -1,8 +1,17 @@
 [
   {
     "jahr": 2022,
-    "termine": [
-      {
+        "termine": [
+          "event": "52. Rassehundausstellung Lingen",
+          "datum": "14./15.05.2022",
+          "ausschreibung": "cacibneumuenster2022.pdf",
+          "richter": "Wolfgang Eickert, (DE)",
+          "ort": "49808 Lingen/Ems",
+          "typ": "Ausstellung",
+          "meldung": "anmeldungcac.pdf" ,
+          "online": "http://vdh-weser-ems.de/lingen/"
+        },
+        {
         "event": "Neumünster CACIB",
         "datum": "06.06.2022",
         "ausschreibung": "cacibneumuenster2022.pdf",
