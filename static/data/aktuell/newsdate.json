@@ -2,8 +2,10 @@
   {
     "jahr": 2022,
         "termine": [
+        {
           "event": "52. Rassehundausstellung Lingen",
-          "datum": "14./15.05.2022",
+          "datum": "14.05.2022",
+          "eventLang": "14./15.05.2022",
           "richter": "Wolfgang Eickert, (DE)",
           "ort": "49808 Lingen/Ems",
           "typ": "Ausstellung",
