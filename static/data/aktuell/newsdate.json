@@ -66,24 +66,18 @@
         "datum": "28.08.2022",
         "meldeschluss": "noch offen",
         "ausschreibung": "online Meldung noch offen",
+        "richter": "Mr. Richard Bott, (UK)",
         "online": "",
         "ort": "21629 Elstorf",
                 
         "typ": "Ausstellung"
       },
       {
-        "event": "Frühjahrsprüfungen",
-        "datum": "27.03.2022",
-        "meldeschluss": "27.02.2022",
-        "ausschreibung": "2022_fpr.pdf",
-        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-        "ort": "27402 Sassenholz",
-        "pruefungen": [
-          "JuS"
-          "ES"
-          "PS (CAC)"
-          "Int. Derby"
-          "JuS" 
+        "event": "Advents CAC",
+        "datum": "27.11.2022",
+        "meldeschluss": "noch offen",
+        "ausschreibung": "noch offen",
+        "online": "Meldung noch offen",
       },
       {  
         "event": "Landesgruppenversammlung",
