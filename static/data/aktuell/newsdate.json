@@ -30,8 +30,8 @@
         "JuS"
         ],
         "typ": "Pruefung"
-       
-       
+      },
+      {
         "event": "52. Rassehundausstellung Lingen",
         "datum": "14./15.05.2022",
         "richter": "Wolfgang Eickert, (DE)",
@@ -62,18 +62,30 @@
         "typ": "Ausstellung"
       },
       {
-        "event": "Frühjahrsprüfungen",
-        "datum": "10.04.2022",
-        "meldeschluss": "13.03.2022",
-        "ausschreibung": "2022_fpr.pdf",
-        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-        "ort": "27628 Wersabe",
-        "pruefungen": [
-          "JuS"
-        ],
-        "typ": "Pruefung"
+        "event": "CAC Landessieger Elstorf",
+        "datum": "28.08.2022",
+        "meldeschluss": "noch offen",
+        "ausschreibung": "online Meldung noch offen",
+        "online": "",
+        "ort": "21629 Elstorf",
+                
+        "typ": "Ausstellung"
       },
       {
+        "event": "Frühjahrsprüfungen",
+        "datum": "27.03.2022",
+        "meldeschluss": "27.02.2022",
+        "ausschreibung": "2022_fpr.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27402 Sassenholz",
+        "pruefungen": [
+          "JuS"
+          "ES"
+          "PS (CAC)"
+          "Int. Derby"
+          "JuS" 
+      },
+      {  
         "event": "Landesgruppenversammlung",
         "datum": "19.02.2022",
         "ort": "27404 Gyhum/Nartum",
