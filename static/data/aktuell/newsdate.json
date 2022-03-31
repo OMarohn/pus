@@ -1,14 +1,32 @@
 [
   {
     "jahr": 2022,
-        "termine": [
-          "event": "52. Rassehundausstellung Lingen",
-          "datum": "14./15.05.2022",
-          "richter": "Wolfgang Eickert, (DE)",
-          "ort": "49808 Lingen/Ems",
-          "typ": "Ausstellung",
-          "meldung": "anmeldungcac.pdf" ,
-          "online": "http://vdh-weser-ems.de/lingen/"
+    "termine": [
+    },
+    { 
+    "event": "Frühjahrsprüfungen",
+    "datum": "27.03.2022",
+    "meldeschluss": "27.02.2022",
+    "ausschreibung": "2022_fpr.pdf",
+    "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+    "ort": "27402 Sassenholz",
+    "pruefungen": [
+      "JuS"
+      "ES"
+      "PS (CAC)"
+      "Int. Derby"
+      "JuS"
+    ],
+    "typ": "Pruefung"
+     },
+      {
+        "event": "52. Rassehundausstellung Lingen",
+        "datum": "14./15.05.2022",
+        "richter": "Wolfgang Eickert, (DE)",
+        "ort": "49808 Lingen/Ems",
+        "typ": "Ausstellung",
+        "meldung": "anmeldungcac.pdf" ,
+        "online": "http://vdh-weser-ems.de/lingen/"
         },
         {
         "event": "Neumünster CACIB",
@@ -21,19 +39,15 @@
         "online": "http://vdh-nord.de/meldungen/"
       },
       {
-        "event": "Frühjahrsprüfungen",
-        "datum": "27.03.2022",
+        "event": "CACIB Oldenburg",
+        "datum": "06.&07.08.2022",
         "meldeschluss": "27.02.2022",
         "ausschreibung": "2022_fpr.pdf",
-        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-        "ort": "27402 Sassholz",
-        "pruefungen": [
-          "ES",
-          "PS (CAC)",
-          "Int. Derby",
-          "JuS"
-        ],
-        "typ": "Pruefung"
+        "richter": "Richter werden noch bekannt gegeben",
+        "online": "Meldung noch nicht offen",
+        "ort": "Oldenburg",
+             
+        "typ": "Ausstellung"
       },
       {
         "event": "Frühjahrsprüfungen",
