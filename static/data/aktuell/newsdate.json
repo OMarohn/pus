@@ -52,20 +52,13 @@
       {
         "event": "CACIB Oldenburg",
         "datum": "06.&07.08.2022",
-        "meldeschluss": "27.02.2022",
-        "ausschreibung": "2022_fpr.pdf",
-        "richter": "Richter werden noch bekannt gegeben",
-        "online": "Meldung noch nicht offen",
         "ort": "Oldenburg",
         "typ": "Ausstellung"
       },
       {
         "event": "CAC Landessieger Elstorf",
         "datum": "28.08.2022",
-        "meldeschluss": "noch offen",
-        "ausschreibung": "online Meldung noch offen",
         "richter": "Mr. Richard Bott, (UK)",
-        "online": "",
         "ort": "21629 Elstorf",
         "typ": "Ausstellung"
       },
@@ -73,9 +66,6 @@
         "typ": "Ausstellung",
         "event": "Advents CAC",
         "datum": "27.11.2022",
-        "meldeschluss": "noch offen",
-        "ausschreibung": "noch offen",
-        "online": "Meldung noch offen"
       },
       {
         "event": "Landesgruppenversammlung",
