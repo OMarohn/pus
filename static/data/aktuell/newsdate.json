@@ -1,65 +1,52 @@
 [
   {
     "jahr": 2022,
-<<<<<<< HEAD
     "termine": [
-    },
-    { 
-    "event": "Frühjahrsprüfungen",
-    "datum": "27.03.2022",
-    "meldeschluss": "27.02.2022",
-    "ausschreibung": "2022_fpr.pdf",
-    "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-    "ort": "27402 Sassenholz",
-    "pruefungen": [
-      "JuS"
-      "ES"
-      "PS (CAC)"
-      "Int. Derby"
-      "JuS"
-    ],
-    "typ": "Pruefung"
-     },
       {
-      "event": "Frühjahrsprüfungen",
-      "datum": "10.04.2022",
-      "meldeschluss": "13.03.2022",
-      "ausschreibung": "2022_fpr.pdf",
-      "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-      "ort": "27628 Wersabe",
-      "pruefungen": [
-        "JuS"
-        ],
-        "typ": "Pruefung"
+        "typ": "Pruefung",
+        "event": "Frühjahrsprüfungen",
+        "datum": "27.03.2022",
+        "meldeschluss": "27.02.2022",
+        "ausschreibung": "2022_fpr.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27402 Sassenholz",
+        "pruefungen": [
+          "JuS",
+          "ES",
+          "PS (CAC)",
+          "Int. Derby",
+          "JuS"
+        ]
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Frühjahrsprüfungen",
+        "datum": "10.04.2022",
+        "meldeschluss": "13.03.2022",
+        "ausschreibung": "2022_fpr.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuS"
+        ]
       },
       {
         "event": "52. Rassehundausstellung Lingen",
-        "datum": "14./15.05.2022",
+        "datum": "14.05.2022",
+        "eventLang": "14./15.05.2022",
         "richter": "Wolfgang Eickert, (DE)",
         "ort": "49808 Lingen/Ems",
         "typ": "Ausstellung",
-        "meldung": "anmeldungcac.pdf" ,
         "online": "http://vdh-weser-ems.de/lingen/"
-=======
-        "termine": [
-        {
-          "event": "52. Rassehundausstellung Lingen",
-          "datum": "14.05.2022",
-          "eventLang": "14./15.05.2022",
-          "richter": "Wolfgang Eickert, (DE)",
-          "ort": "49808 Lingen/Ems",
-          "typ": "Ausstellung",
-          "online": "http://vdh-weser-ems.de/lingen/"
->>>>>>> fa2c16789ad89aa6ed55450d231b3f3514864eaa
-        },
-        {
+      },
+      {
         "event": "Neumünster CACIB",
         "datum": "06.06.2022",
         "ausschreibung": "cacibneumuenster2022.pdf",
         "richter": "Ingrid Hectors, (BE)",
         "ort": "24537 Neumünster",
         "typ": "Ausstellung",
-        "meldung": "anmeldungcacibneumue2022.pdf" ,
+        "meldung": "anmeldungcacibneumue2022.pdf",
         "online": "http://vdh-nord.de/meldungen/"
       },
       {
@@ -70,7 +57,6 @@
         "richter": "Richter werden noch bekannt gegeben",
         "online": "Meldung noch nicht offen",
         "ort": "Oldenburg",
-             
         "typ": "Ausstellung"
       },
       {
@@ -81,17 +67,17 @@
         "richter": "Mr. Richard Bott, (UK)",
         "online": "",
         "ort": "21629 Elstorf",
-                
         "typ": "Ausstellung"
       },
       {
+        "typ": "Ausstellung",
         "event": "Advents CAC",
         "datum": "27.11.2022",
         "meldeschluss": "noch offen",
         "ausschreibung": "noch offen",
-        "online": "Meldung noch offen",
+        "online": "Meldung noch offen"
       },
-      {  
+      {
         "event": "Landesgruppenversammlung",
         "datum": "19.02.2022",
         "ort": "27404 Gyhum/Nartum",
@@ -104,8 +90,9 @@
         "ort": "27404 Gyhum/Nartum",
         "einladung": "2022_ztr.pdf",
         "typ": "Sonstiges"
-      }    
-    ]},
+      }
+    ]
+  },
   {
     "jahr": 2021,
     "termine": [
@@ -185,7 +172,7 @@
           "ES",
           "JuS"
         ],
-        "ergebnis":"Erg28032021.pdf",
+        "ergebnis": "Erg28032021.pdf",
         "typ": "Pruefung"
       },
       {
@@ -218,7 +205,7 @@
         "ort": "Elstorf",
         "richter": "Claudia Pelka (DE)",
         "ausschreibung": "eelsdorf2021.pdf",
-        "meldeschluss" :"21.08.2021",
+        "meldeschluss": "21.08.2021",
         "online": "https://macshot.de/vfpus-n/",
         "ergebnis": "https://macshot.de/vfpus-n/ergebnisse.php?d=29.08.21",
         "typ": "Ausstellung"
@@ -227,10 +214,10 @@
         "event": "Advents CAC",
         "datum": "27.11.2021",
         "ort": "21629 Neu Wulmstorf",
-        "richter" :"Mrs Roxana Opris (DK)",
+        "richter": "Mrs Roxana Opris (DK)",
         "typ": "Ausstellung",
-        "meldeschluss" : "20.11.2021",
-        "ausschreibung":"adv2021.pdf",
+        "meldeschluss": "20.11.2021",
+        "ausschreibung": "adv2021.pdf",
         "ergebnis": "ergadvcac2021.pdf"
       }
     ]
@@ -283,7 +270,7 @@
         "richter": "Bettina Smith-Horn (DE)",
         "online": "https://macshot.de/vfpus-n/",
         "einladung": "elsdorf2020.pdf",
-        "ergebnis" : "e_elstorf2020.pdf",
+        "ergebnis": "e_elstorf2020.pdf",
         "typ": "Ausstellung"
       },
       {
