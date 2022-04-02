@@ -51,10 +51,30 @@
         "online": "http://vdh-nord.de/meldungen/"
       },
       {
+        "event": "ZTB in Brockel",
+        "datum": "11.06.2022",
+        "eventLang": "11./12.06.2022",
+        "ort": "27386 Brockel",
+        "typ": "Sonstiges"
+      },
+      {
         "event": "CACIB Oldenburg",
-        "datum": "06.&07.08.2022",
+        "datum": "06.08.2022",
+        "eventLang": "06./07.08.2022",
         "ort": "Oldenburg",
         "typ": "Ausstellung"
+      },
+      {
+        "event": "Wasserübungstag 1",
+        "datum": "17.07.2022",
+        "ort": "27628 Wersabe",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Wasserübungstag 2",
+        "datum": "14.08.2022",
+        "ort": "27628 Wersabe",
+        "typ": "Sonstiges"
       },
       {
         "event": "CAC Landessieger Elstorf",
