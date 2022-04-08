@@ -84,9 +84,10 @@
         "typ": "Ausstellung"
       },
       {
-        "typ": "Ausstellung",
         "event": "Advents CAC",
-        "datum": "27.11.2022"
+        "datum": "27.11.2022",
+        "richter": "Mrs Penny Williams, (UK)",
+        "typ": "Ausstellung"
       },
       {
         "event": "Landesgruppenversammlung",
