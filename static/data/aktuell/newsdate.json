@@ -34,6 +34,7 @@
       {
         "event": "52. Rassehundausstellung Lingen",
         "datum": "14.05.2022",
+        "meldeschluss": "10.04.2022",
         "eventLang": "14./15.05.2022",
         "richter": "Wolfgang Eickert, (DE)",
         "ort": "49808 Lingen/Ems",
@@ -43,6 +44,7 @@
       {
         "event": "Neumünster CACIB",
         "datum": "06.06.2022",
+        "meldeschluss": "22.04.2022",
         "ausschreibung": "cacibneumuenster2022.pdf",
         "richter": "Ingrid Hectors, (BE)",
         "ort": "24537 Neumünster",
