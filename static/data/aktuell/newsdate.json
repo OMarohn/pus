@@ -42,11 +42,10 @@
         "online": "http://vdh-weser-ems.de/lingen/"
       },
       {
-        "event": "Neumünster CACIB",
+        "event": "Neumünster CACIB-In Klärung, ob sie stattfindet",
         "datum": "06.06.2022",
         "meldeschluss": "22.04.2022",
         "ausschreibung": "cacibneumuenster2022.pdf",
-        "richter": "Ingrid Hectors, (BE)",
         "ort": "24537 Neumünster",
         "typ": "Ausstellung",
         "meldung": "anmeldungcacibneumue2022.pdf",
@@ -70,12 +69,14 @@
         "event": "Wasserübungstag 1",
         "datum": "17.07.2022",
         "ort": "27628 Wersabe",
+        "meldung":"h.konsek@gmx.de oder cctrowitz@ewe.net",
         "typ": "Sonstiges"
       },
       {
         "event": "Wasserübungstag 2",
         "datum": "14.08.2022",
         "ort": "27628 Wersabe",
+        "meldung":"h.konsek@gmx.de oder cctrowitz@ewe.net",
         "typ": "Sonstiges"
       },
       {
