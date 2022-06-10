@@ -8,7 +8,7 @@
           </div>
           <img v-if="theNews.bild" class="card-img-top card-img-max" :src="'static/news/' + theNews.bild">
           <div class="card-body">
-            <p class="card-text" v-html="theNews.beschreibung"></p>
+            <p class="card-text card-padding" v-html="theNews.beschreibung"></p>
           </div>
         </div>
       </div>
@@ -60,6 +60,10 @@ export default {
 
 .card-img-max {
   max-width: 100%;
+}
+
+.card-padding {
+  padding: 1rem;
 }
 
 p {
