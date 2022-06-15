@@ -62,9 +62,9 @@
       },
       {
         "event": "CACIB Oldenburg",
-        "datum": "06.08.2022",
-        "richter": "David Bielefeld, (DE)",
-        "eventLang": "06./07.08.2022",
+        "eventlang": "06/07..08.2022",
+        "richter": "06.08.2022: Will Hostenbach, (DE)",
+        "richter": "07.08.2022: David Bielefeld, (DE)",
         "ort": "Oldenburg",
         "typ": "Ausstellung"
       },
