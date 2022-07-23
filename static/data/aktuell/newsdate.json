@@ -1,21 +1,41 @@
 [
   {
     "jahr": 2022,
-    "termine": [
-      {
-        "typ": "Pruefung",
-        "event": "Frühjahrsprüfungen",
-        "datum": "27.03.2022",
-        "meldeschluss": "27.02.2022",
-        "ausschreibung": "2022_fpr.pdf",
-        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-        "ort": "27402 Sassenholz",
-        "pruefungen": [
-          "JuS",
-          "ES",
-          "PS (CAC)",
-          "Int. Derby",
-          "JuS"
+    "termine":,
+      "typ": "Pruefung",
+      "datum": "24.09.2022",
+      "meldeschluss": "26.08.2022",
+      "ausschreibung": "ausschreibeung_herbstprüfungen2022.pdf",
+      "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+      "ort": "27628 Wersabe",
+      "pruefungen": [
+       "JuSH"
+    },
+    {
+      "typ": "Pruefung",
+      "datum": "15.10.2022",
+      "meldeschluss": "17.10.2022",
+      "ausschreibung": "ausschreibeung_herbstprüfungen2022.pdf",
+      "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+      "ort": "27628 Wersabe",
+      "pruefungen": [
+       "AZP",
+       "HZP"
+    },
+    {
+       "typ": "Pruefung",
+       "event": "Frühjahrsprüfungen",
+       "datum": "27.03.2022",
+       "meldeschluss": "27.02.2022",
+       "ausschreibung": "2022_fpr.pdf",
+       "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+       "ort": "27402 Sassenholz",
+       "pruefungen": [
+        "JuS",
+        "ES",
+        "PS (CAC)",
+        "Int. Derby",
+        "JuS"
         ],
          "ergebnis": "erg_sassenholz_27.03.2022.pdf"
       },
