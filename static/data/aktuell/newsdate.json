@@ -119,8 +119,10 @@
       },
       {
         "event": "CACIB Rostock",
-        "datum": "02.10.2022",
+        "eventlang": "01./02.10.2022",
         "richter": "Mr. Ronny Blomme, (BE)",
+        "ort":"HanseMesse Rostock,Halle&Aussengelände",
+        "online": "http://www.vdh-lv-mv.de/cacib.htm",
         "typ": "Ausstellung"
       },
       {
