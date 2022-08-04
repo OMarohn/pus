@@ -84,7 +84,7 @@ export default {
           strasse: "Bergstr. 3",
           url: "static/vorstand/vorstand_trowitzsch.jpg",
           tel: "+49 (4296) 748122",
-          mail: "Cctrowitzsch@ewe.net"
+          mail: "CTrowi-pusnord@web.de"
         },
         {
           position: "Beisitzer Ausstellungswesen",
