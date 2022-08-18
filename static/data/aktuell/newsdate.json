@@ -23,7 +23,18 @@
         "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
         "ort": "27628 Wersabe",
         "pruefungen": [
-          "AZP",
+          "HZP"
+        ]
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfungen",
+        "datum": "15.10.2022",
+        "meldeschluss": "17.09.2022",
+        "ausschreibung": "ausschreibungherbstprfg_2022.pdf",
+        "online": "https://www.jghv.de/images/Dokumente/2019/formblatt_1_2019_1.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
           "HZP"
         ]
       },
