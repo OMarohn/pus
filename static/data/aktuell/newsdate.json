@@ -129,7 +129,9 @@
         "richter": "Mr. Ronny Blomme, (BE)",
         "ort": "HanseMesse Rostock,Halle&Aussengelände",
         "online": "http://www.vdh-lv-mv.de/cacib.htm",
-        "typ": "Ausstellung"
+        "typ": "Ausstellung",
+        "ergebnis": "erg_rostock_2022.pdf"
+
       },
       {
         "event": "Advents CAC",
