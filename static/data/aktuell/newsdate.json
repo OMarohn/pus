@@ -25,7 +25,8 @@
         "pruefungen": [
           "AZP"
         ]
-      
+       },
+       {
         "typ": "Pruefung",
         "event": "Herbstprüfungen",
         "datum": "15.10.2022",
@@ -143,13 +144,14 @@
         "online": "http://www.vdh-lv-mv.de/cacib.htm",
         "typ": "Ausstellung",
         "ergebnis": "erg_rostock_2022.pdf"
-
       },
       {
         "event": "Advents CAC",
         "datum": "26.11.2022",
-        "ort": "Halle in der Liliencronstr. 25, 21629 Neu Wulmstorf",
         "richter": "Mrs Penny Williams, (UK)",
+        "ort": "Halle in der Liliencronstr. 25, 21629 Neu Wulmstorf",
+        "ausschreibung": "ausschr_adcac_2022.pdf",
+        "online": "https://macshot.de/vfpus-n/",
         "typ": "Ausstellung"
       },
       {
