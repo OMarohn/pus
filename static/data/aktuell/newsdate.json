@@ -1,6 +1,35 @@
 [
   {
-    "jahr": 2022,
+    "jahr": 2023,
+  "termine": [  
+      {
+        "typ": "Pruefung",
+        "event": "Frühjahrsprüfungen",
+        "datum": "15.04.2023",
+        "meldeschluss": "folgt",
+        "ausschreibung": "folgt",
+        "online": "",
+        "ort": "Revier Sassenholz",
+        "pruefungen": [
+          "Paar- und Einzelsuche"
+        ],
+        "ergebnis": ""
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Frühjahrsprüfungen",
+        "datum": "26.03.2023",
+        "meldeschluss": "folgt",
+        "ausschreibung": "folgt",
+        "online": "",
+        "ort": "Revier Sassenholz",
+        "pruefungen": [
+          "JuSH"
+        ],
+        "ergebnis": ""
+      },
+      {
+      "jahr": 2022,
     "termine": [
       {
         "typ": "Pruefung",
