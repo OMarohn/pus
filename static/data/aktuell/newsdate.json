@@ -4,8 +4,8 @@
   "termine": [  
       {
         "typ": "Pruefung",
-        "event": "Frühjahrsprüfungen",
-        "datum": "15.04.2023",
+        "event": "Einzel- und Paarsuche",
+        "datum": "26.03.2023",
         "meldeschluss": "folgt",
         "ausschreibung": "folgt",
         "online": "",
@@ -18,7 +18,7 @@
       },
       {
         "typ": "Pruefung",
-        "event": "Frühjahrsprüfungen",
+        "event": "Jugendsuche",
         "datum": "15.04.2023",
         "meldeschluss": "folgt",
         "ausschreibung": "folgt",
