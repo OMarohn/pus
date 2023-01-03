@@ -1,4 +1,27 @@
 [
+
+  {
+    "name": "Vilslev Nilsson",
+    "vater": "Red Garlic's Red Pepper",
+    "mutter": "Vislev Josefine",
+    "urlPedegree": "static/rueden/irish/pedigree_nilsson.jpg",
+    "formwert": "V",
+    "cm": 60,
+    "pra": "clear",
+    "zahnstatus": "vollzahnig / Schere",
+    "clad": "NN",
+    "ztp": "uneingeschränkt",
+    "wurftag": "09.05.2016",
+    "zuchtbuch": "VDH/DPSZ IS 17/001",
+    "breeder": "Flemming Vilslev Knudsen (DK)",
+    "besitzer": "Heike Sporleder",
+    "besitzerStrasse": "Steinförder Weg 3a",
+    "besitzerOrt": "29313 Hambühren",
+    "fon": "+49 151 1615 3250",
+    "mail": "info@irish-setter-power-games.de",
+    "web": "www.irish-setter-power-games.de",
+    "url": "static/rueden/irish/nilsson.jpg"
+  },
   {
     "name": "Lucky an der Klosterpforte Oldenburgerland",
     "vater": "Hubertus XL vom Söhrenberg",
