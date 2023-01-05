@@ -20,8 +20,8 @@
         "typ": "Pruefung",
         "event": "Jugendsuche",
         "datum": "15.04.2023",
-        "meldeschluss": "folgt",
-        "ausschreibung": "folgt",
+        "meldeschluss": "ausschr_frühjahr_2023",
+        "ausschreibung": "",
         "online": "",
         "ort": "27628 Wersabe",
         "pruefungen": [
