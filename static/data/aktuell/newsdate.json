@@ -8,7 +8,7 @@
         "datum": "26.03.2023",
         "meldeschluss": "folgt",
         "ausschreibung": "ausschr_frühjahr_2023",
-        "online": "",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
         "ort": "Revier Sassenholz",
         "pruefungen": [
           "ES",
@@ -20,9 +20,9 @@
         "typ": "Pruefung",
         "event": "Jugendsuche",
         "datum": "15.04.2023",
-        "meldeschluss": "ausschr_frühjahr_2023",
-        "ausschreibung": "",
-        "online": "",
+        "meldeschluss": "",
+        "ausschreibung": "ausschr_frühjahr_2023",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
         "ort": "27628 Wersabe",
         "pruefungen": [
           "JuS"
