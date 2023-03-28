@@ -4,13 +4,14 @@
   "termine": [  
       {
         "typ": "Pruefung",
-        "event": "Einzel- und Paarsuche",
+        "event": "Jugend-, Einzel- und Paarsuche",
         "datum": "26.03.2023",
         "meldeschluss": "25.02.2023",
         "ausschreibung": "ausschr_frühjahr_2023",
         "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
         "ort": "Revier Sassenholz",
         "pruefungen": [
+          "JuS",
           "ES",
           "PS"
         ],
@@ -26,8 +27,7 @@
         "ort": "27628 Wersabe",
         "pruefungen": [
           "JuS"
-        ],
-        "ergebnis": ""
+        ]
       },
       {
         "event": "53. Rassehundausstellung Lingen",
@@ -37,8 +37,7 @@
         "richter": "Claudia Pelka (DE)",
         "ort": "49808 Lingen/Ems",
         "typ": "Ausstellung",
-        "online": "http://vdh-weser-ems.de/lingen/",
-        "ergebnis": ""
+        "online": "http://vdh-weser-ems.de/lingen/"
       },
       {
         "event": "CAC Landessieger Elstorf",
@@ -48,8 +47,7 @@
         "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
         "ausschreibung": "folgt",
         "online": "folgt",
-        "typ": "Ausstellung",
-        "ergebnis": ""
+        "typ": "Ausstellung"
       },
       {
         "event": "53. Rassehundausstellung Lingen",
@@ -59,8 +57,7 @@
         "richter": "Claudia Pelka (DE)",
         "ort": "49808 Lingen/Ems",
         "typ": "Ausstellung",
-        "online": "https://www.vdh.de/ausstellungen/detail/typ/int/veranstaltung/312/",
-        "ergebnis": ""
+        "online": "https://www.vdh.de/ausstellungen/detail/typ/int/veranstaltung/312/"
       }
     ]
   },

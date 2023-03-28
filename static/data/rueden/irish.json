@@ -6,6 +6,7 @@
     "mutter": "Vislev Josefine",
     "urlPedegree": "static/rueden/irish/pedigree_nilsson.jpg",
     "formwert": "V",
+    "hd": "A2",
     "cm": 60,
     "pra": "clear",
     "zahnstatus": "vollzahnig / Schere",
@@ -20,7 +21,9 @@
     "fon": "+49 151 1615 3250",
     "mail": "info@irish-setter-power-games.de",
     "web": "www.irish-setter-power-games.de",
-    "url": "static/rueden/irish/nilsson.jpg"
+    "url": "static/rueden/irish/nilsson.jpg",
+    "titel":["Trialer", "SnipeCh.", "DPCh.", "DSCh.", "DKJCh."],
+    "leistung": ["JuS", "JuSH", "ES", "PS", "HJPS", "GT solo", "GT paar", "HZP", "VGP"," HAP (GSCD)", "JAP (GSCD)", "JS solo", "BP", "UK", "UKK", "FTA solo", "Int.Derby s/p", "FT s/p", "Brugsproeve", "VK", "AK"]
   },
   {
     "name": "Lucky an der Klosterpforte Oldenburgerland",

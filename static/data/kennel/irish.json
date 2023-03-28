@@ -1,5 +1,15 @@
 [
   {
+    "kennelName": "Fearless Hunter",
+    "url": "static/kennel/irish/breeder_pic.jpg",
+    "kontakt": "Kerstin Westhoff",
+    "strasse": "Am Keezer See",
+    "ort": "19412 Keez",
+    "fon": "+49 172 6097794",
+    "mail": "info@setter-westhoff.de",
+    "web": "http://www.setter-westhoff.de" 
+  },
+  {
     "kennelName": "Irish Power Game`s",
     "url": "static/kennel/irish/power-games.jpg",
     "kontakt": "Heike Sporleder",
