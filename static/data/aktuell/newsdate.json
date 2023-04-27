@@ -63,7 +63,8 @@
         "richter": "Claudia Pelka (DE)",
         "ort": "49808 Lingen/Ems",
         "typ": "Ausstellung",
-        "online": "http://vdh-weser-ems.de/lingen/"
+        "online": "http://vdh-weser-ems.de/lingen/",
+        "ergebnis":"erg_lingen2023.pdf"
       },
       {
         "event": "CAC Landessieger Elstorf",
@@ -71,19 +72,9 @@
         "meldeschluss": "15.08.2023, 23.00 Uhr",
         "richter": "Mr. Istvan Lakatos, H",
         "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
-        "ausschreibung": "folgt",
-        "online": "folgt",
-        "typ": "Ausstellung"
-      },
-      {
-        "event": "53. Rassehundausstellung Lingen",
-        "datum": "23.04.2023",
-        "meldeschluss": "17.02.2023",
-        "eventLang": "22./23.04.2023",
-        "richter": "Claudia Pelka (DE)",
-        "ort": "49808 Lingen/Ems",
+        "online": "https://macshot.de/vfpus-n",
         "typ": "Ausstellung",
-        "online": "https://www.vdh.de/ausstellungen/detail/typ/int/veranstaltung/312/"
+        "ausschreibung":"elstorf_20230820.pdf"
       }
     ]
   },
