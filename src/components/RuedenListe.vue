@@ -17,6 +17,7 @@
                   <a v-if="ruede.fon" :href="'tel:' + ruede.fon | phoneAsLink" class="btn btn-outline-success"><i class="fa fa-phone fa-fw"></i></a>
                   <a v-if="ruede.web" :href="'http://' + ruede.web" target="vater" class="btn btn-outline-success"><i class="fa fa-external-link fa-fw"></i></a>
                   <a v-if="ruede.urlPedegree" :href="ruede.urlPedegree" target="pedegree" class="btn btn-outline-success"><i class="fa fa-file-pdf-o fa-fw"></i></a>
+                  <a v-if="ruede.pusdbdogid" :href="'https://www.pusdb.de/se/action.py?dogid=' + ruede.pusdbdogid" target="pusdb" class="btn btn-outline-success"><i class="fa fa-database fa-fw"></i></a>
                 </div>
               </transition>
             </div>
