@@ -1,7 +1,44 @@
 [
   {
     "jahr": 2023,
-  "termine": [  
+    "termine": [
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfungen I",
+        "datum": "05.09.2023",
+        "meldeschluss": "05.08.2023",
+        "ausschreibung": "prherbst2023.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "Revier Berne / Wesermarsch",
+        "pruefungen": [
+          "HJS"
+        ]
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfungen II",
+        "datum": "30.09.2023",
+        "meldeschluss": "30.08.2023",
+        "ausschreibung": "prherbst2023.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "Revier Wersabe",
+        "pruefungen": [
+          "JuSH"
+        ]
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfungen III",
+        "datum": "14.10.2023",
+        "meldeschluss": "14.09.2023",
+        "ausschreibung": "prherbst2023.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "ort": "Revier Wersabe",
+        "pruefungen": [
+          "AZP",
+          "HZP"
+        ]
+      },
       {
         "typ": "Pruefung",
         "event": "Einzel- und Paarsuche",
@@ -28,7 +65,7 @@
           "JuS"
         ],
         "ergebnis": "erg_js20230326.pdf"
-      },      
+      },
       {
         "typ": "Pruefung",
         "event": "Jugendsuche",
@@ -40,8 +77,8 @@
         "pruefungen": [
           "JuS"
         ],
-        "ergebnis":"erg_jus_042023.pdf"
-      },      
+        "ergebnis": "erg_jus_042023.pdf"
+      },
       {
         "typ": "Pruefung",
         "event": "Jugendsuche",
@@ -53,8 +90,8 @@
         "pruefungen": [
           "JuS"
         ],
-        "ergebnis":"erg_jus_042023.pdf"
-      }, 
+        "ergebnis": "erg_jus_042023.pdf"
+      },
       {
         "event": "53. Rassehundausstellung Lingen",
         "datum": "23.04.2023",
@@ -64,7 +101,7 @@
         "ort": "49808 Lingen/Ems",
         "typ": "Ausstellung",
         "online": "http://vdh-weser-ems.de/lingen/",
-        "ergebnis":"erg_lingen2023.pdf"
+        "ergebnis": "erg_lingen2023.pdf"
       },
       {
         "event": "CAC Landessieger Elstorf",
@@ -74,12 +111,12 @@
         "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
         "online": "https://macshot.de/vfpus-n",
         "typ": "Ausstellung",
-        "ausschreibung":"elstorf_20230820.pdf"
+        "ausschreibung": "elstorf_20230820.pdf"
       }
     ]
   },
   {
-      "jahr": 2022,
+    "jahr": 2022,
     "termine": [
       {
         "typ": "Pruefung",
@@ -106,8 +143,8 @@
           "AZP"
         ],
         "ergebnis": "ergebnis_hzpazp_2022.pdf"
-       },
-       {
+      },
+      {
         "typ": "Pruefung",
         "event": "Herbstprüfungen",
         "datum": "15.10.2022",
