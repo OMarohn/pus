@@ -3,14 +3,41 @@
     "jahr": 2023,
     "termine": [
       {
-        "typ": "Pruefung",
-        "event": "Herbstprüfungen I",
-        "datum": "05.09.2023",
-        "meldeschluss": "05.08.2023",
-        "ausschreibung": "prherbst2023.pdf",
-        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-        "ort": "Revier Berne / Wesermarsch",
-        "pruefungen": [
+      "event": "CACIB Rostock",
+      "event": "30.09.2023",
+      "richter": "Setter Herr Mikael Tranholm, (DK), Pointer Herr Jochen H. Eberhardt, (DE)",
+      "ort": "HanseMesse Rostock,Halle&Aussengelände",
+      "online": "http://www.vdh-lv-mv.de/cacib.htm",
+      "typ": "Ausstellung",
+      "ergebnis": 
+      },
+      {
+      "event": "CACIB Oldenburg",
+      "eventlang": "04.08.2023",
+      "richter": "04.08.2023: Herr Erwin Deutscher, (A)",
+      "online": "http://vdh-weser-ems.de",
+      "ort": "Oldenburg",
+      "typ": "Ausstellung",
+      "ergebnis":
+      },
+      {
+      "event": "CACIB Oldenburg",
+      "eventlang": "05.08.2023",
+      "richter": "05.08.2023: Frau Galyna Kalinichenko, (NL)",
+      "online": "http://vdh-weser-ems.de",
+      "ort": "Oldenburg",
+      "typ": "Ausstellung",
+      "ergebnis":
+      },
+      {   
+      "typ": "Pruefung",
+      "event": "Herbstprüfungen I",
+      "datum": "05.09.2023",
+      "meldeschluss": "05.08.2023",
+      "ausschreibung": "prherbst2023.pdf",
+      "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+      "ort": "Revier Berne / Wesermarsch",
+      "pruefungen": [
           "HJS"
         ]
       },
