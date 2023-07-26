@@ -22,7 +22,8 @@
      },
      {
         "event": "CACIB Oldenburg",
-        "eventlang": "05.08.2023",
+        "datum": "05.08.2023",
+        "meldeschluss": "01.07.2023",
         "richter": "05.08.2023: Frau Galyna Kalinichenko, (NL)",
         "online": "http://vdh-weser-ems.de",
         "ort": "Oldenburg",
