@@ -28,8 +28,9 @@
         "richter": "05.08.2023: Frau Galyna Kalinichenko, (NL)",
         "online": "http://vdh-weser-ems.de",
         "ort": "Oldenburg",
-        "typ": "Ausstellung"
-     },
+        "typ": "Ausstellung",
+        "ergebnis": "erg_old05.05.23.pdf"
+    },
      {   
         "typ": "Pruefung",
         "event": "Herbstprüfungen I",
