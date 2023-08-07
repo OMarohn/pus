@@ -1,7 +1,7 @@
 <template>
   <!-- NAVBAR -->
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
@@ -15,7 +15,7 @@
         <li class="nav-item dropdown" :class="{active: isActive('Vorstand')}">
           <a class="nav-link dropdown-toggle" id="navVerein" data-toggle="dropdown" href="/#/verein">Verein</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" target="_blank" href="http://www.pointer-und-setter.de/index.php/verein1/vorstand.html">Vorstand Hauptverein</a>
+            <a class="dropdown-item" target="_blank" href="http://www.pointer-und-setter.de/index.php/verein1/vorstand.html" :click="closeNavBar()">Vorstand Hauptverein</a>
             <a class="dropdown-item" href="#verein/vorstand" :class="{active: isActive('Vorstand')}">Vorstand Landesgruppe</a>
           </div>
         </li>
@@ -31,21 +31,21 @@
         <li class="nav-item dropdown" :class="{active: isActive('Wurf')}">
           <a class="nav-link dropdown-toggle" id="navWelpen" data-toggle="dropdown" href="/#/welpen">Welpen</a>
           <div class="dropdown-menu">
-            <a v-for="rasse in rassen" class="dropdown-item" :class="{disabled: isWurf(rasse.url)}" :href="'#wurf/' + rasse.url">{{rasse.display}}</a>
+            <a v-for="rasse in rassen" v-bind:key="rasse.url" class="dropdown-item" :class="{disabled: isWurf(rasse.url)}" :href="'#wurf/' + rasse.url">{{rasse.display}}</a>
           </div>
         </li>
         <!-- Dropdown Zuechter // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown" :class="{active: isActive('Zuechter')}">
           <a class="nav-link dropdown-toggle" id="navZuechter" data-toggle="dropdown" href="/#/zuechter">Züchter</a>
           <div class="dropdown-menu">
-            <a v-for="rasse in rassen" class="dropdown-item" :href="'#zuechter/' + rasse.url">{{rasse.display}}</a>
+            <a v-for="rasse in rassen" v-bind:key="rasse.url" class="dropdown-item" :href="'#zuechter/' + rasse.url">{{rasse.display}}</a>
           </div>
         </li>
         <!-- Dropdown Rueden // mit <router-linkt> hats nicht funktioniert! -->
         <li class="nav-item dropdown" :class="{active: isActive('Rueden')}">
           <a class="nav-link dropdown-toggle" id="navRueden" data-toggle="dropdown" href="/#/rueden">Rüden</a>
           <div class="dropdown-menu">
-            <a v-for="rasse in rassen" class="dropdown-item" :class="{disabled: isRuede(rasse.url)}" :href="'#rueden/' + rasse.url">{{rasse.display}}</a>
+            <a v-for="rasse in rassen" v-bind:key="rasse.url" class="dropdown-item" :class="{disabled: isRuede(rasse.url)}" :href="'#rueden/' + rasse.url">{{rasse.display}}</a>
           </div>
         </li>
         <!-- Dropdown Ausstellungen // mit <router-linkt> hats nicht funktioniert! -->
@@ -100,6 +100,9 @@
   export default {
     name: 'navBar',
     methods: {
+      closeNavBar() {
+        $("#navbarSupportedContent").collapse("hide");
+      },
       isWurf (rasse) {
         let ret = false
         const wuerfe = this.$store.getters.getWuerfe
