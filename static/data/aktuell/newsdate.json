@@ -12,6 +12,19 @@
       "typ": "Ausstellung"
      },
      {
+      "typ": "Pruefung",
+      "event": "Herbstprüfungen III",
+      "datum": "15.10.2023",
+      "meldeschluss": "14.09.2023",
+      "ausschreibung": "ausschr_herbst3_2023.pdf",
+      "online":"https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+      "Ort": "Revier Wersabe",
+      "pruefungen": [
+        "AZP",
+        "HZP"
+      ]
+     },
+     {
       "event": "Advents CAC",
       "datum": "25.11.2023",
       "meldeschluss": "20.11.2023",
