@@ -9,6 +9,7 @@
       "richter": "Setter: Herr Mikael Tranholm, (DK), Pointer: Herr Jochen H. Eberhardt, (DE)",
       "ort": "HanseMesse Rostock,Halle&Aussengelände",
       "online": "http://www.vdh-lv-mv.de/cacib.htm",
+      "ergebnis": "erg_rostock_2023.pdf",
       "typ": "Ausstellung"
      },
      {
@@ -82,6 +83,7 @@
         "ausschreibung": "prherbst2023.pdf",
         "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
         "ort": "Revier Wersabe",
+        "ergebnis": "erg_jush_2023.pdf",
         "pruefungen": [
           "JuSH"
         ]
