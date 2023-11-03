@@ -23,7 +23,8 @@
       "pruefungen": [
         "AZP",
         "HZP"
-      ]
+      ],
+      "ergebnis": "erg20231015.pdf"
      },
      {
       "event": "Advents CAC",
@@ -100,7 +101,8 @@
         "pruefungen": [
           "AZP",
           "HZP"
-        ]
+        ],
+        "ergebnis": "erg20231014.pdf"
       },
       {
         "typ": "Pruefung",

@@ -99,8 +99,8 @@ export default {
           position: "Beisitzer Öffentlichkeitsarbeit - Internet",
           name: "Bettina Heitmann",
           url: "static/vorstand/vorstand_heitmann.jpg",
-          strasse: "Mover Strasse 15d",
-          ort: "21423 Drage",
+          strasse: "Schnaruper Str 29",
+          ort: "24891 Schnarup-Thumby",
           tel: "+49 (163) 6858305",
           mail: "bettina_heitmann@gmx.de"
         }
