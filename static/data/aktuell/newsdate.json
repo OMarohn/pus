@@ -1,8 +1,65 @@
 [
   {
+    "jahr": 2024,
+    "termine": [
+    {
+    "typ": "Pruefung",
+    "event": "Frühjahrsprüfungen 2",
+    "datum": "23.03.2024",
+    "meldeschluss": "27.02.2024",
+    "ort": "27402 Sassenholz",
+    "pruefungen": [
+      "JuS",
+      "PS (CAC)",
+      "ES"
+     ]
+    },
+    {
+    "typ": "Pruefung",
+    "event": "Frühjahrsprüfungen",
+    "datum": "13.04.2024",
+    "meldeschluss": "13.03.2024",
+    "ort": "27628 Wersabe",
+    "pruefungen": [
+      "JuS"
+      ]
+    },
+    {
+    "event": "54. Rassehundausstellung Lingen",
+    "datum": "20.04.2024",
+    "richter": "Nastasja Vatter (D)",
+    "ort": "49808 Lingen/Ems",
+    "typ": "Ausstellung",
+    "online": "http://vdh-weser-ems.de/lingen/"
+    },
+    {  
+    "event": "CACIB Oldenburg",
+    "datum": "04.08.2024",
+    "richter": "Will Hochstenbach (NL)",
+    "online": "http://vdh-weser-ems.de",
+    "ort": "Oldenburg",
+    "typ": "Ausstellung"
+    },
+    {
+    "event": "CAC Landessieger Elstorf",
+    "datum": "18.08.2024",
+    "richter": "Wolfgang Eickert (D)",
+    "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
+    "typ": "Ausstellung"
+    },
+    { 
+    "event": "Advents CAC",
+    "datum": "24.11.2024",
+    "richter": "Rolf Blessing (D)",
+    "Ort": "Quellenweg 18, 21629 Neu Wulmstorf",
+    "typ": "Ausstellung"
+    }
+  ]
+},
+{
     "jahr": 2023,
     "termine": [
-     {
+    {
       "event": "CACIB Rostock",
       "datum": "30.09.2023",
       "meldeschluss": "02.08/23.08.2023",
