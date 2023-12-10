@@ -48,11 +48,17 @@
     "typ": "Ausstellung"
     },
     { 
-    "event": "Advents CAC",
-    "datum": "24.11.2024",
-    "richter": "Rolf Blessing (D)",
-    "Ort": "Quellenweg 18, 21629 Neu Wulmstorf",
-    "typ": "Ausstellung"
+    "event": "CACIB Rostock",
+    "datum": "13.10.2023",
+    "ort": "HanseMesse Rostock,Halle&Aussengelände",
+    "online": "https://www.vdh.de/ausstellungen/detail/typ/int/veranstaltung/367/"
+   },
+   { 
+   "event": "Advents CAC",
+   "datum": "24.11.2024",
+   "richter": "Rolf Blessing (D)",
+   "Ort": "Quellenweg 18, 21629 Neu Wulmstorf",
+   "typ": "Ausstellung"
     }
   ]
 },
