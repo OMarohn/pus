@@ -29,16 +29,16 @@ jobs:
     - run: npm install    
     - run: npm run prod
     - name: sftp
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      uses: wangyucode/sftp-upload-action@v2.0.2
       with:
         # username
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PSW }}
         # your sftp server
-        server: home34240410.1and1-data.host
+        host: home34240410.1and1-data.host
         # your sftp server port, default to 22
         port: 22
         # will put all file under this path
-        local_path: ./dist/*
+        localDir: ./dist/*
         # files will copy to under remote_path
-        remote_path: /test_deploy
+        remoteDir: /test_deploy
