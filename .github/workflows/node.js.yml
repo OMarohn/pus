@@ -39,6 +39,6 @@ jobs:
         # your sftp server port, default to 22
         port: 22
         # will put all file under this path
-        localDir: ./dist/*
+        localDir: /home/runner/work/pus/pus/dist/*
         # files will copy to under remote_path
         remoteDir: /test_deploy
