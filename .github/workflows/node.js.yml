@@ -41,4 +41,4 @@ jobs:
         # will put all file under this path
         localDir: ./dist
         # files will copy to under remote_path
-        remoteDir: /test_deploy
+        remoteDir: /
