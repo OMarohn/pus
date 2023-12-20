@@ -10,8 +10,8 @@ name: Node.js CI
 #     branches: [ "master" ]
 
 on:
-  label:
-    types: [created]
+  project_card:
+    types: [deleted]
     
 jobs:
   build:
