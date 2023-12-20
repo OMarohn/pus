@@ -30,7 +30,7 @@ jobs:
     - run: npm run prod
 
     - name: Open Web Client Directory
-      working-directory: ./
+      working-directory: ./dist
       run: |
         ls -la          
     - name: sftp
@@ -44,6 +44,6 @@ jobs:
         # your sftp server port, default to 22
         port: 22
         # will put all file under this path
-        localDir: ./pus/dist/*
+        localDir: ./dist/*
         # files will copy to under remote_path
         remoteDir: /test_deploy
