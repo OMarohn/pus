@@ -11,7 +11,7 @@ name: Node.js CI
 
 on:
   project_card:
-    types: [deleted]
+    types: [created]
     
 jobs:
   build:
