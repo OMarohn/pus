@@ -28,11 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm install    
     - run: npm run prod
-
-    - name: Open Web Client Directory
-      working-directory: ./dist
-      run: |
-        ls -la          
     - name: sftp
       uses: wangyucode/sftp-upload-action@v2.0.2
       with:
@@ -44,6 +39,6 @@ jobs:
         # your sftp server port, default to 22
         port: 22
         # will put all file under this path
-        localDir: ./dist/*
+        localDir: ./dist
         # files will copy to under remote_path
         remoteDir: /test_deploy
