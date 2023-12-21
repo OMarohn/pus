@@ -9,13 +9,11 @@ name: Node.js CI
 #   pull_request:
 #     branches: [ "master" ]
 
-on:
-  issues:
-    types: [closed]
+on: workflow_dispatch
     
 jobs:
   build:
-
+    if: github.repository == 'omarohn/octo-repo-prod'
     runs-on: ubuntu-latest
 
     strategy:
