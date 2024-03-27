@@ -10,12 +10,12 @@
     "ausschreibung": "ausschr_prfg_frühj_2024.pdf",
     "ort": "27402 Sassenholz",
     "pruefungen": [
-      "PS",
       "ES",
       "JuS",
       "Int. Derby"
-     ]
-    },
+     ],
+     "ergbnis": 
+        },
     {
     "typ": "Pruefung",
     "event": "Frühjahrsprüfungen",
@@ -25,7 +25,7 @@
     "ort": "27628 Wersabe",
     "pruefungen": [
       "JuS"
-      ]
+     ]
     },
     {
     "event": "Einladung Züchtertreffen",
