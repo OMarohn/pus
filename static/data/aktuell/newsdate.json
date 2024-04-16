@@ -19,13 +19,14 @@
     {
     "typ": "Pruefung",
     "event": "Frühjahrsprüfungen",
-    "datum": "13.04.2024",
+    "datum": "13./14.04.2024",
     "meldeschluss": "13.03.2024",
     "ausschreibung": "ausschr_prfg_frühj_2024.pdf",
     "ort": "27628 Wersabe",
     "pruefungen": [
       "JuS"
      ]
+    "ergebnis": 
     },
     {
     "event": "Einladung Züchtertreffen",
