@@ -1,5 +1,26 @@
 [
   {
+    "name": "Silvanus Unique Sir Winston",
+    "vater": "Silvanus Tiziano-Tullio",
+    "mutter": "Charming Vagabonds High Beauty Vision",
+    "formwert": "V",
+    "hd": "A1",
+    "pra": "clear",
+    "ohren": "bs hörend",
+    "zahnstatus": "vollzahnig / Schere",
+    "ztp": "uneingeschränkt",
+    "url": "static/rueden/englisch/winston.jpg",
+    "zuchtbuch": "VDH/DPSZ ES 21/035",
+    "wurftag": "21.10.2021",
+    "besitzer": "Claudia Hoffman",
+    "besitzerStrasse": "Andersenstr. 33",
+    "besitzerOrt": "49479 Ibbenbüren",
+    "fon": "+49 (170) 7770180",
+    "mail": "claudiahoffmann33@t-online.de",
+    "leistung": ["JuS"],
+    "titel": ["Dt.J.Ch(VDH)", "LJS"]
+  },
+  {
     "name": "Belton Pearls Amazing hunting Boy",
     "vater": "Tabasco Simarilion",
     "mutter": "Charming Vagabonds Glamour Girl",
