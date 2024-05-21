@@ -3,6 +3,12 @@
     "jahr": 2024,
     "termine": [
     {
+    "event": "Wasserübungstag 2",
+    "datum": "20.07.2024",
+    "ort": "Helga und Gerhard Konsek Wesermünder Str. 6, 27628 Sandstedt-Wersabe, Tel. 04702 350, Fax. 04702 520445, Mobil. 0160 95553975. E-Mail. h.konsek@gmx.de.",
+    "typ": "Sonstiges"
+    },
+    {
     "typ": "Pruefung",
     "event": "Frühjahrsprüfungen 2",
     "datum": "23.03.2024",
