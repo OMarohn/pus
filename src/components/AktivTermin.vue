@@ -68,6 +68,18 @@
                       <i class="fa fa-file-pdf-o fa-fw"></i><span>Protokoll</span>
                     </a>
                   </div>
+                  <div v-if="theDate.hasOwnProperty('anlage')">
+                    <a data-toggle="tooltip" data-placement="top" title="Anlage" :href="'static/doc/' + theDate.anlage" target="anlage"
+                       class="btn btn-outline-success btn-sm">
+                      <i class="fa fa-file-pdf-o fa-fw"></i><span>Anlage</span>
+                    </a>
+                  </div>
+                  <div v-if="theDate.hasOwnProperty('kassenbericht')">
+                    <a data-toggle="tooltip" data-placement="top" title="Kassenbericht" :href="'static/doc/' + theDate.kassenbericht" target="kassenbericht"
+                       class="btn btn-outline-success btn-sm">
+                      <i class="fa fa-file-pdf-o fa-fw"></i><span>Kassenbeticht</span>
+                    </a>
+                  </div>
                   <div v-if="theDate.hasOwnProperty('online')">
                     <a data-toggle="tooltip" data-placement="top" title="Protokoll" :href="theDate.online" target="online"
                        class="btn btn-outline-success btn-sm">
