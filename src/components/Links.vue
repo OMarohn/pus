@@ -18,7 +18,7 @@
               <li class="list-group-item"><a href="http://www.pushps.de/" target="links">LG Hessen-Pfalz-Saar</a></li>
               <li class="list-group-item"><a href="http://www.pointer-setter-rheinland.de/" target="links">LG Rheinland</a></li>
               <li class="list-group-item"><a href="http://www.pointer-und-setter-verein.de/" target="links">LG Sachsen/Thüringen/Sachsen-Anhalt</a></li>
-              <li class="list-group-item"><a href="http://www.pointer-setter.de/" target="links">LG Westfalen-Ruhr</a></li>
+              <li class="list-group-item"><a href="https://www.pointer-setter-westfalen-ruhr.de/" target="links">LG Westfalen-Ruhr</a></li>
             </ul>
           </div>
         </div>
