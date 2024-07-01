@@ -3,6 +3,15 @@
     "jahr": 2024,
     "termine": [
     {
+    "typ": "Pruefung",
+    "event": "Herbstprüfung 1",
+    "datum": "14.09.2024",
+    "meldeschluss": "14.04.2024",
+    "ausschreibung": "ausschr_prfg_herb_2024.pdf",
+    "Ort": "Revier Wersabe",
+    "pruefungen": "JuSH"     
+    },
+    {
     "event": "Wasserübungstag Wersabe",
     "datum": "20.07.2024",
     "ort": "Helga und Gerhard Konsek Wesermünder Str. 6, 27628 Sandstedt-Wersabe, Tel. 04702 350, Fax. 04702 520445, Mobil. 0160 95553975. E-Mail. h.konsek@gmx.de.",
