@@ -18,7 +18,11 @@
     "meldeschluss": "14.08.2024",
     "ausschreibung": "ausschr_prfg_herb_2024.pdf",
     "Ort": "27628 Wersabe",
-    "pruefungen": "JuSH"     
+    "pruefungen": [
+     "JuSH",    
+     "Int. Derby"
+    ],
+    "ergebnis":
     },
     {
     "event": "Wasserübungstag Wersabe",
