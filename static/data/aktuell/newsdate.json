@@ -9,6 +9,29 @@
     "typ": "Sonstiges"
     },
     {
+      "typ": "Pruefung",
+      "event": "Herbstprüfungen I",
+      "datum": "14.09.2024",
+      "meldeschluss": "14.08.2024",
+      "ausschreibung": "herbst2024.pdf",
+      "ort": "Revier Wersabe",
+      "pruefungen": [
+        "JuSH"
+       ]
+    },    
+    {
+      "typ": "Pruefung",
+      "event": "Herbstprüfungen II",
+      "datum": "28.09.2024",
+      "meldeschluss": "28.08.2024",
+      "ausschreibung": "herbst2024.pdf",
+      "ort": "Revier Wersabe",
+      "pruefungen": [
+        "AZP",
+        "HZP"
+       ]
+    },
+    {
     "typ": "Pruefung",
     "event": "Frühjahrsprüfungen 2",
     "datum": "23.03.2024",
