@@ -30,6 +30,18 @@
         "AZP",
         "HZP"
        ]
+    },    
+    {
+      "typ": "Pruefung",
+      "event": "Herbstprüfungen III",
+      "datum": "29.09.2024",
+      "meldeschluss": "28.08.2024",
+      "ausschreibung": "herbst2024.pdf",
+      "ort": "Revier Wersabe",
+      "pruefungen": [
+        "AZP",
+        "HZP"
+       ]
     },
     {
     "typ": "Pruefung",
