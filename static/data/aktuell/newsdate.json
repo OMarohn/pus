@@ -3,15 +3,6 @@
     "jahr": 2024,
     "termine": [
     {
-   "typ": "Pruefung",
-   "event": "Herbstprüfung 2",
-   "datum": "28.09.2024",
-   "meldeschluss": "28.08.2024",
-   "ausschreibung": "ausschr_prfg_herb_2024.pdf",
-   "Ort": "27628 Wersabe",
-   "pruefungen": "HZP/AZP"
-   },
-   {  
     "typ": "Pruefung",
     "event": "Herbstprüfung 1",
     "datum": "14.09.2024",
@@ -32,7 +23,7 @@
     },
     {
       "typ": "Pruefung",
-      "event": "Herbstprüfungen II",
+      "event": "Herbstprüfungen 2",
       "datum": "28.09.2024",
       "meldeschluss": "28.08.2024",
       "ausschreibung": "herbst2024.pdf",
