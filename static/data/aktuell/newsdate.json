@@ -10,16 +10,18 @@
    "ausschreibung": "ausschr_prfg_herb_2024.pdf",
    "Ort": "27628 Wersabe",
    "pruefungen": "HZP/AZP"
-    },
-    {  
+   },
+   {  
     "typ": "Pruefung",
     "event": "Herbstprüfung 1",
     "datum": "14.09.2024",
     "meldeschluss": "14.08.2024",
     "ausschreibung": "ausschr_prfg_herb_derby_2024.pdf",
     "Ort": "27628 Wersabe",
-    "pruefungen": "JuSH/Int. Derby"
-    ], 
+    "pruefungen": [
+    "JuSH",
+    "Int. Derby"
+    ],
     "ergebnis": "erg_wers_2024.pdf"
     },
     {
