@@ -1,8 +1,69 @@
-[
+ ]
+},
+{
+ "jahr": 2025,
+ "termine": [
+ {
+  "typ": "Prüfung",
+  "event": "Frühjahrsprüfung Steinfeld",
+  "datum": "28.02.2025",
+  "pruefungen": [
+  "ES",
+  "PS"
+ },
+ {
+  "typ": "Prüfung",
+  "event": "Frühjahrsprüfung Wersabe",
+  "datum": "21.03.2025",
+  "pruefungen": [
+  "JuS",
+  "Inter. Derby"
+  },
   {
-    "jahr": 2024,
-    "termine": [
-    {
+  "typ": "Prüfung",
+  "event": "Frühjahrsprfung Wersabe",
+  "datum": "30.03.2025",
+  "pruefungen": [
+  "JuS"
+  },
+  {
+  "event": "55. Rassehundausstellung Lingen",
+  "datum": "27.04.2025",
+  "richter": " Pawel Zareba (Pl)",
+  "ort": "Lindenstraße 24a, 49808 Lingen/Ems",
+  "typ": "Ausstellung",
+  },
+  { 
+  "event": "SRA mit ZZB",
+  "datum": "10.05.2025",
+  "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
+  "ort": "27386 Brockel",
+  "typ": "Ausstellung",
+ },
+ {
+  "event": "Einladung Züchtertreffen",
+  "datum": "11.05.2025",
+  "Ort": "folgt noch",
+  "typ": "Sonstiges"
+  },
+  {
+  "event": "Einladung Landesgruppenversammlung",
+  "datum": "10.05.2025",
+  "Ort": "folgt noch",
+  "typ": "Sonstiges"
+  },
+  { 
+  "event": "Generalversammlung VfPuS e.V.",
+  "datum": "22.06.2025",
+  "Ort": "Sudermühlen 1, 21272 Egestorf ",
+  "typ": "Sonstiges"
+   }
+  ]
+},
+{ 
+  "jahr": 2024,
+  "termine": [
+  {
     "typ": "Pruefung",
     "event": "Herbstprüfung 1",
     "datum": "14.09.2024",
@@ -22,15 +83,15 @@
     "typ": "Sonstiges"
     },
     {
-      "typ": "Pruefung",
-      "event": "Herbstprüfungen 2",
-      "datum": "29.09.2024",
-      "meldeschluss": "28.08.2024",
-      "ausschreibung": "herbst2024.pdf",
-      "ort": "Revier Wersabe",
-      "pruefungen": [
-        "AZP",
-        "HZP"
+    "typ": "Pruefung",
+    "event": "Herbstprüfungen 2",
+    "datum": "29.09.2024",
+    "meldeschluss": "28.08.2024",
+    "ausschreibung": "herbst2024.pdf",
+    "ort": "Revier Wersabe",
+    "pruefungen": [
+      "AZP",
+      "HZP"
        ],
        "ergebnis": "erg_azp_hzp_29.9.24.pdf"
     },    
