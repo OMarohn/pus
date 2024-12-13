@@ -1,17 +1,18 @@
+   }
  ]
-},
+}
 {
- "jahr": 2025,
- "termine": [
- {
+  "jahr": 2025,
+  "termine": [
+  {
   "typ": "Prüfung",
   "event": "Frühjahrsprüfung Steinfeld",
   "datum": "28.02.2025",
   "pruefungen": [
   "ES",
   "PS"
- },
- {
+  },
+  {
   "typ": "Prüfung",
   "event": "Frühjahrsprüfung Wersabe",
   "datum": "21.03.2025",
@@ -39,8 +40,8 @@
   "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
   "ort": "27386 Brockel",
   "typ": "Ausstellung",
- },
- {
+  },
+  {
   "event": "Einladung Züchtertreffen",
   "datum": "11.05.2025",
   "Ort": "folgt noch",
