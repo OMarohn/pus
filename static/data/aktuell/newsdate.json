@@ -9,7 +9,7 @@
    "meldeschluss": "28.08.2024",
    "ausschreibung": "ausschr_prfg_herb_2024.pdf",
    "Ort": "27628 Wersabe",
-   "pruefungen": "HZP/AZP"
+   "pruefungen": ["HZP","AZP"]
     },
     {  
     "typ": "Pruefung",
@@ -18,7 +18,7 @@
     "meldeschluss": "14.08.2024",
     "ausschreibung": "ausschr_prfg_herb_derby_2024.pdf",
     "Ort": "27628 Wersabe",
-    "pruefungen": "JuSH/Int. Derby" 
+    "pruefungen":["JuSH","Int. Derby"] 
     },
     {
     "event": "Wasserübungstag Wersabe",
