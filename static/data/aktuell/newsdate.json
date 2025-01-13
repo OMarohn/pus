@@ -3,7 +3,7 @@
     "jahr": 2025,
     "termine": [
       {
-        "typ": "Prüfung",
+        "typ": "Pruefung",
         "event": "Frühjahrsprüfung Steinfeld",
         "datum": "28.02.2025",
         "pruefungen": [
@@ -12,7 +12,7 @@
         ]
       },
       {
-        "typ": "Prüfung",
+        "typ": "Pruefung",
         "event": "Frühjahrsprüfung Wersabe",
         "datum": "21.03.2025",
         "pruefungen": [
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "typ": "Prüfung",
+        "typ": "Pruefung",
         "event": "Frühjahrsprfung Wersabe",
         "datum": "30.03.2025",
         "pruefungen": [
