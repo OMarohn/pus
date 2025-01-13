@@ -45,19 +45,19 @@
       {
         "event": "Einladung Züchtertreffen",
         "datum": "11.05.2025",
-        "Ort": "folgt noch",
+        "ort": "folgt noch",
         "typ": "Sonstiges"
       },
       {
         "event": "Einladung Landesgruppenversammlung",
         "datum": "10.05.2025",
-        "Ort": "folgt noch",
+        "ort": "folgt noch",
         "typ": "Sonstiges"
       },
       {
         "event": "Generalversammlung VfPuS e.V.",
         "datum": "22.06.2025",
-        "Ort": "Sudermühlen 1, 21272 Egestorf ",
+        "ort": "Sudermühlen 1, 21272 Egestorf ",
         "typ": "Sonstiges"
       }
     ]
