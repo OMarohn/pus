@@ -1,242 +1,243 @@
-   }
- ]
-}
-{
-  "jahr": 2025,
-  "termine": [
+[
   {
-  "typ": "Prüfung",
-  "event": "Frühjahrsprüfung Steinfeld",
-  "datum": "28.02.2025",
-  "pruefungen": [
-  "ES",
-  "PS"
+    "jahr": 2025,
+    "termine": [
+      {
+        "typ": "Prüfung",
+        "event": "Frühjahrsprüfung Steinfeld",
+        "datum": "28.02.2025",
+        "pruefungen": [
+          "ES",
+          "PS"
+        ]
+      },
+      {
+        "typ": "Prüfung",
+        "event": "Frühjahrsprüfung Wersabe",
+        "datum": "21.03.2025",
+        "pruefungen": [
+          "JuS",
+          "Inter. Derby"
+        ]
+      },
+      {
+        "typ": "Prüfung",
+        "event": "Frühjahrsprfung Wersabe",
+        "datum": "30.03.2025",
+        "pruefungen": [
+          "JuS"
+        ]
+      },
+      {
+        "event": "55. Rassehundausstellung Lingen",
+        "datum": "27.04.2025",
+        "richter": " Pawel Zareba (Pl)",
+        "ort": "Lindenstraße 24a, 49808 Lingen/Ems",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "SRA mit ZZB",
+        "datum": "10.05.2025",
+        "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
+        "ort": "27386 Brockel",
+        "typ": "Ausstellung"
+      },
+      {
+        "event": "Einladung Züchtertreffen",
+        "datum": "11.05.2025",
+        "Ort": "folgt noch",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Einladung Landesgruppenversammlung",
+        "datum": "10.05.2025",
+        "Ort": "folgt noch",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Generalversammlung VfPuS e.V.",
+        "datum": "22.06.2025",
+        "Ort": "Sudermühlen 1, 21272 Egestorf ",
+        "typ": "Sonstiges"
+      }
+    ]
   },
   {
-  "typ": "Prüfung",
-  "event": "Frühjahrsprüfung Wersabe",
-  "datum": "21.03.2025",
-  "pruefungen": [
-  "JuS",
-  "Inter. Derby"
+    "jahr": 2024,
+    "termine": [
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfung 1",
+        "datum": "14.09.2024",
+        "meldeschluss": "14.08.2024",
+        "ausschreibung": "ausschr_prfg_herb_derby_2024.pdf",
+        "Ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuSH",
+          "Int. Derby"
+        ],
+        "ergebnis": "erg_wers_14.9.24.pdf"
+      },
+      {
+        "event": "Wasserübungstag Wersabe",
+        "datum": "20.07.2024",
+        "ort": "Helga und Gerhard Konsek Wesermünder Str. 6, 27628 Sandstedt-Wersabe, Tel. 04702 350, Fax. 04702 520445, Mobil. 0160 95553975. E-Mail. h.konsek@gmx.de.",
+        "typ": "Sonstiges"
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfungen 2",
+        "datum": "29.09.2024",
+        "meldeschluss": "28.08.2024",
+        "ausschreibung": "herbst2024.pdf",
+        "ort": "Revier Wersabe",
+        "pruefungen": [
+          "AZP",
+          "HZP"
+        ],
+        "ergebnis": "erg_azp_hzp_29.9.24.pdf"
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Frühjahrsprüfungen 2",
+        "datum": "23.03.2024",
+        "meldeschluss": "23.02.2024",
+        "ausschreibung": "ausschr_prfg_frühj_2024.pdf",
+        "ort": "27402 Sassenholz",
+        "pruefungen": [
+          "ES",
+          "JuS",
+          "Int. Derby"
+        ],
+        "ergebnis": "erg_sass_2024.pdf"
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Frühjahrsprüfungen",
+        "datum": "13./14.04.2024",
+        "meldeschluss": "13.03.2024",
+        "ausschreibung": "ausschr_prfg_frühj_2024.pdf",
+        "ort": "27628 Wersabe",
+        "pruefungen": [
+          "JuS"
+        ],
+        "ergebnis": "erg_wers_2024.pdf"
+      },
+      {
+        "event": "Einladung Züchtertreffen",
+        "datum": "04.05.2024",
+        "Ort": "28832 Achim",
+        "ausschreibung": "einlad_zücht_2024.pdf",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "Einladung Landesgruppenversammlung",
+        "datum": "04.05.2024",
+        "Ort": "28832 Achim",
+        "ausschreibung": "einlad_lg_2024.pdf",
+        "anlage": "prot2024anlage.jpg",
+        "protokoll": "protlg2024.pdf",
+        "typ": "Sonstiges"
+      },
+      {
+        "event": "54. Rassehundausstellung Lingen",
+        "datum": "20.04.2024",
+        "richter": "Nastasja Vatter (D)",
+        "ort": "Lindenstraße 24a, 49808 Lingen/Ems",
+        "typ": "Ausstellung",
+        "online": "http://vdh-weser-ems.de/lingen/",
+        "ergebnis": "erg_lingen_2024.pdf"
+      },
+      {
+        "event": "CACIB Oldenburg",
+        "datum": "04.08.2024",
+        "richter": "Will Hochstenbach (NL)",
+        "online": "http://vdh-weser-ems.de",
+        "ort": "Europaplatz 12, 26123 Oldenburg",
+        "typ": "Ausstellung",
+        "ergebnis": "erg_oldenb_2024"
+      },
+      {
+        "event": "CAC Landessieger Elstorf",
+        "datum": "24.08.2024",
+        "richter": "Mrs. Nikki Hughs-Ruigrok (GB)",
+        "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
+        "ausschreibung": "einl_elstorf_2024.pdf",
+        "online": "https://macshot.de/vfpus-n",
+        "typ": "Ausstellung",
+        "ergebnis": "erg_elstorf_2024"
+      },
+      {
+        "event": "Advents CAC",
+        "datum": "24.11.2024",
+        "richter": "Rolf Blessing (D)",
+        "Ort": "Lichthof, Liliencronstr. 25, 21629 Neu Wulmstorf",
+        "ausschreibung": "einl_advcac_2024",
+        "online": "https://macshot.de/vfpus-n/",
+        "typ": "Ausstellung",
+        "ergebnis": "erg_advcac_2024.pdf"
+      }
+    ]
   },
   {
-  "typ": "Prüfung",
-  "event": "Frühjahrsprfung Wersabe",
-  "datum": "30.03.2025",
-  "pruefungen": [
-  "JuS"
-  },
-  {
-  "event": "55. Rassehundausstellung Lingen",
-  "datum": "27.04.2025",
-  "richter": " Pawel Zareba (Pl)",
-  "ort": "Lindenstraße 24a, 49808 Lingen/Ems",
-  "typ": "Ausstellung",
-  },
-  { 
-  "event": "SRA mit ZZB",
-  "datum": "10.05.2025",
-  "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
-  "ort": "27386 Brockel",
-  "typ": "Ausstellung",
-  },
-  {
-  "event": "Einladung Züchtertreffen",
-  "datum": "11.05.2025",
-  "Ort": "folgt noch",
-  "typ": "Sonstiges"
-  },
-  {
-  "event": "Einladung Landesgruppenversammlung",
-  "datum": "10.05.2025",
-  "Ort": "folgt noch",
-  "typ": "Sonstiges"
-  },
-  { 
-  "event": "Generalversammlung VfPuS e.V.",
-  "datum": "22.06.2025",
-  "Ort": "Sudermühlen 1, 21272 Egestorf ",
-  "typ": "Sonstiges"
-   }
-  ]
-},
-{ 
-  "jahr": 2024,
-  "termine": [
-  {
-    "typ": "Pruefung",
-    "event": "Herbstprüfung 1",
-    "datum": "14.09.2024",
-    "meldeschluss": "14.08.2024",
-    "ausschreibung": "ausschr_prfg_herb_derby_2024.pdf",
-    "Ort": "27628 Wersabe",
-    "pruefungen": [
-    "JuSH",
-    "Int. Derby"
-    ],
-    "ergebnis": "erg_wers_14.9.24.pdf"
-    },
-    {
-    "event": "Wasserübungstag Wersabe",
-    "datum": "20.07.2024",
-    "ort": "Helga und Gerhard Konsek Wesermünder Str. 6, 27628 Sandstedt-Wersabe, Tel. 04702 350, Fax. 04702 520445, Mobil. 0160 95553975. E-Mail. h.konsek@gmx.de.",
-    "typ": "Sonstiges"
-    },
-    {
-    "typ": "Pruefung",
-    "event": "Herbstprüfungen 2",
-    "datum": "29.09.2024",
-    "meldeschluss": "28.08.2024",
-    "ausschreibung": "herbst2024.pdf",
-    "ort": "Revier Wersabe",
-    "pruefungen": [
-      "AZP",
-      "HZP"
-       ],
-       "ergebnis": "erg_azp_hzp_29.9.24.pdf"
-    },    
-    {
-    "typ": "Pruefung",
-    "event": "Frühjahrsprüfungen 2",
-    "datum": "23.03.2024",
-    "meldeschluss": "23.02.2024",
-    "ausschreibung": "ausschr_prfg_frühj_2024.pdf",
-    "ort": "27402 Sassenholz",
-    "pruefungen": [
-      "ES",
-      "JuS",
-      "Int. Derby"
-     ],
-     "ergebnis": "erg_sass_2024.pdf"
-    },
-    {
-    "typ": "Pruefung",
-    "event": "Frühjahrsprüfungen",
-    "datum": "13./14.04.2024",
-    "meldeschluss": "13.03.2024",
-    "ausschreibung": "ausschr_prfg_frühj_2024.pdf",
-    "ort": "27628 Wersabe",
-    "pruefungen": [
-      "JuS"
-     ],
-    "ergebnis": "erg_wers_2024.pdf"
-    },
-    {
-    "event": "Einladung Züchtertreffen",
-    "datum": "04.05.2024",
-    "Ort": "28832 Achim",
-    "ausschreibung": "einlad_zücht_2024.pdf",
-    "typ": "Sonstiges"
-    },
-    {
-    "event": "Einladung Landesgruppenversammlung",
-    "datum": "04.05.2024",
-    "Ort": "28832 Achim",
-    "ausschreibung": "einlad_lg_2024.pdf",
-    "anlage": "prot2024anlage.jpg",
-    "protokoll": "protlg2024.pdf",
-    "typ": "Sonstiges"
-    },
-    { 
-    "event": "54. Rassehundausstellung Lingen",
-    "datum": "20.04.2024",
-    "richter": "Nastasja Vatter (D)",
-    "ort": "Lindenstraße 24a, 49808 Lingen/Ems",
-    "typ": "Ausstellung",
-    "online": "http://vdh-weser-ems.de/lingen/",
-    "ergebnis": "erg_lingen_2024.pdf"
-    },
-    {  
-    "event": "CACIB Oldenburg",
-    "datum": "04.08.2024",
-    "richter": "Will Hochstenbach (NL)",
-    "online": "http://vdh-weser-ems.de",
-    "ort": "Europaplatz 12, 26123 Oldenburg",
-    "typ": "Ausstellung",
-    "ergebnis": "erg_oldenb_2024"
-    },
-    {
-    "event": "CAC Landessieger Elstorf",
-    "datum": "24.08.2024",
-    "richter": "Mrs. Nikki Hughs-Ruigrok (GB)",
-    "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
-    "ausschreibung": "einl_elstorf_2024.pdf",
-    "online": "https://macshot.de/vfpus-n",
-    "typ": "Ausstellung",
-    "ergebnis": "erg_elstorf_2024"
-    },
-    { 
-    "event": "Advents CAC",
-    "datum": "24.11.2024",
-    "richter": "Rolf Blessing (D)",
-    "Ort": "Lichthof, Liliencronstr. 25, 21629 Neu Wulmstorf", 
-    "ausschreibung": "einl_advcac_2024",
-    "online":"https://macshot.de/vfpus-n/",
-    "typ": "Ausstellung",
-    "ergebnis": "erg_advcac_2024.pdf"
-    }
-  ]
-},
-{
     "jahr": 2023,
     "termine": [
-    {
-      "event": "CACIB Rostock",
-      "datum": "30.09.2023",
-      "meldeschluss": "02.08/23.08.2023",
-      "richter": "Setter: Herr Mikael Tranholm, (DK), Pointer: Herr Jochen H. Eberhardt, (DE)",
-      "ort": "HanseMesse Rostock,Halle&Aussengelände",
-      "online": "http://www.vdh-lv-mv.de/cacib.htm",
-      "ergebnis": "erg_rostock_2023.pdf",
-      "typ": "Ausstellung"
-     },
-     {
-      "typ": "Pruefung",
-      "event": "Herbstprüfungen IV",
-      "datum": "15.10.2023",
-      "meldeschluss": "14.09.2023",
-      "ausschreibung": "ausschr_herbst3_2023.pdf",
-      "online":"https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
-      "Ort": "Revier Wersabe-27628 Wersabe ",
-      "pruefungen": [
-        "AZP",
-        "HZP"
-      ],
-      "ergebnis": "erg20231015.pdf"
-     },
-     {
-      "event": "Advents CAC",
-      "datum": "25.11.2023",
-      "meldeschluss": "20.11.2023",
-      "richter": "Mrs Nikki Hughes-Ruigrok (IRL)",
-      "Ort": "Quellenweg 18, 21629 Neu Wulmstorf",
-      "online": "https://macshot.de/vfpus-n",
-      "ausschreibung": "einadv2023.pdf",
-      "typ": "Ausstellung",
-      "ergebnis": "erg_adventcac2023.pdf"
-     },
-     {       
-      "event": "ZZB",
-      "datum": "12.11.2023",
-      "meldeschluss": "29.10.2023",
-      "richter": "Heike Dreißig, (D) und Dr. Axel Linneweber, (D)",
-      "ort": "Reiterhof Reupke, 31303 Burgdorf",
-      "ausschreibung": "einladung_zzb2023",
-      "typ": "Ausstellung",
-      "ergebnis": "erg_zzb2023.pdf"
-     },
-     {
-       "event": "CACIB Oldenburg",
-       "datum": "04.08.2023",
-       "meldeschluss": "01.07.2023",
-       "richter": "04.08.2023: Herr Erwin Deutscher, (A)",
-       "online": "http://vdh-weser-ems.de",
-       "ort": "Oldenburg",
-       "typ": "Ausstellung",
-       "ergebnis": "erg_old2023.pdf"
-     },
-     {
+      {
+        "event": "CACIB Rostock",
+        "datum": "30.09.2023",
+        "meldeschluss": "02.08/23.08.2023",
+        "richter": "Setter: Herr Mikael Tranholm, (DK), Pointer: Herr Jochen H. Eberhardt, (DE)",
+        "ort": "HanseMesse Rostock,Halle&Aussengelände",
+        "online": "http://www.vdh-lv-mv.de/cacib.htm",
+        "ergebnis": "erg_rostock_2023.pdf",
+        "typ": "Ausstellung"
+      },
+      {
+        "typ": "Pruefung",
+        "event": "Herbstprüfungen IV",
+        "datum": "15.10.2023",
+        "meldeschluss": "14.09.2023",
+        "ausschreibung": "ausschr_herbst3_2023.pdf",
+        "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
+        "Ort": "Revier Wersabe-27628 Wersabe ",
+        "pruefungen": [
+          "AZP",
+          "HZP"
+        ],
+        "ergebnis": "erg20231015.pdf"
+      },
+      {
+        "event": "Advents CAC",
+        "datum": "25.11.2023",
+        "meldeschluss": "20.11.2023",
+        "richter": "Mrs Nikki Hughes-Ruigrok (IRL)",
+        "Ort": "Quellenweg 18, 21629 Neu Wulmstorf",
+        "online": "https://macshot.de/vfpus-n",
+        "ausschreibung": "einadv2023.pdf",
+        "typ": "Ausstellung",
+        "ergebnis": "erg_adventcac2023.pdf"
+      },
+      {
+        "event": "ZZB",
+        "datum": "12.11.2023",
+        "meldeschluss": "29.10.2023",
+        "richter": "Heike Dreißig, (D) und Dr. Axel Linneweber, (D)",
+        "ort": "Reiterhof Reupke, 31303 Burgdorf",
+        "ausschreibung": "einladung_zzb2023",
+        "typ": "Ausstellung",
+        "ergebnis": "erg_zzb2023.pdf"
+      },
+      {
+        "event": "CACIB Oldenburg",
+        "datum": "04.08.2023",
+        "meldeschluss": "01.07.2023",
+        "richter": "04.08.2023: Herr Erwin Deutscher, (A)",
+        "online": "http://vdh-weser-ems.de",
+        "ort": "Oldenburg",
+        "typ": "Ausstellung",
+        "ergebnis": "erg_old2023.pdf"
+      },
+      {
         "event": "CACIB Oldenburg",
         "datum": "05.08.2023",
         "meldeschluss": "01.07.2023",
@@ -245,8 +246,8 @@
         "ort": "Oldenburg",
         "typ": "Ausstellung",
         "ergebnis": "erg_old05.05.23.pdf"
-     },
-     {   
+      },
+      {
         "typ": "Pruefung",
         "event": "Herbstprüfungen I",
         "datum": "05.09.2023",
@@ -254,7 +255,7 @@
         "ausschreibung": "prherbst2023.pdf",
         "online": "https://pointer-setter-nord.de/static/doc/FB_Nennung_PuS.pdf",
         "ort": "Revier Berne / Wesermarsch",
-        "ergebnis":"erg_hjs_2023.pdf",
+        "ergebnis": "erg_hjs_2023.pdf",
         "pruefungen": [
           "HJS"
         ]
