@@ -6,6 +6,7 @@
         "typ": "Pruefung",
         "event": "Frühjahrsprüfung Steinfeld",
         "datum": "28.02.2025",
+        "meldung": "anmel_prfg_2025.pdf",
         "pruefungen": [
           "ES",
           "PS"
@@ -15,6 +16,8 @@
         "typ": "Pruefung",
         "event": "Frühjahrsprüfung Wersabe",
         "datum": "21.03.2025",
+        "ort": "Familie Konsek, Alte Schmiede, 27628 Wersabe",
+        "meldung": "anmel_prfg_2025.pdf",
         "pruefungen": [
           "JuS",
           "Inter. Derby"
@@ -24,6 +27,8 @@
         "typ": "Pruefung",
         "event": "Frühjahrsprfung Wersabe",
         "datum": "30.03.2025",
+        "ort": "Familie Konsek, Alte Schmiede, 27628 Wersabe",
+        "meldung": "anmel_prfg_2025.pdf",
         "pruefungen": [
           "JuS"
         ]
@@ -33,6 +38,7 @@
         "datum": "27.04.2025",
         "richter": " Pawel Zareba (Pl)",
         "ort": "Lindenstraße 24a, 49808 Lingen/Ems",
+        "meldung": "https://vdh-weser-ems.de/",
         "typ": "Ausstellung"
       },
       {
