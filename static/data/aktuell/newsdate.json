@@ -60,13 +60,13 @@
         "datum": "11.05.2025",
         "ort": "Gasthaus Gerken, Uphuser Heerstraße 55, 28832 Achim",
         "ausschreibung": "einlad_lg_2025.pdf",
-        "typ": "Sonstiges"
+        "typ": "sonstiges"
       },
       {
         "event": "Generalversammlung VfPuS e.V.",
         "datum": "22.06.2025",
         "ort": "Sudermühlen 1, 21272 Egestorf ",
-        "typ": "Sonstiges"
+        "typ": "sonstiges"
       }
     ]
   },
