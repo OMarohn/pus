@@ -95,7 +95,7 @@
       {
         "typ": "Pruefung",
         "event": "Herbstprüfungen 2",
-        "datum": "29.09.2024",
+        "datum": "28./29.09.2024",
         "meldeschluss": "29.08.2024",
         "ausschreibung": "herbst2024.pdf",
         "ort": "Revier Wersabe",
@@ -103,7 +103,8 @@
           "AZP",
           "HZP"
         ],
-        "ergebnis": "erg_azp_hzp_29.9.24.pdf"
+        "ergebnis": "erg_azp_hzp_28.09.24.pdf",
+        "ergebnis": "erg_azp_29.09.24.pdf"
       },
       {
         "typ": "Pruefung",
