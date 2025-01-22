@@ -6,7 +6,7 @@
         "typ": "Pruefung",
         "event": "Frühjahrsprüfung Steinfeld",
         "datum": "28.02.2025",
-        "meldung": "anmel_prfg_2025.pdf",
+        "meldung": "anmeld_prfg_2025.pdf",
         "pruefungen": [
           "ES",
           "PS"
@@ -17,7 +17,7 @@
         "event": "Frühjahrsprüfung Wersabe",
         "datum": "21.03.2025",
         "ort": "Familie Konsek, Alte Schmiede, 27628 Wersabe",
-        "meldung": "anmel_prfg_2025.pdf",
+        "meldung": "anmeld_prfg_2025.pdf",
         "pruefungen": [
           "JuS",
           "Inter. Derby"
@@ -28,7 +28,7 @@
         "event": "Frühjahrsprfung Wersabe",
         "datum": "30.03.2025",
         "ort": "Familie Konsek, Alte Schmiede, 27628 Wersabe",
-        "meldung": "anmel_prfg_2025.pdf",
+        "meldung": "anmeld_prfg_2025.pdf",
         "pruefungen": [
           "JuS"
         ]
