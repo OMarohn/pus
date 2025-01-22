@@ -49,24 +49,24 @@
         "ort": "27386 Brockel"
       },
       {
+         "typ": "Sonstiges",
         "event": "Einladung Züchtertreffen",
         "datum": "11.05.2025",
         "ort": "Gasthaus Gerken, Uphuser Heerstraße 55, 28832 Achim",
-        "ausschreibung": "einlad_zücht_2025.pdf",
-        "typ": "sonstiges"
+        "ausschreibung": "einlad_zücht_2025.pdf"
       },
       {        
+        "typ": "Sonstiges",
         "event": "Einladung Landesgruppenversammlung",
         "datum": "11.05.2025",
         "ort": "Gasthaus Gerken, Uphuser Heerstraße 55, 28832 Achim",
-        "ausschreibung": "einlad_lg_2025.pdf",
-        "typ": "sonstiges"
+        "ausschreibung": "einlad_lg_2025.pdf"
       },
       {
+        "typ": "sonstiges",
         "event": "Generalversammlung VfPuS e.V.",
         "datum": "22.06.2025",
-        "ort": "Sudermühlen 1, 21272 Egestorf ",
-        "typ": "sonstiges"
+        "ort": "Sudermühlen 1, 21272 Egestorf "
       }
     ]
   },
