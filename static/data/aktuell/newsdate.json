@@ -51,13 +51,15 @@
       {
         "event": "Einladung Züchtertreffen",
         "datum": "11.05.2025",
-        "ort": "folgt noch",
-        "typ": "Sonstiges"
+        "ort": "Gasthaus Gerken, Uphuser Heerstraße 55, 28832 Achim",
+        "ausschreibung": "einlad_zücht_2025.pdf",
+        "typ": "sonstiges"
       },
-      {
+      {        
         "event": "Einladung Landesgruppenversammlung",
         "datum": "11.05.2025",
-        "ort": "folgt noch",
+        "ort": "Gasthaus Gerken, Uphuser Heerstraße 55, 28832 Achim",
+        "ausschreibung": "einlad_lg_2025.pdf",
         "typ": "Sonstiges"
       },
       {
@@ -171,7 +173,7 @@
         "ausschreibung": "einl_elstorf_2024.pdf",
         "online": "https://macshot.de/vfpus-n",
         "typ": "Ausstellung",
-        "ergebnis": "erg_elstorf_2024"
+        "ergebnis": "erg_elstorf_2024.pdf"
       },
       {
         "event": "Advents CAC",
