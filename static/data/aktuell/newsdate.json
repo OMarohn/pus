@@ -93,8 +93,8 @@
       {
         "typ": "Pruefung",
         "event": "Herbstprüfungen 2",
-        "datum": "28.09.2024",
-        "meldeschluss": "28.08.2024",
+        "datum": "29.09.2024",
+        "meldeschluss": "29.08.2024",
         "ausschreibung": "herbst2024.pdf",
         "ort": "Revier Wersabe",
         "pruefungen": [
@@ -132,14 +132,14 @@
       {
         "event": "Einladung Züchtertreffen",
         "datum": "04.05.2024",
-        "Ort": "28832 Achim",
+        "ort": "28832 Achim",
         "ausschreibung": "einlad_zücht_2024.pdf",
         "typ": "Sonstiges"
       },
       {
         "event": "Einladung Landesgruppenversammlung",
         "datum": "04.05.2024",
-        "Ort": "28832 Achim",
+        "ort": "28832 Achim",
         "ausschreibung": "einlad_lg_2024.pdf",
         "anlage": "prot2024anlage.jpg",
         "protokoll": "protlg2024.pdf",
@@ -177,7 +177,7 @@
         "event": "Advents CAC",
         "datum": "24.11.2024",
         "richter": "Rolf Blessing (D)",
-        "Ort": "Lichthof, Liliencronstr. 25, 21629 Neu Wulmstorf",
+        "ort": "Lichthof, Liliencronstr. 25, 21629 Neu Wulmstorf",
         "ausschreibung": "einl_advcac_2024",
         "online": "https://macshot.de/vfpus-n/",
         "typ": "Ausstellung",
