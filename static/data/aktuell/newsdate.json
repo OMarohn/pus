@@ -6,6 +6,7 @@
         "typ": "Pruefung",
         "event": "Frühjahrsprüfung Steinfeld",
         "datum": "28.02.2025",
+        "ausschreibung": "ausschr_prfg_früh_28.pdf",
         "meldung": "anmeld_prfg_2005.pdf",
         "pruefungen": [
           "ES",
@@ -17,6 +18,7 @@
         "event": "Frühjahrsprüfung Wersabe",
         "datum": "21.03.2025",
         "ort": "Familie Konsek, Alte Schmiede, 27628 Wersabe",
+        "ausschreubung": "ausschr_prfg_früh_25.pdf",
         "meldung": "anmeld_prfg_2025.pdf",
         "pruefungen": [
           "JuS",
@@ -28,6 +30,7 @@
         "event": "Frühjahrsprüfung Wersabe",
         "datum": "30.03.2025",
         "ort": "Familie Konsek, Alte Schmiede, 27628 Wersabe",
+        "ausschreibung": "ausschr_prfg_früh_25.pdf",
         "meldung": "anmeld_prfg_2025.pdf",
         "pruefungen": [
           "JuS"
