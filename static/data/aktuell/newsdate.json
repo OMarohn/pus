@@ -50,6 +50,26 @@
       },
       {
         "typ": "Ausstellung",
+        "event": "Cacib Oldenburg",
+        "datum": "01.08.2025",
+        "meldeschluss": "02.06.2025",
+        "richter": "Wim Wellens",
+        "online": "https://vdh-weser-ems.de/ira-oldenburg"
+      },
+      {
+        "typ": "Ausstellung",
+        "event": "SRA Elstorf",
+        "datum": "30.08.2025",
+        "richter": "GS, IS, IRWS Sarah Loakes (UK), Pointer Mandy Romeo-Dienste (UK)"
+      },
+      {
+        "typ": "Ausstellung",
+        "event": "Advents-SRA",
+        "datum": "23.11.2025",
+        "richter": "Sarah Sevastopulo (UK)"
+      },
+      {  
+        "typ": "Ausstellung",
         "event": "SRA mit ZZB",
         "datum": "10.05.2025",
         "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
