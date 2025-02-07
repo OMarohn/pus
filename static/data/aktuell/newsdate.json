@@ -72,8 +72,10 @@
         "typ": "Ausstellung",
         "event": "SRA mit ZZB",
         "datum": "10.05.2025",
+        "meldeschluss": "12.04.2025",
         "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
-        "ort": "27386 Brockel"
+        "ort": "Hauptstraße 50, 27386 Brockel",
+        "ausschreibung": "einlad_sra_zzb_2025.pdf"
       },
       {
         "typ": "Sonstiges",
