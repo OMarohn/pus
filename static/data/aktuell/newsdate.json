@@ -61,12 +61,14 @@
         "typ": "Ausstellung",
         "event": "SRA Elstorf",
         "datum": "30.08.2025",
+        "ort": "Lindenstr. Schützenplatz Elstorf, 21629 Neu Wulmstorf",
         "richter": "GS, IS, IRWS Sarah Loakes (UK), Pointer Mandy Romeo-Dienste (UK)"
       },
       {
         "typ": "Ausstellung",
         "event": "Advents-SRA",
         "datum": "23.11.2025",
+        "ort": "Lichthof, Liliencronstr. 25, 21629 Neu Wulmstorf",
         "richter": "Sarah Sevastopulo (UK)"
       },
       {  
@@ -77,7 +79,7 @@
         "richter": "Heike Dreißig (D) und Wolfgang Eickert (D)",
         "ort": "Hauptstraße 50, 27386 Brockel",
         "ausschreibung": "einladung_srazzb_2025.pdf",
-        "onine": "https://macshot.de/vfpus-n"
+        "online": "https://macshot.de/vfpus-n"
       },
       {
         "typ": "Sonstiges",
