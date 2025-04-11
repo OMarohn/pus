@@ -50,6 +50,11 @@
         "online": "https://vdh-weser-ems.de/"
       },
       {
+        "typ": "Sonstiges",
+        "ort": "folgt nach Anmeldung",
+        "meldeschluss": "20.04.2025"
+      },
+      {
         "typ": "Ausstellung",
         "event": "IRA Oldenburg",
         "datum": "01.08.2025",
